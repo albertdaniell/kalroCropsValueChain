@@ -12,11 +12,11 @@ function MaizeSideMenu() {
              <NavLink exact activeClassName="selected" to="/maizePrePlanting">Pre-planting</NavLink>
              <NavLink exact activeClassName="selected" to="/maizeVarieties">Varieties</NavLink>
              <NavLink exact activeClassName="selected" to="/maizePlanting">Planting</NavLink>
-             <NavLink exact activeClassName="selected" to="/waterManagement">Water Management</NavLink>
-             <NavLink exact activeClassName="selected" to="/weedManagement">Weed Management</NavLink>
-             <NavLink exact activeClassName="selected" to="/soilFertiity">Soil Fertility</NavLink>
+             <NavLink exact activeClassName="selected" to="/maizeWaterManagement">Water Management</NavLink>
+             <NavLink exact activeClassName="selected" to="/maizeWeedManagement">Weed Management</NavLink>
+             <NavLink exact activeClassName="selected" to="/maizeSoilFertility">Soil Fertility</NavLink>
              <NavLink exact activeClassName="selected" to="/maizeCropManagement">Crop Management</NavLink>
-             <NavLink exact activeClassName="selected" to="/maizePestsManagement">Pest Management</NavLink>
+             <NavLink exact activeClassName="selected" to="/maizePestManagement">Pest Management</NavLink>
              <NavLink exact activeClassName="selected" to="/maizeDiseaseManagement">Disease Management</NavLink>
              <NavLink exact activeClassName="selected" to="/maizeMaturity">Maturity</NavLink>
              <NavLink exact activeClassName="selected" to="/maizeHarvesting">Harvesting</NavLink>
