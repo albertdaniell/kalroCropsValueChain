@@ -10,7 +10,7 @@ function BeansVarieties() {
                 <AppCardHeader>
                 Varieties
                 </AppCardHeader>
-                <AppCardBody>
+                <AppCardBody to='/beansVarieties'>
                 Beans grow fast and can mature within two months, on average the time can vary from 45 to 75 days, depending on the variety and the climatic conditions
  
                 </AppCardBody>

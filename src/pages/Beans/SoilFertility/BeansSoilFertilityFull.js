@@ -5,6 +5,7 @@ import AppContainer from "../../../layouts/AppContainer/AppContainer";
 import AppLeftSideContainer from "../../../layouts/AppLeftSideContainer/AppLeftSideContainer";
 import AppRightSideContainer from "../../../layouts/AppRightSideContainer/AppRightSideContainer";
 import BeansHeader from "../BeansHeader/BeansHeader";
+import BeansCropsManagementPrev from "../CropsManagement/BeansCropsManagementPrev";
 import BeansLandPreparation from "../LandPreparation/BeansLandPreparation";
 import BeansPlanting from "../Planting/BeansPlanting";
 import BeansWaterManagement from "../WaterManagement/BeansWaterManagement";
@@ -33,7 +34,7 @@ function BeansSoilFertilityFull() {
 
           <p>
             <h6>Next</h6>
-            <BeansWaterManagement></BeansWaterManagement>
+            <BeansCropsManagementPrev></BeansCropsManagementPrev>
           </p>
         </AppLeftSideContainer>
         <AppRightSideContainer>

@@ -10,7 +10,7 @@ function BeansWeedManagement() {
                 <AppCardHeader>
                 Weed Management
                 </AppCardHeader>
-                <AppCardBody>
+                <AppCardBody to='/beansweedManagement'>
                 Control weeds timely
                 </AppCardBody>
             </AppCard>

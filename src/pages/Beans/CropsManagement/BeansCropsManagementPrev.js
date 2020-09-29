@@ -10,7 +10,7 @@ function BeansCropsManagementPrev() {
                 <AppCardHeader>
                     Crops Management
                 </AppCardHeader>
-                <AppCardBody>
+                <AppCardBody to='/beansCropsManagement'>
                 Gapping and thinning should be done after 14 days of seed emergence
 
 

@@ -10,7 +10,7 @@ function BeansPlanting() {
             <AppCardHeader>
             Planting
             </AppCardHeader>
-            <AppCardBody>
+            <AppCardBody to='/beansPlanting'>
             Ensure germination test is done before planting. Plant along the contour at the onset of rains and when the soil is moist 
             </AppCardBody>
             </AppCard>

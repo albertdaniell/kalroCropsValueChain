@@ -14,9 +14,9 @@ function BeansSideMenu() {
              <NavLink exact activeClassName="selected" to="/beansPrePlanting">Pre-planting</NavLink>
              <NavLink exact activeClassName="selected" to="/beansVarieties">Varieties</NavLink>
              <NavLink exact activeClassName="selected" to="/beansPlanting">Planting</NavLink>
-             <NavLink exact activeClassName="selected" to="/waterManagement">Water Management</NavLink>
-             <NavLink exact activeClassName="selected" to="/weedManagement">Weed Management</NavLink>
-             <NavLink exact activeClassName="selected" to="/soilFertiity">Soil Fertility</NavLink>
+             <NavLink exact activeClassName="selected" to="/beanswaterManagement">Water Management</NavLink>
+             <NavLink exact activeClassName="selected" to="/beansweedManagement">Weed Management</NavLink>
+             <NavLink exact activeClassName="selected" to="/beansSoilFertiity">Soil Fertility</NavLink>
              <NavLink exact activeClassName="selected" to="/beansCropManagement">Crop Management</NavLink>
              <NavLink exact activeClassName="selected" to="/beansPestsManagement">Pest Management</NavLink>
              <NavLink exact activeClassName="selected" to="/beansDiseaseManagement">Disease Management</NavLink>

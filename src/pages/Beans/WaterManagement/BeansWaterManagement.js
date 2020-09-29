@@ -10,7 +10,7 @@ function BeansWaterManagement() {
                 <AppCardHeader>
                 Water Management
                 </AppCardHeader>
-                <AppCardBody>
+                <AppCardBody to='/beanswaterManagement'>
                 Irrigate if necessary and control weeds timely
  
                 </AppCardBody>
