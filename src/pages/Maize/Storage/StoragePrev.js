@@ -10,7 +10,7 @@ function StoragePrev() {
                 <AppCardHeader>
                     Storage
                 </AppCardHeader>
-                <AppCardBody>
+                <AppCardBody to='/maizeStorage'>
                 Store in airtight bags or metallic silos and minimize use of pesticides
                 </AppCardBody>
             </AppCard>

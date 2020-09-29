@@ -11,6 +11,7 @@ import PlantingFull from "../../pages/Maize/Planting/PlantingFull";
 import PrePlantingFullFull from "../../pages/Maize/PrePlanting/PrePlantingFull";
 import SiteSelectionFull from "../../pages/Maize/SiteSelection/SiteSelectionFull";
 import SoilFertiltyFull from "../../pages/Maize/SoilFertility/SoilFertilityFull";
+import StorageFull from "../../pages/Maize/Storage/StorageFull";
 import VarietiesFull from "../../pages/Maize/Varieties/VarietiesFull";
 import WaterManagementFull from "../../pages/Maize/WaterManagement/WaterManagementFull";
 import WeedManagementFull from "../../pages/Maize/WeedManagement/WeedManagementFull";
@@ -73,7 +74,7 @@ function MainLayout(props) {
             />
             <Route exact path="/maizeMaturity" component={MaturityFull} />
             <Route exact path="/maizeHarvesting" component={HarvestingFull} />
-            <Route exact path="/maizeStorage" component={SoilFertiltyFull} />
+            <Route exact path="/maizeStorage" component={StorageFull} />
             <Route
               exact
               path="/maizePostHarvesting"
