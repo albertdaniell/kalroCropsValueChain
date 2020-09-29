@@ -1,4 +1,5 @@
 import React from "react";
+import PotatoSideMenu from "../../../components/PotatoSideMenu/PotatoSideMenu";
 
 import AppContainer from "../../../layouts/AppContainer/AppContainer";
 import AppLeftSideContainer from "../../../layouts/AppLeftSideContainer/AppLeftSideContainer";
@@ -62,7 +63,9 @@ Local names in Kenya (Viazi,, Rabuond, Waru)
           </p>
           <p></p>
         </AppLeftSideContainer>
-        <AppRightSideContainer></AppRightSideContainer>
+        <AppRightSideContainer>
+            <PotatoSideMenu></PotatoSideMenu>
+        </AppRightSideContainer>
       </AppContainer>
     </div>
   );

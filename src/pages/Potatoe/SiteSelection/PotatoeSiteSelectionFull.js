@@ -1,4 +1,5 @@
 import React from "react";
+import PotatoSideMenu from "../../../components/PotatoSideMenu/PotatoSideMenu";
 import potatoSideMenu from "../../../components/PotatoSideMenu/PotatoSideMenu";
 import AppContainer from "../../../layouts/AppContainer/AppContainer";
 import AppLeftSideContainer from "../../../layouts/AppLeftSideContainer/AppLeftSideContainer";
@@ -31,7 +32,7 @@ function PotatoeSiteSelectionFull() {
           </p>
                 </AppLeftSideContainer>
                 <AppRightSideContainer>
-                    <potatoSideMenu></potatoSideMenu>
+                   <PotatoSideMenu></PotatoSideMenu>
                 </AppRightSideContainer>
             </AppContainer>
         </div>

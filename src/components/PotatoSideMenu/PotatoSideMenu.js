@@ -3,7 +3,7 @@ import {
   
     Link, NavLink
   } from "react-router-dom";
-function potatoSideMenu() {
+function PotatoSideMenu() {
     return (
         <div id="sideMenu">
             {/* potato value chains */}
@@ -33,4 +33,4 @@ function potatoSideMenu() {
     )
 }
 
-export default potatoSideMenu
+export default PotatoSideMenu

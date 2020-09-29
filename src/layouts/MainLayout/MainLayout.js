@@ -34,6 +34,7 @@ import WaterManagementFull from "../../pages/Maize/WaterManagement/WaterManageme
 import WeedManagementFull from "../../pages/Maize/WeedManagement/WeedManagementFull";
 
 import PotatoLanding from "../../pages/Potatoe/PotatoLanding/PotatoLanding";
+import PotatoeSiteSelectionFull from "../../pages/Potatoe/SiteSelection/PotatoeSiteSelectionFull";
 
 import ErrorPage from "../ErrorPage/ErrorPage";
 import ScrollToTop from "../ScrollToTop/ScrollToTop";
@@ -139,6 +140,8 @@ function MainLayout(props) {
 
             {/* Potato routes */}
             <Route exact path="/potatoLanding" component={PotatoLanding} />
+            <Route exact path="/potatoSiteSelection" component={PotatoeSiteSelectionFull} />
+
 
 
 
