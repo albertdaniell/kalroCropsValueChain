@@ -53,6 +53,10 @@ code {
   font-size: 20px;
 }
 
+p>img,ul>img{
+  padding: 0px;
+  margin: 0px;
+}
 
 .btn.btn-primary {
   color: #fff;

@@ -4,8 +4,11 @@ import potatoSideMenu from "../../../components/PotatoSideMenu/PotatoSideMenu";
 import AppContainer from "../../../layouts/AppContainer/AppContainer";
 import AppLeftSideContainer from "../../../layouts/AppLeftSideContainer/AppLeftSideContainer";
 import AppRightSideContainer from "../../../layouts/AppRightSideContainer/AppRightSideContainer";
+import ImageRow from "../../../layouts/Container/ImageRow";
+import MyContainer from "../../../layouts/Container/MyContainer";
 import PotatoeCropsManagementPrev from "../CropsManagement/PotatoeCropsManagementPrev";
 import PotatoHeader from "../PotatoHeader/PotatoHeader";
+import image1 from '../../../images/potatoes/4a.png'
 
 function PotatoeSoilFertilityFull() {
     return (
@@ -21,7 +24,12 @@ function PotatoeSoilFertilityFull() {
                             <li>
                             Add manure and fertilizers to the soil in the right amounts to provide the required plant nutrients for vigorous crop growth
                             </li>
-                                  </ul>
+                                  </ul> </p>
+                                  <MyContainer>
+            <ImageRow divDim='col-sm-6' src={image1}></ImageRow>
+            
+            </MyContainer>
+            <p>
                                   <PotatoeCropsManagementPrev></PotatoeCropsManagementPrev>
                             
           </p>
