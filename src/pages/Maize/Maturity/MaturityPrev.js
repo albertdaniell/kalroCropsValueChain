@@ -10,7 +10,7 @@ function MaturityPrev() {
                 <AppCardHeader>
                 Maturity
                 </AppCardHeader>
-                <AppCardBody>
+                <AppCardBody to='/maizeMaturity'>
                 Maize is mature 4 to 9 months after planting depending on the variety and altitude. 
 
                 </AppCardBody>

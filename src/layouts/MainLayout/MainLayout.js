@@ -4,6 +4,7 @@ import CropManagementFull from "../../pages/Maize/CropsManagement/CropManagement
 import DiseaseManagementFull from "../../pages/Maize/DiseaseManagement/DiseaseManagementFull";
 import LandPreparationFull from "../../pages/Maize/LandPreparation/LandPreparationFull";
 import MaizeLanding from "../../pages/Maize/MaizeLanding/MaizeLanding";
+import MaturityFull from "../../pages/Maize/Maturity/MaturityFull";
 import PestManagementFull from "../../pages/Maize/PestManagement/PestManagementFull";
 import PlantingFull from "../../pages/Maize/Planting/PlantingFull";
 import PrePlantingFullFull from "../../pages/Maize/PrePlanting/PrePlantingFull";
@@ -69,7 +70,7 @@ function MainLayout(props) {
               path="/maizeDiseaseManagement"
               component={DiseaseManagementFull}
             />
-            <Route exact path="/maizeMaturity" component={SoilFertiltyFull} />
+            <Route exact path="/maizeMaturity" component={MaturityFull} />
             <Route exact path="/maizeHarvesting" component={SoilFertiltyFull} />
             <Route exact path="/maizeStorage" component={SoilFertiltyFull} />
             <Route
