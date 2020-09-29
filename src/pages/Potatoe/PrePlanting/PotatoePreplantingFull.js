@@ -5,6 +5,7 @@ import AppContainer from "../../../layouts/AppContainer/AppContainer";
 import AppLeftSideContainer from "../../../layouts/AppLeftSideContainer/AppLeftSideContainer";
 import AppRightSideContainer from "../../../layouts/AppRightSideContainer/AppRightSideContainer";
 import PotatoHeader from "../PotatoHeader/PotatoHeader";
+import PotatoeVarietiesPrev from "../Varieties/PotatoeVarietiesPrev";
 
 function PotatoePreplantingFull() {
     return (
@@ -37,6 +38,7 @@ function PotatoePreplantingFull() {
                                  A system of multiplying potatoes by planting the seeds on raised beds at 30cm by 30cm and harvesting for use as seeds after 3-4 months
                                  </li>
                              </ul>
+                             <PotatoeVarietiesPrev></PotatoeVarietiesPrev>
 
           </p>
                 </AppLeftSideContainer>

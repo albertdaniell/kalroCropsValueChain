@@ -5,6 +5,7 @@ import AppContainer from "../../../layouts/AppContainer/AppContainer";
 import AppLeftSideContainer from "../../../layouts/AppLeftSideContainer/AppLeftSideContainer";
 import AppRightSideContainer from "../../../layouts/AppRightSideContainer/AppRightSideContainer";
 import PotatoHeader from "../PotatoHeader/PotatoHeader";
+import PotatoeSoilFertilityPrev from "../SoilFertility/PotatoeSoilFertilityPrev";
 
 function PotatoWeedManagementFul() {
     return (
@@ -19,7 +20,7 @@ function PotatoWeedManagementFul() {
                         <ul>
                             <li>Weeding should be done 2 weeks and 5 weeks after emergence</li>
                                   </ul>
-                            
+                            <PotatoeSoilFertilityPrev></PotatoeSoilFertilityPrev>
           </p>
                 </AppLeftSideContainer>
                 <AppRightSideContainer>

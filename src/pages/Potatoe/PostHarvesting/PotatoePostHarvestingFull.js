@@ -5,6 +5,7 @@ import AppContainer from "../../../layouts/AppContainer/AppContainer";
 import AppLeftSideContainer from "../../../layouts/AppLeftSideContainer/AppLeftSideContainer";
 import AppRightSideContainer from "../../../layouts/AppRightSideContainer/AppRightSideContainer";
 import PotatoHeader from "../PotatoHeader/PotatoHeader";
+import PotatoeProcessingPrep from "../Processing/PotatoeProcessingPrep";
 
 function PotatoePostHarvestingFull() {
     return (
@@ -27,7 +28,7 @@ Clean, sort and grade the harvested potatoes depending on the use
                             <li>Grading is based on size, shape, colour, weight, maturity, market demand</li>
                             <li>Potato is packaged in baskets, sacks, crates, depending on distance of transportation Potatoes in gunny bags/sacks be packaged in 50kg and below</li>
                                   </ul>
-                            
+                            <PotatoeProcessingPrep></PotatoeProcessingPrep>
           </p>
                 </AppLeftSideContainer>
                 <AppRightSideContainer>

@@ -5,6 +5,7 @@ import AppContainer from "../../../layouts/AppContainer/AppContainer";
 import AppLeftSideContainer from "../../../layouts/AppLeftSideContainer/AppLeftSideContainer";
 import AppRightSideContainer from "../../../layouts/AppRightSideContainer/AppRightSideContainer";
 import PotatoHeader from "../PotatoHeader/PotatoHeader";
+import PotatoeWeedManagementPrev from "../WeedManagement/PotatoeWeedManagementPrev";
 
 function PotatoeWaterManagementFull() {
     return (
@@ -22,7 +23,7 @@ function PotatoeWaterManagementFull() {
                             <li>Irrigate during dry spell without over watering that leads to build-up of fungal diseases and poor aeration</li>
                             <li>Avoid irregular watering for it causes splitting of the tuber</li>
                                   </ul>
-                            
+                         <PotatoeWeedManagementPrev></PotatoeWeedManagementPrev>   
           </p>
                 </AppLeftSideContainer>
                 <AppRightSideContainer>

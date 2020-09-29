@@ -5,6 +5,7 @@ import AppContainer from "../../../layouts/AppContainer/AppContainer";
 import AppLeftSideContainer from "../../../layouts/AppLeftSideContainer/AppLeftSideContainer";
 import AppRightSideContainer from "../../../layouts/AppRightSideContainer/AppRightSideContainer";
 import PotatoHeader from "../PotatoHeader/PotatoHeader";
+import PotatoePrePlantingPrev from "../PrePlanting/PotatoePrePlantingPrev";
 
 function PotatoeLandPreparationFull() {
     return (
@@ -24,6 +25,7 @@ function PotatoeLandPreparationFull() {
                             Add manure and fertilizers to the soil in the right amounts to provide the required plant nutrients for vigorous crop growth
                             </li>
                              </ul>
+                             <PotatoePrePlantingPrev></PotatoePrePlantingPrev>
 
           </p>
                 </AppLeftSideContainer>

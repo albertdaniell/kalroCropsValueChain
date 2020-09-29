@@ -5,6 +5,7 @@ import AppContainer from "../../../layouts/AppContainer/AppContainer";
 import AppLeftSideContainer from "../../../layouts/AppLeftSideContainer/AppLeftSideContainer";
 import AppRightSideContainer from "../../../layouts/AppRightSideContainer/AppRightSideContainer";
 import PotatoHeader from "../PotatoHeader/PotatoHeader";
+import PotatoeStoragePrev from "../Storage/PotatoeStoragePrev";
 
 function PotatoeHarvestingFull() {
     return (
@@ -26,7 +27,7 @@ function PotatoeHarvestingFull() {
                             <li>They are then dried for a short period of time in rows before gathering them</li>
                             <li>Potato will produce up to 40tons per ha  or 16tons per acre with proper management</li>
                                   </ul>
-                            
+                            <PotatoeStoragePrev></PotatoeStoragePrev>
           </p>
                 </AppLeftSideContainer>
                 <AppRightSideContainer>

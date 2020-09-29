@@ -4,6 +4,7 @@ import potatoSideMenu from "../../../components/PotatoSideMenu/PotatoSideMenu";
 import AppContainer from "../../../layouts/AppContainer/AppContainer";
 import AppLeftSideContainer from "../../../layouts/AppLeftSideContainer/AppLeftSideContainer";
 import AppRightSideContainer from "../../../layouts/AppRightSideContainer/AppRightSideContainer";
+import PotatoeMaturityPrev from "../Maturity/PotatoeMaturityPrev";
 import PotatoHeader from "../PotatoHeader/PotatoHeader";
 
 function PotatoeDiseaseManagementFull() {
@@ -31,6 +32,7 @@ Viral diseases; potato leaf roll and yellow virus, common scab, powdery scab and
                             <li>Spray with recommended fungicides to control blight under IPM program</li>
                             <li>Test for bacterial wilt through KALRO or KEPHIS</li>
                                   </ul>
+                                  <PotatoeMaturityPrev></PotatoeMaturityPrev>
                             
           </p>
                 </AppLeftSideContainer>

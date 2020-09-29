@@ -4,6 +4,7 @@ import potatoSideMenu from "../../../components/PotatoSideMenu/PotatoSideMenu";
 import AppContainer from "../../../layouts/AppContainer/AppContainer";
 import AppLeftSideContainer from "../../../layouts/AppLeftSideContainer/AppLeftSideContainer";
 import AppRightSideContainer from "../../../layouts/AppRightSideContainer/AppRightSideContainer";
+import PotatoePestManagementPrev from "../PestManagement/PotatoePestManagementPrev";
 import PotatoHeader from "../PotatoHeader/PotatoHeader";
 
 function PotatoeCropsManagementFull() {
@@ -24,7 +25,7 @@ Carry out crop rotation
                             Earthing up should be done at 2-4 weeks after emergence to; enhance for tuber expansion, control potato weevil and prevent greening
                             </li>
                                   </ul>
-                            
+                            <PotatoePestManagementPrev></PotatoePestManagementPrev>
           </p>
                 </AppLeftSideContainer>
                 <AppRightSideContainer>

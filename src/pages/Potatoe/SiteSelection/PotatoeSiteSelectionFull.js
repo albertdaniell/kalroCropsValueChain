@@ -4,6 +4,7 @@ import potatoSideMenu from "../../../components/PotatoSideMenu/PotatoSideMenu";
 import AppContainer from "../../../layouts/AppContainer/AppContainer";
 import AppLeftSideContainer from "../../../layouts/AppLeftSideContainer/AppLeftSideContainer";
 import AppRightSideContainer from "../../../layouts/AppRightSideContainer/AppRightSideContainer";
+import PotatoeLandPreparationPrev from "../LandPreparation/PotatoeLandPreparationPrev";
 import PotatoHeader from "../PotatoHeader/PotatoHeader";
 
 function PotatoeSiteSelectionFull() {
@@ -29,6 +30,7 @@ function PotatoeSiteSelectionFull() {
 
           <h6>Rainfall</h6>
           The rainfall should be more than 750 mm p.a.
+          <PotatoeLandPreparationPrev></PotatoeLandPreparationPrev>
           </p>
                 </AppLeftSideContainer>
                 <AppRightSideContainer>

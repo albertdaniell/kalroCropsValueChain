@@ -4,6 +4,7 @@ import potatoSideMenu from "../../../components/PotatoSideMenu/PotatoSideMenu";
 import AppContainer from "../../../layouts/AppContainer/AppContainer";
 import AppLeftSideContainer from "../../../layouts/AppLeftSideContainer/AppLeftSideContainer";
 import AppRightSideContainer from "../../../layouts/AppRightSideContainer/AppRightSideContainer";
+import PotatoeDiseaseManagementPrev from "../DiseaseManagement/PotatoeDiseaseManagementPrev";
 import PotatoHeader from "../PotatoHeader/PotatoHeader";
 
 function PotatoePestManagementFull() {
@@ -27,6 +28,7 @@ function PotatoePestManagementFull() {
                             <li>Field sanitation, including removing harvest residues</li>
                             <li>Organic pesticides (Bio-T-Plus)</li>
                                   </ul>
+                                  <PotatoeDiseaseManagementPrev></PotatoeDiseaseManagementPrev>
                             
           </p>
                 </AppLeftSideContainer>

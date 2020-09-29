@@ -5,6 +5,7 @@ import AppContainer from "../../../layouts/AppContainer/AppContainer";
 import AppLeftSideContainer from "../../../layouts/AppLeftSideContainer/AppLeftSideContainer";
 import AppRightSideContainer from "../../../layouts/AppRightSideContainer/AppRightSideContainer";
 import PotatoHeader from "../PotatoHeader/PotatoHeader";
+import PotatoeWaterManagementPrev from "../WaterManagement/PotatoeWaterManagementPrev";
 
 function PotatoePlantingFull() {
     return (
@@ -29,6 +30,7 @@ function PotatoePlantingFull() {
                   <li>Make wider ridges or mounds if intercropping with annual crops e.g. maize and legumes</li>
                   <li>For seed potatoes, plant at a spacing of 15-20cm within rows, at 50kg bags per acre</li>
                              </ul>
+                             <PotatoeWaterManagementPrev></PotatoeWaterManagementPrev>
                             
           </p>
                 </AppLeftSideContainer>

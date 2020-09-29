@@ -4,6 +4,7 @@ import potatoSideMenu from "../../../components/PotatoSideMenu/PotatoSideMenu";
 import AppContainer from "../../../layouts/AppContainer/AppContainer";
 import AppLeftSideContainer from "../../../layouts/AppLeftSideContainer/AppLeftSideContainer";
 import AppRightSideContainer from "../../../layouts/AppRightSideContainer/AppRightSideContainer";
+import PotatoeHarvestingPrev from "../Harvesting/PotatoeHarvestingPrev";
 import PotatoHeader from "../PotatoHeader/PotatoHeader";
 
 function PotatoeMaturityFull() {
@@ -24,7 +25,7 @@ function PotatoeMaturityFull() {
                             Drying leaves is an indicator of maturity.
                             </li>
                                   </ul>
-                            
+                            <PotatoeHarvestingPrev></PotatoeHarvestingPrev>
           </p>
                 </AppLeftSideContainer>
                 <AppRightSideContainer>
