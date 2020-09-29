@@ -10,7 +10,7 @@ function ProcessingPrev() {
                 <AppCardHeader>
                 Processing
                 </AppCardHeader>
-                <AppCardBody>
+                <AppCardBody to='/maizeProcessing'>
                 Control weevils, fungal infections (aflatoxin) and grain borers by drying the maize to 13-14% moisture
 
                 </AppCardBody>
