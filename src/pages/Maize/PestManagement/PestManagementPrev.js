@@ -10,7 +10,7 @@ function PestManagementPrev() {
                <AppCardHeader>
                Pest Management
                </AppCardHeader>
-               <AppCardBody>
+               <AppCardBody to='/maizePestManagement'>
                Pests include, Fall Armyworm, Armyworm, Maize stalk borer, Termites, Cutworms, Leaf miner, Moths, Beetles, Thrips, Grasshopper, Rodents, Weevils and Larger grain borer
                </AppCardBody>
                </AppCard> 

@@ -3,6 +3,7 @@ import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 import CropManagementFull from "../../pages/Maize/CropsManagement/CropManagementFull";
 import LandPreparationFull from "../../pages/Maize/LandPreparation/LandPreparationFull";
 import MaizeLanding from "../../pages/Maize/MaizeLanding/MaizeLanding";
+import PestManagementFull from "../../pages/Maize/PestManagement/PestManagementFull";
 import PlantingFull from "../../pages/Maize/Planting/PlantingFull";
 import PrePlantingFullFull from "../../pages/Maize/PrePlanting/PrePlantingFull";
 import SiteSelectionFull from "../../pages/Maize/SiteSelection/SiteSelectionFull";
@@ -59,8 +60,8 @@ function MainLayout(props) {
             />
             <Route
               exact
-              path="/maizeDiseaseManagement"
-              component={SoilFertiltyFull}
+              path="/maizePestManagement"
+              component={PestManagementFull}
             />
             <Route exact path="/maizeMaturity" component={SoilFertiltyFull} />
             <Route exact path="/maizeHarvesting" component={SoilFertiltyFull} />
@@ -71,6 +72,7 @@ function MainLayout(props) {
               component={SoilFertiltyFull}
             />
             <Route exact path="/maizeProcessing" component={SoilFertiltyFull} />
+            
 
             <Route
               path="/poultryApp"
