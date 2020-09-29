@@ -10,7 +10,7 @@ function BeansHeader() {
     return (
         <div>
             <Preheader></Preheader>
-            <AppLogo appName={appName}></AppLogo>
+            <AppLogo appName={appName} to='/beansLanding'></AppLogo>
             <AppNav appName={appName}></AppNav>
             <Headerimage pageHeader="Beans" img={image1}></Headerimage>
             

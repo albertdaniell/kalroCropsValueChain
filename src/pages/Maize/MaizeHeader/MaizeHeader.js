@@ -10,7 +10,7 @@ function MaizeHeader() {
     return (
         <div>
             <Preheader></Preheader>
-            <AppLogo appName={appName}></AppLogo>
+            <AppLogo appName={appName} to='/'></AppLogo>
             <AppNav appName={appName}></AppNav>
             <Headerimage pageHeader="Maize" img={image1}></Headerimage>
             
