@@ -6,7 +6,7 @@ import AppCardHeader from '../../../layouts/AppCardHeader/AppCardHeader'
 function BeansPestManagement() {
     return (
         <div>
-            <AppCard></AppCard>
+            <AppCard>
             <AppCardHeader>
             Pest Management
             </AppCardHeader>
@@ -15,6 +15,8 @@ function BeansPestManagement() {
 
 
             </AppCardBody>
+            </AppCard>
+           
         </div>
     )
 }
