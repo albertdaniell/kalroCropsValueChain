@@ -8,7 +8,7 @@ function AppNav(props) {
         <Link
           style={{ color: "white", background: "transparent", display: "none" }}
           class="navbar-brand"
-          to="/"
+          to={props.to}
         >
           {props.appName}
         </Link>

@@ -11,7 +11,7 @@ function MaizeHeader() {
         <div>
             <Preheader></Preheader>
             <AppLogo appName={appName} to='/'></AppLogo>
-            <AppNav appName={appName}></AppNav>
+            <AppNav to='/' appName={appName}></AppNav>
             <Headerimage pageHeader="Maize" img={image1}></Headerimage>
             
         </div>
