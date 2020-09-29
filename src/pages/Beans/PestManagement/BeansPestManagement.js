@@ -11,7 +11,9 @@ function BeansPestManagement() {
             Pest Management
             </AppCardHeader>
             <AppCardBody>
-                
+            Pests include; African bollworm, Bean aphid, Bean fly, Flower thrips and Leaf miner
+
+
             </AppCardBody>
         </div>
     )

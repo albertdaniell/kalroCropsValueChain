@@ -11,7 +11,8 @@ function BeansDiseaseManagementPrev() {
                 Disease Management
                 </AppCardHeader>
                 <AppCardBody>
-                    
+                Diseases include; Root rots Leaf spots, Alternaria, Anthracnose, Bean rust Bacterial blight Common Xanthomonas phaseoli, Ashy stem, Bean common mosaic necrosis virus (BCMV), Bean scab and White mould
+
                 </AppCardBody>
             </AppCard>
         </div>

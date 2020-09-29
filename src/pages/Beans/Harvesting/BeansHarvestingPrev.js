@@ -11,7 +11,8 @@ function BeansHarvestingPrev() {
                 Harvesting
                 </AppCardHeader>
                 <AppCardBody>
-                    
+                Bean will produce up to 1.0–2.8 tons per ha
+
                 </AppCardBody>
             </AppCard>
         </div>

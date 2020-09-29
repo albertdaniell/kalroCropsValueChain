@@ -10,7 +10,9 @@ function BeansSoilFertility() {
                 <AppCardHeader>
                 Soil Fertility
                 </AppCardHeader>
-                <AppCardBody></AppCardBody>
+                <AppCardBody>
+                Add manure and fertilizer with recommendations from soil testing and analysis
+                </AppCardBody>
             </AppCard>
             
         </div>

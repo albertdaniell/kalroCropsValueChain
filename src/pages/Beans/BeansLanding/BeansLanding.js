@@ -4,12 +4,20 @@ import AppContainer from "../../../layouts/AppContainer/AppContainer";
 import AppLeftSideContainer from "../../../layouts/AppLeftSideContainer/AppLeftSideContainer";
 import AppRightSideContainer from "../../../layouts/AppRightSideContainer/AppRightSideContainer";
 import BeansHeader from "../BeansHeader/BeansHeader";
+import BeansCropsManagementPrev from "../CropsManagement/BeansCropsManagementPrev";
+import BeansDiseaseManagementPrev from "../DiseaseManagement/BeansDiseaseManagementPrev";
+import BeansHarvestingPrev from "../Harvesting/BeansHarvestingPrev";
 import BeansLandPreparation from "../LandPreparation/BeansLandPreparation";
+import BeansMaturity from "../Maturity/BeansMaturity";
+import BeansPestManagement from "../PestManagement/BeansPestManagement";
 import BeansPlanting from "../Planting/BeansPlanting";
 import BeansPrePlanting from "../PrePlanting/BeansPrePlanting";
 import BeansSiteSelection from "../SiteSelection/BeansSiteSelection";
+import BeansSoilFertility from "../SoilFertility/BeansSoilFertility";
+import BeansStorage from "../Storage/BeansStorage";
 import BeansVarieties from "../Varieties/BeansVarieties";
 import BeansWaterManagement from "../WaterManagement/BeansWaterManagement";
+import BeansWeedManagement from "../WeedManagement/BeansWeedManagement";
 function BeansLanding() {
   return (
     <div>
@@ -42,6 +50,14 @@ function BeansLanding() {
               <BeansVarieties></BeansVarieties>
               <BeansPlanting></BeansPlanting>
               <BeansWaterManagement></BeansWaterManagement>
+              <BeansWeedManagement></BeansWeedManagement>
+              <BeansSoilFertility></BeansSoilFertility>
+              <BeansCropsManagementPrev></BeansCropsManagementPrev>
+              <BeansPestManagement></BeansPestManagement>
+              <BeansDiseaseManagementPrev></BeansDiseaseManagementPrev>
+              <BeansMaturity></BeansMaturity>
+              <BeansHarvestingPrev></BeansHarvestingPrev>
+              <BeansStorage></BeansStorage>
           </p>
         </AppLeftSideContainer>
         <AppRightSideContainer>

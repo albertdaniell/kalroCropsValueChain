@@ -11,7 +11,7 @@ function BeansWeedManagement() {
                 Weed Management
                 </AppCardHeader>
                 <AppCardBody>
-                    
+                Control weeds timely
                 </AppCardBody>
             </AppCard>
         </div>
