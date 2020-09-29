@@ -12,7 +12,7 @@ function PotatoHeader() {
             <Preheader></Preheader>
             <AppLogo appName={appName} to='/potatoLanding'></AppLogo>
             <AppNav appName={appName}></AppNav>
-            <Headerimage pageHeader="Potato" img={image1}></Headerimage>
+            <Headerimage pageHeader="Potatoes" img={image1}></Headerimage>
             
         </div>
     )
