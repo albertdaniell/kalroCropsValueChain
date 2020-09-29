@@ -2,12 +2,16 @@ import React, { useContext } from "react";
 import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 import BeansLanding from "../../pages/Beans/BeansLanding/BeansLanding";
 import BeansCropsManagementFull from "../../pages/Beans/CropsManagement/BeansCropsManagementFull";
+import BeansHarvestingFull from "../../pages/Beans/Harvesting/BeansHarvestingFull";
 import BeansLandPreparationFull from "../../pages/Beans/LandPreparation/BeansLandPreparationFull";
+import BeansMaturityFull from "../../pages/Beans/Maturity/BeansMaturityFull";
+import BeansPestManagementFull from "../../pages/Beans/PestManagement/BeansPestManagementFull";
 import BeansPlantingFull from "../../pages/Beans/Planting/BeansPlantingFull";
 import BeansPreplantingFull from "../../pages/Beans/PrePlanting/BeansPreplantingFull";
 import BeansSiteSelection from "../../pages/Beans/SiteSelection/BeansSiteSelection";
 import BeansSiteSelectionFull from "../../pages/Beans/SiteSelection/BeansSiteSelectionFull";
 import BeansSoilFertilityFull from "../../pages/Beans/SoilFertility/BeansSoilFertilityFull";
+import BeansStorageFull from "../../pages/Beans/Storage/BeansStorageFull";
 import BeansVarietiesFull from "../../pages/Beans/Varieties/BeansVarietiesFull";
 import BeansWaterManagementFull from "../../pages/Beans/WaterManagement/BeansWaterManagementFull";
 import BeansWeedManagementFull from "../../pages/Beans/WeedManagement/BeansWeedManagementFull";
@@ -124,6 +128,16 @@ function MainLayout(props) {
             <Route exact path="/beansweedManagement" component={BeansWeedManagementFull} />
             <Route exact path="/beansSoilFertility" component={BeansSoilFertilityFull} />
             <Route exact path="/beansCropsManagement" component={BeansCropsManagementFull} />
+            <Route exact path="/beansPestsManagement" component={BeansPestManagementFull} />
+            <Route exact path="/beansDiseaseManagement" component={DiseaseManagementFull} />
+            <Route exact path="/beansMaturity" component={BeansMaturityFull} />
+            <Route exact path="/beansHarvesting" component={BeansHarvestingFull} />
+            <Route exact path="/beansCropsManagement" component={BeansStorageFull} />
+
+
+
+
+
             
 
 

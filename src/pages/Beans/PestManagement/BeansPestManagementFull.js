@@ -12,7 +12,7 @@ import BeansWaterManagement from "../WaterManagement/BeansWaterManagement";
 
 
 
-function PestManagementFull() {
+function BeansPestManagementFull() {
   return (
     <div>
       <BeansHeader></BeansHeader>
@@ -59,4 +59,4 @@ function PestManagementFull() {
   );
 }
 
-export default PestManagementFull
+export default BeansPestManagementFull
