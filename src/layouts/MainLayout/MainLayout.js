@@ -132,7 +132,7 @@ function MainLayout(props) {
             <Route exact path="/beansDiseaseManagement" component={DiseaseManagementFull} />
             <Route exact path="/beansMaturity" component={BeansMaturityFull} />
             <Route exact path="/beansHarvesting" component={BeansHarvestingFull} />
-            <Route exact path="/beansCropsManagement" component={BeansStorageFull} />
+            <Route exact path="/beansStorage" component={BeansStorageFull} />
 
 
 

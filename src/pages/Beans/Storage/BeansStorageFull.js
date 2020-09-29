@@ -35,8 +35,7 @@ function BeansStorageFull() {
           </p>
 
           <p>
-            <h6>Next</h6>
-            <BeansStorage></BeansStorage>
+            
           </p>
         </AppLeftSideContainer>
         <AppRightSideContainer>

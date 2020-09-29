@@ -23,10 +23,7 @@ function BeansSideMenu() {
              <NavLink exact activeClassName="selected" to="/beansMaturity">Maturity</NavLink>
              <NavLink exact activeClassName="selected" to="/beansHarvesting">Harvesting</NavLink>
              <NavLink exact activeClassName="selected" to="/beansStorage">Storage</NavLink>
-             <NavLink exact activeClassName="selected" to="/beanspostHarvest">Post Harvesting</NavLink>
-             <NavLink exact activeClassName="selected" to="/beansProcessing">Processing</NavLink>
-
-
+            
 
 
 
