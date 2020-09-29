@@ -10,7 +10,7 @@ function PotatoeSoilFertilityPrev() {
                 <AppCardHeader>
                 Soil fertility
                 </AppCardHeader>
-                <AppCardBody>
+                <AppCardBody to='/potatosoilFertility'>
                 Apply required nutrients based on results of soil test/ analysis and on plant nutrient requirements
 
                 </AppCardBody>

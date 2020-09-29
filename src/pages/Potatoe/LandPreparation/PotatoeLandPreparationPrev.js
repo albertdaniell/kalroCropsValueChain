@@ -10,7 +10,7 @@ function PotatoeLandPreparationPrev() {
                 <AppCardHeader>
                 Land preparation
                 </AppCardHeader>
-                <AppCardBody>
+                <AppCardBody to='/potatolandPreparation'>
                 Land preparation should depend on tuber use for consumption or seed
 
                 </AppCardBody>

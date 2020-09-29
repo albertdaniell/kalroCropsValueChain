@@ -10,7 +10,7 @@ function PotatoeSiteSelectionPrev() {
                 <AppCardHeader>
                 Site selection
                 </AppCardHeader>
-                <AppCardBody>
+                <AppCardBody to='/potatoSiteSelection'>
                 Select a suitable site where same crop family has not been grown for at least 4 years 
                 </AppCardBody>
             </AppCard>

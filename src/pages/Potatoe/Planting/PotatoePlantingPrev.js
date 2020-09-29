@@ -10,7 +10,7 @@ function PotatoePlantingPrev() {
                 <AppCardHeader>
                     Planting
                 </AppCardHeader>
-                <AppCardBody>
+                <AppCardBody to='/potatoPlanting'>
                 Plant early at onset of rainy season, in furrows using well-sprouted clean certified seed with 4-5 sprouts 
 
                 </AppCardBody>

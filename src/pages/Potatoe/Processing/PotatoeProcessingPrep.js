@@ -10,7 +10,7 @@ function PotatoeProcessingPrep() {
                 <AppCardHeader>
                 Processing 
                 </AppCardHeader>
-                <AppCardBody>
+                <AppCardBody to='/potatoProcessing'>
                 Value addition can be  done to make Chips and Crips 
                 </AppCardBody>
             </AppCard>

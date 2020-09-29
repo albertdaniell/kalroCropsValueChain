@@ -10,7 +10,7 @@ function PotatoeWeedManagementPrev() {
                 <AppCardHeader>
                 Weed management
                 </AppCardHeader>
-               <AppCardBody>
+               <AppCardBody to='/potatoweedManagement'>
                Weeding should be done 2 weeks and 5 weeks after emergence
                    </AppCardBody> 
             </AppCard>

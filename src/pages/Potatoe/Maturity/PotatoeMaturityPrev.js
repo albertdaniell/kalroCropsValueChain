@@ -10,7 +10,7 @@ function PotatoeMaturityPrev() {
                 <AppCardHeader>
                 Maturity 
                 </AppCardHeader>
-                <AppCardBody>
+                <AppCardBody to='/potatoMaturity'>
                 Potatoes mature 90-120 days after planting depending on variety
 
                 </AppCardBody>

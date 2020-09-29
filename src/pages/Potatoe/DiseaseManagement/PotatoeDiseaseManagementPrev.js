@@ -10,7 +10,7 @@ function PotatoeDiseaseManagementPrev() {
                 <AppCardHeader>
                 Disease management
                 </AppCardHeader>
-                <AppCardBody>
+                <AppCardBody to='/potatoDiseaseManagement'>
                 Bacterial diseases; late and early  blight, bacterial wilt, verticillium wilt, soft rot and black scurf 
 Viral diseases; potato leaf roll and yellow virus, common scab, powdery scab and wart
 

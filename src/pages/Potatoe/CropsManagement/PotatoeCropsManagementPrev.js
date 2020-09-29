@@ -10,7 +10,7 @@ function PotatoeCropsManagementPrev() {
                 <AppCardHeader>
                 Crop Management
                 </AppCardHeader>
-                <AppCardBody>
+                <AppCardBody to='/potatoCropManagement'>
                 Earth-up when necessary 
 Carry out crop rotation 
 

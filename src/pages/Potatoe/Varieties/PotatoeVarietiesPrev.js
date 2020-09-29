@@ -10,7 +10,7 @@ function PotatoeVarietiesPrev() {
                 <AppCardHeader>
                 Varieties
                 </AppCardHeader>
-                <AppCardBody>
+                <AppCardBody to='/potatoVariety'>
                 Choice of variety depends on the locality, consumer and market preference. Disease and pest resistance may also dictate the varieties to be grown
                 </AppCardBody>
             </AppCard>

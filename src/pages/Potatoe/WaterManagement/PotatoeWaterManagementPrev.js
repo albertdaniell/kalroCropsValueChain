@@ -10,7 +10,7 @@ function PotatoeWaterManagementPrev() {
                 <AppCardHeader>
                 Water Management
                 </AppCardHeader>
-                <AppCardBody>
+                <AppCardBody to='/potatowaterManagement'>
                 Ensure water is applied immediately after planting, at flowering, at tuber formation and at expansion 
 
                 </AppCardBody>

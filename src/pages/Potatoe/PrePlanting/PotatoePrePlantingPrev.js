@@ -10,7 +10,7 @@ function PotatoePrePlantingPrev() {
                 <AppCardHeader>
                 Pre-Planting
                 </AppCardHeader>
-                <AppCardBody>
+                <AppCardBody to='/potatoPreplanting'>
                     <h6>Planting materials</h6>
                     Ensure to plant certified seeds
                 </AppCardBody>

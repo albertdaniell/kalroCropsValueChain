@@ -10,7 +10,7 @@ function PotatoePostHarvestingPrev() {
                 <AppCardHeader>
                 Post-harvest handling
                 </AppCardHeader>
-                <AppCardBody>
+                <AppCardBody to='/potatopostHarvest'>
                 Protect harvested potatoes from sunshine to avoid shrinkage, shrivelling and discolouration.
 Clean, sort and grade the harvested potatoes depending on the use
 

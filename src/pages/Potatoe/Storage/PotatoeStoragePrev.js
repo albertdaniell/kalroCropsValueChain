@@ -10,7 +10,7 @@ function PotatoeStoragePrev() {
                 <AppCardHeader>
                 Storage and transportation
                 </AppCardHeader>
-                <AppCardBody>
+                <AppCardBody to='/potatoStorage'>
                 Storage is done in cool dry place away from sunlight
                 </AppCardBody>
             </AppCard>

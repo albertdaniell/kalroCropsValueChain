@@ -10,7 +10,7 @@ function PotatoeHarvestingPrev() {
                 <AppCardHeader>
                 Harvesting 
                 </AppCardHeader>
-                <AppCardBody>
+                <AppCardBody to='/potatoHarvesting'>
                 Cut foliage close to soil base if vines have not dried after attaining maturity for the purpose of hardening the tubers 
 
                 </AppCardBody>

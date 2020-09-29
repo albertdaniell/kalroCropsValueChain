@@ -10,7 +10,7 @@ function PotatoePestManagementPrev() {
                 <AppCardHeader>
                 Pest management
                 </AppCardHeader>
-                <AppCardBody>
+                <AppCardBody to='/potatoPestManagement'>
                 Potato pests include; aphids, white flies, tuber moth, nematodes Potato Cyst Nematodes (PCN) and root knot nematodes, cutworms, and leaf minor and thrips
 
                 </AppCardBody>
