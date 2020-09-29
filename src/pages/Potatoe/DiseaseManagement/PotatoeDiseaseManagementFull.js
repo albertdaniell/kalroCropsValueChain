@@ -4,8 +4,12 @@ import potatoSideMenu from "../../../components/PotatoSideMenu/PotatoSideMenu";
 import AppContainer from "../../../layouts/AppContainer/AppContainer";
 import AppLeftSideContainer from "../../../layouts/AppLeftSideContainer/AppLeftSideContainer";
 import AppRightSideContainer from "../../../layouts/AppRightSideContainer/AppRightSideContainer";
+import ImageRow from "../../../layouts/Container/ImageRow";
+import MyContainer from "../../../layouts/Container/MyContainer";
 import PotatoeMaturityPrev from "../Maturity/PotatoeMaturityPrev";
 import PotatoHeader from "../PotatoHeader/PotatoHeader";
+import image1 from '../../../images/potatoes/5e.jpg'
+import image2 from '../../../images/potatoes/5f.jpg'
 
 function PotatoeDiseaseManagementFull() {
     return (
@@ -19,6 +23,16 @@ function PotatoeDiseaseManagementFull() {
                         Bacterial diseases; late and early  blight, bacterial wilt, verticillium wilt, soft rot and black scurf 
 Viral diseases; potato leaf roll and yellow virus, common scab, powdery scab and wart
 
+
+</p>
+<MyContainer>
+            <ImageRow caption='Bacterial diseases' divDim='col-sm-6' src={image1}></ImageRow>
+            <ImageRow caption='Late blight' divDim='col-sm-6' src={image2}></ImageRow>
+   
+       
+            </MyContainer>
+           
+<p>
 <h5>Disease management strategies</h5>
 
                         <ul>
