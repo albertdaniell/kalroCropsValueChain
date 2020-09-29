@@ -13,7 +13,7 @@ function PotatoeHarvestingFull() {
             <AppContainer>
                 <AppLeftSideContainer>
                     <p>
-                        <h5>Maturity </h5>
+                        <h5>Harvesting </h5>
                         <hr></hr>
                         Cut foliage close to soil base if vines have not dried after attaining maturity for the purpose of hardening the tubers 
 

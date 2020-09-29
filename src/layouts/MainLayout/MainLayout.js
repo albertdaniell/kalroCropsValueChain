@@ -32,13 +32,22 @@ import StorageFull from "../../pages/Maize/Storage/StorageFull";
 import VarietiesFull from "../../pages/Maize/Varieties/VarietiesFull";
 import WaterManagementFull from "../../pages/Maize/WaterManagement/WaterManagementFull";
 import WeedManagementFull from "../../pages/Maize/WeedManagement/WeedManagementFull";
+import PotatoeCropsManagementFull from "../../pages/Potatoe/CropsManagement/PotatoeCropsManagementFull";
+import PotatoeDiseaseManagementFull from "../../pages/Potatoe/DiseaseManagement/PotatoeDiseaseManagementFull";
+import PotatoeHarvestingFull from "../../pages/Potatoe/Harvesting/PotatoeHarvestingFull";
 import PotatoeLandPreparationFull from "../../pages/Potatoe/LandPreparation/PotatoeLandPreparationFull";
+import PotatoeMaturityFull from "../../pages/Potatoe/Maturity/PotatoeMaturityFull";
+import PotatoePestManagementFull from "../../pages/Potatoe/PestManagement/PotatoePestManagementFull";
 import PotatoePlantingFull from "../../pages/Potatoe/Planting/PotatoePlantingFull";
+import PotatoePostHarvestingFull from "../../pages/Potatoe/PostHarvesting/PotatoePostHarvestingFull";
 
 import PotatoLanding from "../../pages/Potatoe/PotatoLanding/PotatoLanding";
 import PotatoePreplantingFull from "../../pages/Potatoe/PrePlanting/PotatoePreplantingFull";
 import PotatoePrePlantingPrev from "../../pages/Potatoe/PrePlanting/PotatoePrePlantingPrev";
+import PotatoeProcessingFull from "../../pages/Potatoe/Processing/PotatoeProcessingFull";
 import PotatoeSiteSelectionFull from "../../pages/Potatoe/SiteSelection/PotatoeSiteSelectionFull";
+import PotatoeSoilFertilityFull from "../../pages/Potatoe/SoilFertility/PotatoeSoilFertilityFull";
+import PotatoeStorageFull from "../../pages/Potatoe/Storage/PotatoeStorageFull";
 import PotatoVarietyFull from "../../pages/Potatoe/Varieties/PotatoVarietyFull";
 import PotatoeWaterManagementFull from "../../pages/Potatoe/WaterManagement/PotatoeWaterManagementFull";
 import PotatoWeedManagementFul from "../../pages/Potatoe/WeedManagement/PotatoWeedManagementFul";
@@ -154,6 +163,27 @@ function MainLayout(props) {
             <Route exact path="/potatoPlanting" component={PotatoePlantingFull} />
             <Route exact path="/potatowaterManagement" component={PotatoeWaterManagementFull} />
             <Route exact path="/potatoweedManagement" component={PotatoWeedManagementFul} />
+            <Route exact path="/potatosoilFertility" component={PotatoeSoilFertilityFull} />
+            <Route exact path="/potatoCropManagement" component={PotatoeCropsManagementFull} />
+            <Route exact path="/potatoPestManagement" component={PotatoePestManagementFull} />
+            <Route exact path="/potatoDiseaseManagement" component={PotatoeDiseaseManagementFull} />
+            <Route exact path="/potatoMaturity" component={PotatoeMaturityFull} />
+            <Route exact path="/potatoHarvesting" component={PotatoeHarvestingFull} />
+            <Route exact path="/potatoStorage" component={PotatoeStorageFull} />
+            <Route exact path="/potatopostHarvest" component={PotatoePostHarvestingFull} />
+            <Route exact path="/potatoProcessing" component={PotatoeProcessingFull} />
+
+
+
+
+
+
+
+
+
+            
+
+            
 
 
 

@@ -6,7 +6,7 @@ import AppLeftSideContainer from "../../../layouts/AppLeftSideContainer/AppLeftS
 import AppRightSideContainer from "../../../layouts/AppRightSideContainer/AppRightSideContainer";
 import PotatoHeader from "../PotatoHeader/PotatoHeader";
 
-function PotatoWeedManagementFul() {
+function PotatoeSoilFertilityFull() {
     return (
         <div>
             <PotatoHeader></PotatoHeader>
@@ -32,4 +32,4 @@ function PotatoWeedManagementFul() {
     );
 }
 
-export default PotatoWeedManagementFul
+export default PotatoeSoilFertilityFull
