@@ -32,6 +32,9 @@ import StorageFull from "../../pages/Maize/Storage/StorageFull";
 import VarietiesFull from "../../pages/Maize/Varieties/VarietiesFull";
 import WaterManagementFull from "../../pages/Maize/WaterManagement/WaterManagementFull";
 import WeedManagementFull from "../../pages/Maize/WeedManagement/WeedManagementFull";
+
+import PotatoLanding from "../../pages/Potatoe/PotatoLanding/PotatoLanding";
+
 import ErrorPage from "../ErrorPage/ErrorPage";
 import ScrollToTop from "../ScrollToTop/ScrollToTop";
 
@@ -133,6 +136,10 @@ function MainLayout(props) {
             <Route exact path="/beansMaturity" component={BeansMaturityFull} />
             <Route exact path="/beansHarvesting" component={BeansHarvestingFull} />
             <Route exact path="/beansStorage" component={BeansStorageFull} />
+
+            {/* Potato routes */}
+            <Route exact path="/potatoLanding" component={PotatoLanding} />
+
 
 
 
