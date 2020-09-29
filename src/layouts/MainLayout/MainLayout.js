@@ -1,6 +1,8 @@
 import React, { useContext } from "react";
 import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 import BeansLanding from "../../pages/Beans/BeansLanding/BeansLanding";
+import BeansSiteSelection from "../../pages/Beans/SiteSelection/BeansSiteSelection";
+import BeansSiteSelectionFull from "../../pages/Beans/SiteSelection/BeansSiteSelectionFull";
 import CropManagementFull from "../../pages/Maize/CropsManagement/CropManagementFull";
 import DiseaseManagementFull from "../../pages/Maize/DiseaseManagement/DiseaseManagementFull";
 import HarvestingFull from "../../pages/Maize/Harvesting/HarvestingFull";
@@ -105,6 +107,8 @@ function MainLayout(props) {
 
             {/* Beans */}
             <Route exact path="/beansLanding" component={BeansLanding} />
+            <Route exact path="/beansSiteSelection" component={BeansSiteSelectionFull} />
+
 
 
             <Route path="*" component={ErrorPage} />
