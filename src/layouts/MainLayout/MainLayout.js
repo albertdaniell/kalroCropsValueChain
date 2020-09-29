@@ -1,6 +1,8 @@
 import React, { useContext } from "react";
 import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 import BeansLanding from "../../pages/Beans/BeansLanding/BeansLanding";
+import BeansLandPreparationFull from "../../pages/Beans/LandPreparation/BeansLandPreparationFull";
+import BeansPreplantingFull from "../../pages/Beans/PrePlanting/BeansPreplantingFull";
 import BeansSiteSelection from "../../pages/Beans/SiteSelection/BeansSiteSelection";
 import BeansSiteSelectionFull from "../../pages/Beans/SiteSelection/BeansSiteSelectionFull";
 import CropManagementFull from "../../pages/Maize/CropsManagement/CropManagementFull";
@@ -108,6 +110,10 @@ function MainLayout(props) {
             {/* Beans */}
             <Route exact path="/beansLanding" component={BeansLanding} />
             <Route exact path="/beansSiteSelection" component={BeansSiteSelectionFull} />
+            <Route exact path="/beansLandPreparation" component={BeansLandPreparationFull} />
+            <Route exact path="/beansPreplanting" component={BeansPreplantingFull} />
+
+
 
 
 

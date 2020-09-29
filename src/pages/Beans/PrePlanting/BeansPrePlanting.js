@@ -10,7 +10,7 @@ function BeansPrePlanting() {
               <AppCardHeader>
               Pre Planting
               </AppCardHeader>
-                <AppCardBody>
+                <AppCardBody to='/beansPreplanting'>
                 <h6>Planting materials </h6>
 Certified seed 
 Farmer saved seeds 
