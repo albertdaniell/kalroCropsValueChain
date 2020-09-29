@@ -4,11 +4,14 @@ import BeansSideMenu from "../../../components/BeansSideMenu/BeansSideMenu";
 import AppContainer from "../../../layouts/AppContainer/AppContainer";
 import AppLeftSideContainer from "../../../layouts/AppLeftSideContainer/AppLeftSideContainer";
 import AppRightSideContainer from "../../../layouts/AppRightSideContainer/AppRightSideContainer";
+import ImageRow from "../../../layouts/Container/ImageRow";
 import BeansHeader from "../BeansHeader/BeansHeader";
 import BeansLandPreparation from "../LandPreparation/BeansLandPreparation";
 import BeansPrePlanting from "../PrePlanting/BeansPrePlanting";
 import BeansVarieties from "../Varieties/BeansVarieties";
 
+
+import MyContainer from "../../../layouts/Container/MyContainer";
 function BeansPreplantingFull() {
   return (
     <div>
@@ -25,6 +28,8 @@ Farmer saved seeds
 <h6>Common planting materials</h6>
 
             Seeds should be obtained from reliable sources. Farmer saved seeds are alternatives where certified seeds aren’t available or the seed can be bought from the market 
+
+         
           </p>
 
           <p>
