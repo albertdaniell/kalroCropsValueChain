@@ -10,8 +10,8 @@ function PostHarvestingPrev() {
                 <AppCardHeader>
                 Post-harvest handling 
                 </AppCardHeader>
-                <AppCardBody>
-                Transport maize from the field to the place of shelling using clean transport equipment dry before shelling winnow to remove dust 
+                <AppCardBody to='/maizePostHarvest'>
+                    lace of shelling using clean transport equipment dry before shelling winnow to remove dust 
                 </AppCardBody>
             </AppCard>
         </div>

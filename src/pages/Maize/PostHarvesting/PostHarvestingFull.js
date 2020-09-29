@@ -8,7 +8,6 @@ import LandPreparationPrev from "../LandPreparation/LandPreparationPrev";
 import MaizeHeader from "../MaizeHeader/MaizeHeader";
 import MaturityPrev from "../Maturity/MaturityPrev";
 import PlantingPrev from "../Planting/PlantingPrev";
-import PostHarvestingPrev from "../PostHarvesting/PostHarvestingPrev";
 import PrePlantingPrev from "../PrePlanting/PrePlantingPrev";
 import ProcessingPrev from "../Processing/ProcessingPrev";
 import SoilFertilityPrev from "../SoilFertility/SoilFertilityPrev";
@@ -16,30 +15,27 @@ import StoragePrev from "../Storage/StoragePrev";
 import VarietiesPrev from "../Varieties/VarietiesPrev";
 import WeedManagementPrev from "../WeedManagement/WeedManagementPrev";
 
-function StorageFull() {
+function PostHarvestingFull() {
   return (
     <div>
       <MaizeHeader></MaizeHeader>
       <AppContainer>
         <AppLeftSideContainer>
           <p>
-            <h5>Storage</h5>
+            <h5>Post-harvest handling </h5>
             <hr></hr>
          
-            Store in airtight bags or metallic silos and minimize use of pesticides
-
+            Transport maize from the field to the place of shelling using clean transport equipment dry before shelling winnow to remove dust 
             <ul>
-                <li>Transport maize from the field to the place of shelling using clean transport equipment</li>
-                <li>Dry before shelling</li>
-                <li>Winnow to remove dust and chaff</li>
-                <li>Control weevils and grain borers by drying the maize to 13-14% moisture content to avoid grain attack by fungal infections such as aflatoxin</li>
-      
+                <li>Accessible methods of determining or estimating moisture content can be used </li>
+                <li>If insecticides are used to preserve maize, store it in sisal or jute bags on raised pallets to protect from rodents and chaff</li>
+             
             </ul>
           </p>
 
           <p>
             <h6>Next</h6>
-     <PostHarvestingPrev></PostHarvestingPrev>
+     <ProcessingPrev></ProcessingPrev>
           </p>
         </AppLeftSideContainer>
         <AppRightSideContainer>
@@ -50,4 +46,4 @@ function StorageFull() {
   );
 }
 
-export default StorageFull;
+export default PostHarvestingFull
