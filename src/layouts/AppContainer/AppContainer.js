@@ -10,7 +10,7 @@ function AppContainer(props) {
   return (
     <div id='appContainer'
       class="container-fluid"
-      style={{ marginTop: 20, marginBottom: 50, padding: 20 }}
+      style={{ marginTop: 0, marginBottom: 50, padding: 20 }}
     >
       {/* <LanguageChange></LanguageChange>
       <LanguageSnackMsg></LanguageSnackMsg> */}

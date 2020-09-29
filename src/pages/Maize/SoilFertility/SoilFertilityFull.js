@@ -24,7 +24,7 @@ function SoilFertiltyFull() {
             Apply only deficient nutrients and conservation farming approaches
 
             <ul>
-              Maintain soil health for good production and income{" "}
+             <li> Maintain soil health for good production and income{" "}</li>
               <li>
                 Test soils first to guide application of manure and fertilizer{" "}
               </li>
