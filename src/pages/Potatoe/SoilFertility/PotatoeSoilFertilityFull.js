@@ -6,31 +6,21 @@ import AppLeftSideContainer from "../../../layouts/AppLeftSideContainer/AppLeftS
 import AppRightSideContainer from "../../../layouts/AppRightSideContainer/AppRightSideContainer";
 import PotatoHeader from "../PotatoHeader/PotatoHeader";
 
-function PotatoVarietyFull() {
+function PotatoWeedManagementFul() {
     return (
         <div>
             <PotatoHeader></PotatoHeader>
             <AppContainer>
                 <AppLeftSideContainer>
                     <p>
-                        <h5>Varieties</h5>
+                        <h5>Soil fertility</h5>
                         <hr></hr>
-                        Choice of variety depends on the locality, consumer and market preference. Disease and pest resistance may also dictate the varieties to be grown
-                        <h6>Varieties include</h6>
+                        Apply required nutrients based on results of soil test/ analysis and on plant nutrient requirements
                         <ul>
-                        <li>General: Kenya Baraka, Roslin tana, Roslin Gucha, Kerrs Pink, Roslin Eburu (B 53), Desiree, Feldeslohm, Kenya Dhamana, Chaguo, Furaha, Romano, Dutch Robin, Shangi, Pumpernet
-</li>
-<li>
-Current: Tigoni, Asante, Kenya Karibu, Kenya Mpya, Kenya Sherekea, Shangi, Arka, Kabale from Uganda
-</li>
-<li>
-Imported varieties: Jelly, Karuso, Connect
-</li>
-<li>
-Others: Unica, Primera, Rudolf
-</li>
-                           
-                             </ul>
+                            <li>
+                            Add manure and fertilizers to the soil in the right amounts to provide the required plant nutrients for vigorous crop growth
+                            </li>
+                                  </ul>
                             
           </p>
                 </AppLeftSideContainer>
@@ -42,4 +32,4 @@ Others: Unica, Primera, Rudolf
     );
 }
 
-export default PotatoVarietyFull
+export default PotatoWeedManagementFul
