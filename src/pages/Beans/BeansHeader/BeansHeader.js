@@ -3,7 +3,7 @@ import AppLogo from '../../../layouts/AppLogo/AppLogo'
 import AppNav from '../../../layouts/AppNav/AppNav'
 import Headerimage from '../../../layouts/HeaderImage/Headerimage'
 import Preheader from '../../../layouts/PreHeader/Preheader'
-import image1 from '../../../images/maize2.jpg'
+import image1 from '../../../images/beans.jpg'
 function BeansHeader() {
     const [appName,setAppName]=useState('Beans App');
     
