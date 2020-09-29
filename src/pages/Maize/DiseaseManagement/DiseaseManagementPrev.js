@@ -10,7 +10,7 @@ function DiseaseManagementPrev() {
                 <AppCardHeader>
                 Disease Management
                 </AppCardHeader>
-                <AppCardBody>
+                <AppCardBody to='/maizeDiseaseManagement'>
                 Diseases include; Head smut, Smut, Maize lethal necrosis disease (MLND), Maize streak virus, Northern leaf blight, Common rust, Grey leaf spot
 
 

@@ -1,6 +1,7 @@
 import React, { useContext } from "react";
 import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 import CropManagementFull from "../../pages/Maize/CropsManagement/CropManagementFull";
+import DiseaseManagementFull from "../../pages/Maize/DiseaseManagement/DiseaseManagementFull";
 import LandPreparationFull from "../../pages/Maize/LandPreparation/LandPreparationFull";
 import MaizeLanding from "../../pages/Maize/MaizeLanding/MaizeLanding";
 import PestManagementFull from "../../pages/Maize/PestManagement/PestManagementFull";
@@ -62,6 +63,11 @@ function MainLayout(props) {
               exact
               path="/maizePestManagement"
               component={PestManagementFull}
+            />
+            <Route
+              exact
+              path="/maizeDiseaseManagement"
+              component={DiseaseManagementFull}
             />
             <Route exact path="/maizeMaturity" component={SoilFertiltyFull} />
             <Route exact path="/maizeHarvesting" component={SoilFertiltyFull} />
