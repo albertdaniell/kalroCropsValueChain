@@ -1,13 +1,447 @@
+@import url('bootstrap-4.5.2-dist/css/bootstrap.min.css');
+@import url('fontawesome/css/all.css');
+@import url("https://fonts.googleapis.com/css2?family=El+Messiri&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Lora&display=swap");
+
 body {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+
+  /* -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale; */
+  background-color: #f7f7f7;
+}
+strong{
+  text-transform: capitalize;
+  text-decoration: underline;
 }
 
 code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New";
+}
+.panel-heading{
+  background-color: red;
+  font-size: 20px;
+}
+
+.card p{
+  padding: 3px;
+}
+
+.card .btn{
+  background-color: #171717;
+  border: 1px solid #171717;
+  border-radius: 0;
+}
+
+.card .btn :active :focus{
+  background-color: #171717;
+
+}
+
+.card{
+  
+  border: 1px solid#59be41;
+  margin: 20px;
+}
+
+.card h6{
+  margin-top: 0;
+}
+
+.card-header{
+  background-color: #59be41;
+  font-size: 20px;
+}
+
+
+.btn.btn-primary {
+  color: #fff;
+  background-color:#171717;
+  border-color:#171717;
+  transition: .5s;
+}
+.btn.btn-primary.focus,
+.btn.btn-primary:focus {
+  color: #fff;
+  background-color:#171717;
+  border-color:#171717;
+  outline: none;
+  box-shadow: none;
+}
+.btn.btn-primary:hover {
+  color: #171717;
+  background-color:transparent;
+  border-color:#171717;
+  outline: none;
+  box-shadow: none;
+  letter-spacing: 1px;
+}
+.btn.btn-primary.active,.btn.btn-primary:active {
+  color: #fff;
+  background-color:#171717;
+  border-color:#171717;
+  outline: none;
+}
+.btn.btn-primary.active.focus,
+.btn.btn-primary.active:focus,
+.btn.btn-primary.active:hover,
+.btn.btn-primary:active.focus,
+.btn.btn-primary:active:focus,
+.btn.btn-primary:active:hover {
+  color: #fff;
+  background-color:#171717;
+  border-color:#171717;
+  outline: none;
+  box-shadow: none;
+}
+#appContainer ul{
+  margin-top: 20px;
+  font-style: italic;
+}
+.navbar,
+.navbar-brand {
+  /* background-color: #ad9957; */
+  background-color: #353535b9;
+
+  margin: 0;
+  z-index: 100;
+}
+
+.fixed-top {
+  background-color: #2c7e18;
+  box-shadow: 5px 10px 18px #52525275;
+}
+
+.fixed-top a {
+  color: black;
+}
+
+.navbar-nav,
+.navbar-collapse,
+.nav-link {
+  padding: 5px;
+}
+
+#myNav .navbar-collapse a {
+  color: white;
+  padding-bottom: 10px;
+  font-size: 11px;
+  padding-left: 10px;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+
+.navbar-toggler {
+  float: right;
+  background-color: white;
+}
+
+body,
+html {
+  height: 100%;
+}
+
+#appLogoDiv {
+  padding: 35px;
+  text-align: center;
+}
+
+#appLogoDiv a {
+  text-decoration: none;
+  color: #353535;
+}
+
+#appLogoDiv a:hover {
+  text-decoration: none;
+  color: #59be41;
+}
+
+#appLogo {
+  font-family: "El Messiri", sans-serif;
+  font-size: 40px;
+}
+
+.navbar-brand {
+  font-family: "El Messiri", sans-serif;
+  font-size: 25px;
+  margin-left: 20px;
+}
+
+#myNav .collapse .dropdown-menu {
+  margin-top: 15px;
+}
+
+#myNav .collapse .dropdown-menu a {
+  color: white;
+  margin-bottom: 10px;
+  padding-bottom: 2px;
+}
+
+#myNav .collapse .dropdown-menu a:hover {
+  color: black;
+}
+
+#myNav .collapse .dropdown-menu .dropdown-item {
+  display: block;
+}
+
+#myNav .collapse .dropdown-menu .active {
+  color: black;
+  background-color: rgba(255, 255, 255, 0.774);
+}
+
+#myNav .active {
+  color: white;
+  background-color: #353535;
+}
+
+#myNav .navbar .open .dropdown-toggle {
+  color: white;
+  background-color: #353535;
+
+  border-radius: 4px;
+}
+
+#myNav .collapse .dropdown-menu {
+  background-color: #353535;
+  max-height: 350px;
+  overflow: auto;
+
+}
+
+#other-link-dropdown .dropdown-menu{
+  margin-left: -150px;
+}
+
+#headerImg {
+  background-position: center;
+  width:100;
+  height:250px;
+}
+
+#carouselExampleFade {
+  margin-top: -67px;
+  width: 100%;
+}
+
+#carouselExampleFade img {
+  height: 315px;
+}
+
+#headerHeading {
+  bottom: 10px;
+  position: absolute;
+  background-color: #f7f7f7;
+  left: 25px;
+  color: black;
+  padding: 20px;
+  font-size: 22px;
+  font-weight: bold;
+  border-left: 10px solid #59be41;
+  margin-left: 15px;
+  text-transform: uppercase;
+  letter-spacing: 4px;
+}
+
+p ,center{
+  padding-left: 20px;
+  padding-right: 20px;
+  font-family: "Lora", serif;
+  padding-bottom: 10px;
+  font-size: 16px;
+}
+
+#footer {
+  background-color: rgba(0, 0, 0, 0.705);
+  color: white;
+}
+#footer .col-sm-9{
+  margin-bottom: 100px;
+
+}
+#footer a {
+  display: block;
+  color: white;
+  text-decoration: none;
+  padding-left: 5px;
+  padding-bottom: 5px;
+}
+
+#footer a:hover {
+  background-color: #353535;
+}
+
+.customdropdown {
+  position: relative;
+  display: inline-block;
+}
+
+.customdropdown-content {
+  display: none;
+  position: absolute;
+  color: white;
+  background-color: rgb(212, 39, 39);
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+  padding: 12px 16px;
+
+  z-index: 1;
+}
+
+.customdropdown:hover .customdropdown-content {
+  display: block;
+}
+
+
+#sideMenu {
+  border-left: 1px solid #59be41;
+  padding: 10px;
+  overflow: auto;
+}
+
+#sideMenu h5 {
+  padding: 20px;
+
+}
+
+#sideMenu a {
+  display: block;
+  transition: .5s;
+  color: rgba(27, 27, 27, 0.534);
+  padding-bottom: 10px;
+  font-size: 12px;
+  padding-left: 10px;
+  text-decoration: none;
+  text-transform: uppercase;
+  margin-bottom: 5px;
+}
+
+
+
+.selected ,#childLinks .selected{
+color: red;
+  font-weight: bold; 
+  border-left: 2px solid #59be41;
+  background-color: #eeeeee;
+}
+
+#sideMenu #childLinks a{
+font-size: 11px;
+  
+}
+
+#sideMenu a:hover {
+  color: #59be41;
+  font-weight: bold;
+  margin-left: 10px;
+  border-left: 2px solid #59be41;
+  background-color: #eeeeee;
+}
+
+#childLinks {
+  margin-left: 20px;
+}
+
+#childLinks a {
+  font-size: 13px;
+}
+
+#languageBtn{
+  z-index: 1000; 
+  position: fixed;
+  bottom: 30px; 
+  left: 38px; 
+  font-size: 12px 
+}
+
+@media (max-width: 991.98px) {
+  #languageBtn{
+    z-index: 1000; 
+    position: fixed;
+    bottom: 30px; 
+    left: 24px; 
+    font-size: 12px 
+  }
+  
+  #myNav .collapse .dropdown-menu {
+    background-color: #353535;
+    margin-left: 0;
+    overflow: auto;
+  
+  }
+
+
+
+  #myNav .collapse .dropdown-menu #childLinks{
+    margin-left: 10px;
+    
+  }
+  #headerImg {
+    margin-top: 0px;
+  }
+  .navbar-brand {
+    font-family: "El Messiri", sans-serif;
+    font-size: 25px;
+    margin-left: 8px;
+  }
+
+  #carouselExampleFade {
+    margin-top: 0;
+    width: 100%;
+  }
+
+  #carouselExampleFade img {
+    height: 300px;
+  }
+
+
+  #headerHeading {
+    padding: 10px;
+    left: 15px;
+    font-size: 20px;
+  }
+
+  p {
+    padding: 5px;
+  }
+
+  #appLogoDiv {
+    padding: 20px;
+    text-align: center;
+  }
+
+  #appLogo {
+    
+  }
+
+  #myNav .navbar-collapse a {
+    font-size: 14px;
+  }
+
+  #sideMenu {
+    margin-top: 50px;
+  }
+}
+
+.table {
+  margin-bottom: 50px;
+  /* background-color: #eee3cf; */
+  border-radius: 4px;
+  font-size: 13px;
+
+}
+
+h5 {
+  margin-top: 50px;
+  font-weight: bold;
+  font-size: 25px;
+  text-transform: capitalize;
+  color: #359c1b;
+}
+
+h6{
+  margin-top: 50px;
+  font-weight: bold;
+  font-size: 18px;
+  text-transform: capitalize;
 }
