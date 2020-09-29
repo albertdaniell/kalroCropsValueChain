@@ -1,64 +1,67 @@
-import React, { useContext } from "react";
+import React, { useContext,Suspense,lazy } from "react";
 import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
-import BeansLanding from "../../pages/Beans/BeansLanding/BeansLanding";
-import BeansCropsManagementFull from "../../pages/Beans/CropsManagement/BeansCropsManagementFull";
-import BeansHarvestingFull from "../../pages/Beans/Harvesting/BeansHarvestingFull";
-import BeansLandPreparationFull from "../../pages/Beans/LandPreparation/BeansLandPreparationFull";
-import BeansMaturityFull from "../../pages/Beans/Maturity/BeansMaturityFull";
-import BeansPestManagementFull from "../../pages/Beans/PestManagement/BeansPestManagementFull";
-import BeansPlantingFull from "../../pages/Beans/Planting/BeansPlantingFull";
-import BeansPreplantingFull from "../../pages/Beans/PrePlanting/BeansPreplantingFull";
-import BeansSiteSelection from "../../pages/Beans/SiteSelection/BeansSiteSelection";
-import BeansSiteSelectionFull from "../../pages/Beans/SiteSelection/BeansSiteSelectionFull";
-import BeansSoilFertilityFull from "../../pages/Beans/SoilFertility/BeansSoilFertilityFull";
-import BeansStorageFull from "../../pages/Beans/Storage/BeansStorageFull";
-import BeansVarietiesFull from "../../pages/Beans/Varieties/BeansVarietiesFull";
-import BeansWaterManagementFull from "../../pages/Beans/WaterManagement/BeansWaterManagementFull";
-import BeansWeedManagementFull from "../../pages/Beans/WeedManagement/BeansWeedManagementFull";
-import CropManagementFull from "../../pages/Maize/CropsManagement/CropManagementFull";
-import DiseaseManagementFull from "../../pages/Maize/DiseaseManagement/DiseaseManagementFull";
-import HarvestingFull from "../../pages/Maize/Harvesting/HarvestingFull";
-import LandPreparationFull from "../../pages/Maize/LandPreparation/LandPreparationFull";
-import MaizeLanding from "../../pages/Maize/MaizeLanding/MaizeLanding";
-import MaturityFull from "../../pages/Maize/Maturity/MaturityFull";
-import PestManagementFull from "../../pages/Maize/PestManagement/PestManagementFull";
-import PlantingFull from "../../pages/Maize/Planting/PlantingFull";
-import PostHarvestingFull from "../../pages/Maize/PostHarvesting/PostHarvestingFull";
-import PrePlantingFullFull from "../../pages/Maize/PrePlanting/PrePlantingFull";
-import ProcessingFull from "../../pages/Maize/Processing/ProcessingFull";
-import SiteSelectionFull from "../../pages/Maize/SiteSelection/SiteSelectionFull";
-import SoilFertiltyFull from "../../pages/Maize/SoilFertility/SoilFertilityFull";
-import StorageFull from "../../pages/Maize/Storage/StorageFull";
-import VarietiesFull from "../../pages/Maize/Varieties/VarietiesFull";
-import WaterManagementFull from "../../pages/Maize/WaterManagement/WaterManagementFull";
-import WeedManagementFull from "../../pages/Maize/WeedManagement/WeedManagementFull";
-import PotatoeCropsManagementFull from "../../pages/Potatoe/CropsManagement/PotatoeCropsManagementFull";
-import PotatoeDiseaseManagementFull from "../../pages/Potatoe/DiseaseManagement/PotatoeDiseaseManagementFull";
-import PotatoeHarvestingFull from "../../pages/Potatoe/Harvesting/PotatoeHarvestingFull";
-import PotatoeLandPreparationFull from "../../pages/Potatoe/LandPreparation/PotatoeLandPreparationFull";
-import PotatoeMaturityFull from "../../pages/Potatoe/Maturity/PotatoeMaturityFull";
-import PotatoePestManagementFull from "../../pages/Potatoe/PestManagement/PotatoePestManagementFull";
-import PotatoePlantingFull from "../../pages/Potatoe/Planting/PotatoePlantingFull";
-import PotatoePostHarvestingFull from "../../pages/Potatoe/PostHarvesting/PotatoePostHarvestingFull";
+const MaizeLanding=React.lazy(()=>import('../../pages/Maize/MaizeLanding/MaizeLanding'));
+const BeansLanding =lazy(()=>import('../../pages/Beans/BeansLanding/BeansLanding'));
+const BeansCropsManagementFull=lazy(()=>import( "../../pages/Beans/CropsManagement/BeansCropsManagementFull"));
+const BeansHarvestingFull =lazy(()=>import("../../pages/Beans/Harvesting/BeansHarvestingFull"));
+const BeansLandPreparationFull =lazy(()=>import("../../pages/Beans/LandPreparation/BeansLandPreparationFull"));
+const BeansMaturityFull =lazy(()=>import("../../pages/Beans/Maturity/BeansMaturityFull"));
+const BeansPestManagementFull =lazy(()=>import("../../pages/Beans/PestManagement/BeansPestManagementFull"));
+const BeansPlantingFull =lazy(()=>import( "../../pages/Beans/Planting/BeansPlantingFull"));
+const BeansPreplantingFull =lazy(()=>import("../../pages/Beans/PrePlanting/BeansPreplantingFull")) ;
+const BeansSiteSelection =lazy(()=>import("../../pages/Beans/SiteSelection/BeansSiteSelection")) ;
+const BeansSiteSelectionFull =lazy(()=>import( "../../pages/Beans/SiteSelection/BeansSiteSelectionFull"));
+const BeansSoilFertilityFull =lazy(()=>import("../../pages/Beans/SoilFertility/BeansSoilFertilityFull")) ;
+const BeansStorageFull =lazy(()=>import( "../../pages/Beans/Storage/BeansStorageFull"));
+const BeansVarietiesFull =lazy(()=>import("../../pages/Beans/Varieties/BeansVarietiesFull")) ;
+const BeansWaterManagementFull =lazy(()=>import("../../pages/Beans/WaterManagement/BeansWaterManagementFull")) ;
+const BeansWeedManagementFull =lazy(()=>import("../../pages/Beans/WeedManagement/BeansWeedManagementFull")) ;
+const CropManagementFull =lazy(()=>import("../../pages/Maize/CropsManagement/CropManagementFull")) ;
+const DiseaseManagementFull =lazy(()=>import( "../../pages/Maize/DiseaseManagement/DiseaseManagementFull"));
+const HarvestingFull =lazy(()=>import("../../pages/Maize/Harvesting/HarvestingFull")) ;
+const LandPreparationFull =lazy(()=>import("../../pages/Maize/LandPreparation/LandPreparationFull")) ;
 
-import PotatoLanding from "../../pages/Potatoe/PotatoLanding/PotatoLanding";
-import PotatoePreplantingFull from "../../pages/Potatoe/PrePlanting/PotatoePreplantingFull";
-import PotatoePrePlantingPrev from "../../pages/Potatoe/PrePlanting/PotatoePrePlantingPrev";
-import PotatoeProcessingFull from "../../pages/Potatoe/Processing/PotatoeProcessingFull";
-import PotatoeSiteSelectionFull from "../../pages/Potatoe/SiteSelection/PotatoeSiteSelectionFull";
-import PotatoeSoilFertilityFull from "../../pages/Potatoe/SoilFertility/PotatoeSoilFertilityFull";
-import PotatoeStorageFull from "../../pages/Potatoe/Storage/PotatoeStorageFull";
-import PotatoVarietyFull from "../../pages/Potatoe/Varieties/PotatoVarietyFull";
-import PotatoeWaterManagementFull from "../../pages/Potatoe/WaterManagement/PotatoeWaterManagementFull";
-import PotatoWeedManagementFul from "../../pages/Potatoe/WeedManagement/PotatoWeedManagementFul";
+const MaturityFull =lazy(()=>import("../../pages/Maize/Maturity/MaturityFull")) ;
+const PestManagementFull =lazy(()=>import("../../pages/Maize/PestManagement/PestManagementFull")) ;
+const PlantingFull =lazy(()=>import( "../../pages/Maize/Planting/PlantingFull"));
+const PostHarvestingFull =lazy(()=>import("../../pages/Maize/PostHarvesting/PostHarvestingFull")) ;
+const PrePlantingFullFull =lazy(()=>import("../../pages/Maize/PrePlanting/PrePlantingFull")) ;
+const ProcessingFull =lazy(()=>import("../../pages/Maize/Processing/ProcessingFull")) ;
+const SiteSelectionFull =lazy(()=>import("../../pages/Maize/SiteSelection/SiteSelectionFull")) ;
+const SoilFertiltyFull =lazy(()=>import("../../pages/Maize/SoilFertility/SoilFertilityFull")) ;
+const StorageFull =lazy(()=>import("../../pages/Maize/Storage/StorageFull")) ;
+const VarietiesFull =lazy(()=>import("../../pages/Maize/Varieties/VarietiesFull")) ;
+const WaterManagementFull =lazy(()=>import("../../pages/Maize/WaterManagement/WaterManagementFull")) ;
+const WeedManagementFull =lazy(()=>import("../../pages/Maize/WeedManagement/WeedManagementFull")) ;
+const PotatoeCropsManagementFull =lazy(()=>import("../../pages/Potatoe/CropsManagement/PotatoeCropsManagementFull")) ;
+const PotatoeDiseaseManagementFull =lazy(()=>import("../../pages/Potatoe/DiseaseManagement/PotatoeDiseaseManagementFull")) ;
+const PotatoeHarvestingFull =lazy(()=>import("../../pages/Potatoe/Harvesting/PotatoeHarvestingFull")) ;
+const PotatoeLandPreparationFull =lazy(()=>import("../../pages/Potatoe/LandPreparation/PotatoeLandPreparationFull")) ;
+const PotatoeMaturityFull =lazy(()=>import("../../pages/Potatoe/Maturity/PotatoeMaturityFull")) ;
+const PotatoePestManagementFull =lazy(()=>import("../../pages/Potatoe/PestManagement/PotatoePestManagementFull")) ;
+const PotatoePlantingFull =lazy(()=>import("../../pages/Potatoe/Planting/PotatoePlantingFull")) ;
+const PotatoePostHarvestingFull =lazy(()=>import("../../pages/Potatoe/PostHarvesting/PotatoePostHarvestingFull")) ;
 
-import ErrorPage from "../ErrorPage/ErrorPage";
-import ScrollToTop from "../ScrollToTop/ScrollToTop";
+const PotatoLanding =lazy(()=>import("../../pages/Potatoe/PotatoLanding/PotatoLanding")) ;
+const PotatoePreplantingFull =lazy(()=>import("../../pages/Potatoe/PrePlanting/PotatoePreplantingFull")) ;
+const PotatoePrePlantingPrev =lazy(()=>import("../../pages/Potatoe/PrePlanting/PotatoePrePlantingPrev")) ;
+const PotatoeProcessingFull =lazy(()=>import("../../pages/Potatoe/Processing/PotatoeProcessingFull")) ;
+const PotatoeSiteSelectionFull =lazy(()=>import("../../pages/Potatoe/SiteSelection/PotatoeSiteSelectionFull")) ;
+const PotatoeSoilFertilityFull =lazy(()=>import("../../pages/Potatoe/SoilFertility/PotatoeSoilFertilityFull")) ;
+const PotatoeStorageFull =lazy(()=>import("../../pages/Potatoe/Storage/PotatoeStorageFull")) ;
+const PotatoVarietyFull =lazy(()=>import("../../pages/Potatoe/Varieties/PotatoVarietyFull")) ;
+const PotatoeWaterManagementFull =lazy(()=>import("../../pages/Potatoe/WaterManagement/PotatoeWaterManagementFull")) ;
+const PotatoWeedManagementFul =lazy(()=>import("../../pages/Potatoe/WeedManagement/PotatoWeedManagementFul")) ;
+
+const ErrorPage =lazy(()=>import("../ErrorPage/ErrorPage")) ;
+const ScrollToTop =lazy(()=>import("../ScrollToTop/ScrollToTop")) ;
+const Loading =lazy(()=>import("../../components/Loading/Loading")) ;
 
 function MainLayout(props) {
   return (
     <>
       <Router>
+  <Suspense fallback={<div>Loading...Plase Wait.</div>}>
         <ScrollToTop>
           <Switch>
             <Route exact path="/" component={MaizeLanding} />
@@ -212,6 +215,7 @@ function MainLayout(props) {
             <Route path="*" component={ErrorPage} />
           </Switch>
         </ScrollToTop>
+        </Suspense>
       </Router>
     </>
   );
