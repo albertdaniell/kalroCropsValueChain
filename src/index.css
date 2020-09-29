@@ -357,6 +357,12 @@ font-size: 11px;
 }
 
 @media (max-width: 991.98px) {
+  .card{
+  
+    border: 1px solid#59be41;
+    margin: 10px;
+  }
+  
   #languageBtn{
     z-index: 1000; 
     position: fixed;
@@ -434,7 +440,7 @@ font-size: 11px;
 }
 
 h5 {
-  margin-top: 50px;
+  margin-top: 25px;
   font-weight: bold;
   font-size: 25px;
   text-transform: capitalize;
