@@ -11,7 +11,8 @@ function BeansWaterManagement() {
                 Water Management
                 </AppCardHeader>
                 <AppCardBody>
-                    
+                Irrigate if necessary and control weeds timely
+ 
                 </AppCardBody>
             </AppCard>
         </div>

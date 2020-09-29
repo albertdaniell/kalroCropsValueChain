@@ -11,6 +11,7 @@ function BeansSiteSelection() {
                 Site Selection
                 </AppCardHeader>
                 <AppCardBody>
+                Select a site away from shade to allow for sufficient sunshine and should be at least 10 meters away from the road to prevent dust and vehicle fumes
 
                 </AppCardBody>
             </AppCard>

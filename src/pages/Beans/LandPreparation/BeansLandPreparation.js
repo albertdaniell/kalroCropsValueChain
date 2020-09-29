@@ -11,7 +11,7 @@ function BeansLandPreparation() {
                 Land Preparation
                 </AppCardHeader>
                 <AppCardBody>
-                    
+                Consider minimum tillage to reduce cost and to conserve soil, water and nutrients, and to reduce workload 
                 </AppCardBody>
             </AppCard>
         </div>

@@ -4,7 +4,12 @@ import AppContainer from "../../../layouts/AppContainer/AppContainer";
 import AppLeftSideContainer from "../../../layouts/AppLeftSideContainer/AppLeftSideContainer";
 import AppRightSideContainer from "../../../layouts/AppRightSideContainer/AppRightSideContainer";
 import BeansHeader from "../BeansHeader/BeansHeader";
+import BeansLandPreparation from "../LandPreparation/BeansLandPreparation";
+import BeansPlanting from "../Planting/BeansPlanting";
+import BeansPrePlanting from "../PrePlanting/BeansPrePlanting";
 import BeansSiteSelection from "../SiteSelection/BeansSiteSelection";
+import BeansVarieties from "../Varieties/BeansVarieties";
+import BeansWaterManagement from "../WaterManagement/BeansWaterManagement";
 function BeansLanding() {
   return (
     <div>
@@ -32,6 +37,11 @@ function BeansLanding() {
           <p>
 
               <BeansSiteSelection></BeansSiteSelection>
+              <BeansLandPreparation></BeansLandPreparation>
+              <BeansPrePlanting></BeansPrePlanting>
+              <BeansVarieties></BeansVarieties>
+              <BeansPlanting></BeansPlanting>
+              <BeansWaterManagement></BeansWaterManagement>
           </p>
         </AppLeftSideContainer>
         <AppRightSideContainer>
