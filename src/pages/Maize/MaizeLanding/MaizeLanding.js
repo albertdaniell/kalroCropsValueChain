@@ -27,6 +27,12 @@ function MaizeLanding() {
       <MaizeHeader></MaizeHeader>
       <AppContainer>
         <AppLeftSideContainer>
+            <p>
+                <h5>Overview</h5>
+                <hr></hr>
+                Maize(Zea mays)
+Local names in Kenya (Mahindi, Oduma, Bando, Madumwa) 
+            </p>
           <p>
               <h5>Introduction</h5>
               <hr></hr>

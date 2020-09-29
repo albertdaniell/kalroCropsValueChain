@@ -6,6 +6,7 @@ import {
 function MaizeSideMenu() {
     return (
         <div id="sideMenu">
+            {/* MAize value chains */}
              <NavLink exact activeClassName="selected" to="/maizeSiteSelection">Site Selection</NavLink>
              <NavLink exact activeClassName="selected" to="/maizeLandPreparation">Land preparation</NavLink>
              <NavLink exact activeClassName="selected" to="/maizePrePlanting">Pre-planting</NavLink>

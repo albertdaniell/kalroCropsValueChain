@@ -53,17 +53,17 @@ function AppNav(props) {
             </li>
 
             <li class="nav-item">
-              <Link class="nav-link" to="/poultryManagementSys">
+              <Link class="nav-link" to="/">
                 Maize
               </Link>
             </li>
             <li class="nav-item">
-              <Link class="nav-link" to="/poultryManagementSys">
+              <Link class="nav-link" to="/beansLanding">
                 Beans
               </Link>
             </li>
             <li class="nav-item">
-              <Link class="nav-link" to="/poultryManagementSys">
+              <Link class="nav-link" to="#">
                 Potatoes
               </Link>
             </li>
