@@ -7,6 +7,8 @@ function BeansSideMenu() {
     return (
         <div id="sideMenu">
             {/* beans value chains */}
+            <NavLink exact activeClassName="selected" to="/beansLanding">Introduction</NavLink>
+
              <NavLink exact activeClassName="selected" to="/beansSiteSelection">Site Selection</NavLink>
              <NavLink exact activeClassName="selected" to="/beansLandPreparation">Land preparation</NavLink>
              <NavLink exact activeClassName="selected" to="/beansPrePlanting">Pre-planting</NavLink>
