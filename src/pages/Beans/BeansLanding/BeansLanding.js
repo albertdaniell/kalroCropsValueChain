@@ -4,6 +4,7 @@ import AppContainer from "../../../layouts/AppContainer/AppContainer";
 import AppLeftSideContainer from "../../../layouts/AppLeftSideContainer/AppLeftSideContainer";
 import AppRightSideContainer from "../../../layouts/AppRightSideContainer/AppRightSideContainer";
 import BeansHeader from "../BeansHeader/BeansHeader";
+import BeansSiteSelection from "../SiteSelection/BeansSiteSelection";
 function BeansLanding() {
   return (
     <div>
@@ -28,7 +29,10 @@ function BeansLanding() {
             starch and minerals such as iron and potassium. Beans are cooked by
             boiling, frying, and baking or can be bought cooked or canned.
           </p>
-          <p></p>
+          <p>
+
+              <BeansSiteSelection></BeansSiteSelection>
+          </p>
         </AppLeftSideContainer>
         <AppRightSideContainer>
             <BeansSideMenu></BeansSideMenu>
