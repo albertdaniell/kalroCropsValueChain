@@ -10,7 +10,7 @@ function HarvestingPrev() {
                 <AppCardHeader>
                 Harvesting
                 </AppCardHeader>
-                <AppCardBody>
+                <AppCardBody to='/maizeHarvesting'>
                 Harvesting by cutting and stalking to enhance drying and prevent pathogen infestation
 
                 </AppCardBody>
