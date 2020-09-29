@@ -19,7 +19,7 @@ function BeansSoilFertilityFull() {
       <AppContainer>
         <AppLeftSideContainer>
           <p>
-            <h5>Varieties</h5>
+            <h5>Soil Fertility</h5>
             <hr></hr>
             Beans grow fast and can mature within two months, on average the time can vary from 45 to 75 days, depending on the variety and the climatic conditions
 

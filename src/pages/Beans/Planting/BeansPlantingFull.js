@@ -17,7 +17,7 @@ function BeansPlantingFull() {
       <AppContainer>
         <AppLeftSideContainer>
           <p>
-            <h5>Site selection</h5>
+            <h5>Beans Planting</h5>
             <hr></hr>
             Ensure germination test is done before planting. Plant along the contour at the onset of rains and when the soil is moist 
             <h6>Recommended varieties</h6>
