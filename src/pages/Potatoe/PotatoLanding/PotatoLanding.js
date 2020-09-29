@@ -3,7 +3,23 @@ import React from "react";
 import AppContainer from "../../../layouts/AppContainer/AppContainer";
 import AppLeftSideContainer from "../../../layouts/AppLeftSideContainer/AppLeftSideContainer";
 import AppRightSideContainer from "../../../layouts/AppRightSideContainer/AppRightSideContainer";
+import PotatoeCropsManagementPrev from "../CropsManagement/PotatoeCropsManagementPrev";
+import PotatoeDiseaseManagementPrev from "../DiseaseManagement/PotatoeDiseaseManagementPrev";
+import PotatoeHarvestingPrev from "../Harvesting/PotatoeHarvestingPrev";
+import PotatoeLandPreparationPrev from "../LandPreparation/PotatoeLandPreparationPrev";
+import PotatoeMaturityPrev from "../Maturity/PotatoeMaturityPrev";
+import PotatoePestManagementPrev from "../PestManagement/PotatoePestManagementPrev";
+import PotatoePlantingPrev from "../Planting/PotatoePlantingPrev";
+import PotatoePostHarvestingPrev from "../PostHarvesting/PotatoePostHarvestingPrev";
 import PotatoHeader from "../PotatoHeader/PotatoHeader";
+import PotatoePrePlantingPrev from "../PrePlanting/PotatoePrePlantingPrev";
+import PotatoeProcessingPrep from "../Processing/PotatoeProcessingPrep";
+import PotatoeSiteSelectionPrev from "../SiteSelection/PotatoeSiteSelectionPrev";
+import PotatoeSoilFertilityPrev from "../SoilFertility/PotatoeSoilFertilityPrev";
+import PotatoeStoragePrev from "../Storage/PotatoeStoragePrev";
+import PotatoeVarietiesPrev from "../Varieties/PotatoeVarietiesPrev";
+import PotatoeWaterManagementPrev from "../WaterManagement/PotatoeWaterManagementPrev";
+import PotatoeWeedManagementPrev from "../WeedManagement/PotatoeWeedManagementPrev";
 
 function PotatoLanding() {
   return (
@@ -27,6 +43,22 @@ Local names in Kenya (Viazi,, Rabuond, Waru)
             declined over recent years. Kenya has produced Potato Growing
             Regulations 2018 which can be referred in conjunction with
             information provided.
+            <PotatoeSiteSelectionPrev></PotatoeSiteSelectionPrev>
+            <PotatoeLandPreparationPrev></PotatoeLandPreparationPrev>
+            <PotatoePrePlantingPrev></PotatoePrePlantingPrev>
+            <PotatoeVarietiesPrev></PotatoeVarietiesPrev>
+            <PotatoePlantingPrev></PotatoePlantingPrev>
+            <PotatoeWaterManagementPrev></PotatoeWaterManagementPrev>
+            <PotatoeWeedManagementPrev></PotatoeWeedManagementPrev>
+            <PotatoeSoilFertilityPrev></PotatoeSoilFertilityPrev>
+            <PotatoeCropsManagementPrev></PotatoeCropsManagementPrev>
+            <PotatoePestManagementPrev></PotatoePestManagementPrev>
+            <PotatoeDiseaseManagementPrev></PotatoeDiseaseManagementPrev>
+            <PotatoeMaturityPrev></PotatoeMaturityPrev>
+            <PotatoeHarvestingPrev></PotatoeHarvestingPrev>
+            <PotatoeStoragePrev></PotatoeStoragePrev>
+            <PotatoePostHarvestingPrev></PotatoePostHarvestingPrev>
+            <PotatoeProcessingPrep></PotatoeProcessingPrep>
           </p>
           <p></p>
         </AppLeftSideContainer>
