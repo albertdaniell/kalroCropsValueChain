@@ -15,6 +15,12 @@ import image4 from '../../../images/potatoes/4e.jpg'
 import image5 from '../../../images/potatoes/4f.jpg'
 import image6 from '../../../images/potatoes/4g.jpg'
 import image7 from '../../../images/potatoes/4h.jpg'
+import image8 from '../../../images/potatoes/5a.jpg'
+import image9 from '../../../images/potatoes/5b.png'
+import image10 from '../../../images/potatoes/5c.jpg'
+import image11 from '../../../images/potatoes/5d.jpg'
+
+
 
 
 
@@ -36,20 +42,27 @@ function PotatoePestManagementFull() {
                         </p>
 
                         <MyContainer>
-            <ImageRow caption='Aphids' divDim='col-sm-6' src={image1}></ImageRow>
-            <ImageRow caption='Aphids' divDim='col-sm-6' src={image2}></ImageRow>
+            <ImageRow caption='Aphids' divDim='col-sm-3' src={image1}></ImageRow>
+            <ImageRow caption='Aphids' divDim='col-sm-3' src={image2}></ImageRow>
+            <ImageRow caption='white flies' divDim='col-sm-3' src={image3}></ImageRow>
+            <ImageRow caption='white flies' divDim='col-sm-3' src={image4}></ImageRow>
        
             </MyContainer>
-            <MyContainer>
            
-            <ImageRow caption='white flies' divDim='col-sm-6' src={image3}></ImageRow>
-            <ImageRow caption='white flies' divDim='col-sm-6' src={image4}></ImageRow>
-            </MyContainer>
 
             <MyContainer>
            
-           <ImageRow caption='Tuber moth' divDim='col-sm-6' src={image5}></ImageRow>
-           <ImageRow caption='Tuber moth' divDim='col-sm-6' src={image6}></ImageRow>
+           <ImageRow caption='Tuber moth' divDim='col-sm-3' src={image5}></ImageRow>
+           <ImageRow caption='Tuber moth' divDim='col-sm-3' src={image6}></ImageRow>
+           <ImageRow caption='Nematods' divDim='col-sm-3' src={image7}></ImageRow>
+           <ImageRow caption='Potato Cyst Nematodes (PCN)' divDim='col-sm-3' src={image8}></ImageRow>
+           </MyContainer>
+
+           <MyContainer>
+           
+           <ImageRow caption='Cutworms' divDim='col-sm-4' src={image9}></ImageRow>
+           <ImageRow caption='Cutworms' divDim='col-sm-4' src={image10}></ImageRow>
+           <ImageRow caption='Trips' divDim='col-sm-4' src={image11}></ImageRow>
            </MyContainer>
                         <p>
 
