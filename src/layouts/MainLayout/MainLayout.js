@@ -32,9 +32,16 @@ import StorageFull from "../../pages/Maize/Storage/StorageFull";
 import VarietiesFull from "../../pages/Maize/Varieties/VarietiesFull";
 import WaterManagementFull from "../../pages/Maize/WaterManagement/WaterManagementFull";
 import WeedManagementFull from "../../pages/Maize/WeedManagement/WeedManagementFull";
+import PotatoeLandPreparationFull from "../../pages/Potatoe/LandPreparation/PotatoeLandPreparationFull";
+import PotatoePlantingFull from "../../pages/Potatoe/Planting/PotatoePlantingFull";
 
 import PotatoLanding from "../../pages/Potatoe/PotatoLanding/PotatoLanding";
+import PotatoePreplantingFull from "../../pages/Potatoe/PrePlanting/PotatoePreplantingFull";
+import PotatoePrePlantingPrev from "../../pages/Potatoe/PrePlanting/PotatoePrePlantingPrev";
 import PotatoeSiteSelectionFull from "../../pages/Potatoe/SiteSelection/PotatoeSiteSelectionFull";
+import PotatoVarietyFull from "../../pages/Potatoe/Varieties/PotatoVarietyFull";
+import PotatoeWaterManagementFull from "../../pages/Potatoe/WaterManagement/PotatoeWaterManagementFull";
+import PotatoWeedManagementFul from "../../pages/Potatoe/WeedManagement/PotatoWeedManagementFul";
 
 import ErrorPage from "../ErrorPage/ErrorPage";
 import ScrollToTop from "../ScrollToTop/ScrollToTop";
@@ -141,6 +148,18 @@ function MainLayout(props) {
             {/* Potato routes */}
             <Route exact path="/potatoLanding" component={PotatoLanding} />
             <Route exact path="/potatoSiteSelection" component={PotatoeSiteSelectionFull} />
+            <Route exact path="/potatolandPreparation" component={PotatoeLandPreparationFull} />
+            <Route exact path="/potatoPreplanting" component={PotatoePreplantingFull} />
+            <Route exact path="/potatoVariety" component={PotatoVarietyFull} />
+            <Route exact path="/potatoPlanting" component={PotatoePlantingFull} />
+            <Route exact path="/potatowaterManagement" component={PotatoeWaterManagementFull} />
+            <Route exact path="/potatoweedManagement" component={PotatoWeedManagementFul} />
+
+
+
+
+
+
 
 
 
