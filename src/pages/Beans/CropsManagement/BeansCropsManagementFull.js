@@ -26,7 +26,7 @@ function BeansCropsManagementFull() {
          
           <ul>
               <li>Apply IPM principles for increased use of biophysical methods and reduced use of agrochemical methods to control weeds</li>
-              <li>Apply IPM principles for increased use of biophysical methods and reduced use of agrochemical methods to control weeds</li>
+              <li>Apply manure/boost soil fertility and also crop rotation</li>
       </ul>
           </p>
 
