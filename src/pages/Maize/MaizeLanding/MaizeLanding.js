@@ -28,6 +28,8 @@ function MaizeLanding() {
       <AppContainer>
         <AppLeftSideContainer>
           <p>
+              <h5>Introduction</h5>
+              <hr></hr>
             Maize is the most important cereal crop in Kenya. It is the staple
             food for most rural population. It is used as a human food, animal
             feed, production of beverages and also making of bio-fuel. Maize is

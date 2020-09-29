@@ -39,18 +39,16 @@ function AppNav(props) {
                 aria-haspopup="true"
                 aria-expanded="false"
               >
-                Value Chains
+               LiveStock
               </a>
               <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                <Link class="dropdown-item" to="/">
-                  Maize
+                <Link class="dropdown-item" to="/poultryApp">
+                  Poultry
                 </Link>
-                <Link class="dropdown-item" to="/problems">
-                  Beans
+                <Link class="dropdown-item" to="/dairyGoatApp">
+                  Dairy Goat
                 </Link>
-                <Link class="dropdown-item" to="/recommendation">
-                  Potatoes
-                </Link>
+                
               </div>
             </li>
 
