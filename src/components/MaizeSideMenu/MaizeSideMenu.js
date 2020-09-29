@@ -20,7 +20,7 @@ function MaizeSideMenu() {
              <NavLink exact activeClassName="selected" to="/maizeMaturity">Maturity</NavLink>
              <NavLink exact activeClassName="selected" to="/maizeHarvesting">Harvesting</NavLink>
              <NavLink exact activeClassName="selected" to="/maizeStorage">Storage</NavLink>
-             <NavLink exact activeClassName="selected" to="/maizePostHarvesting">Post Harvesting</NavLink>
+             <NavLink exact activeClassName="selected" to="/maizepostHarvest">Post Harvesting</NavLink>
              <NavLink exact activeClassName="selected" to="/maizeProcessing">Processing</NavLink>
 
 
