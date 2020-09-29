@@ -4,8 +4,23 @@ import potatoSideMenu from "../../../components/PotatoSideMenu/PotatoSideMenu";
 import AppContainer from "../../../layouts/AppContainer/AppContainer";
 import AppLeftSideContainer from "../../../layouts/AppLeftSideContainer/AppLeftSideContainer";
 import AppRightSideContainer from "../../../layouts/AppRightSideContainer/AppRightSideContainer";
+import ImageRow from "../../../layouts/Container/ImageRow";
+import MyContainer from "../../../layouts/Container/MyContainer";
 import PotatoeDiseaseManagementPrev from "../DiseaseManagement/PotatoeDiseaseManagementPrev";
 import PotatoHeader from "../PotatoHeader/PotatoHeader";
+import image1 from '../../../images/potatoes/4b.jpg'
+import image2 from '../../../images/potatoes/4c.jpg'
+import image3 from '../../../images/potatoes/4d.png'
+import image4 from '../../../images/potatoes/4e.jpg'
+import image5 from '../../../images/potatoes/4f.jpg'
+import image6 from '../../../images/potatoes/4g.jpg'
+import image7 from '../../../images/potatoes/4h.jpg'
+
+
+
+
+
+
 
 function PotatoePestManagementFull() {
     return (
@@ -17,6 +32,26 @@ function PotatoePestManagementFull() {
                         <h5>Pest management</h5>
                         <hr></hr>
                         Potato pests include; aphids, white flies, tuber moth, nematodes Potato Cyst Nematodes (PCN) and root knot nematodes, cutworms, and leaf minor and thrips
+
+                        </p>
+
+                        <MyContainer>
+            <ImageRow caption='Aphids' divDim='col-sm-6' src={image1}></ImageRow>
+            <ImageRow caption='Aphids' divDim='col-sm-6' src={image2}></ImageRow>
+       
+            </MyContainer>
+            <MyContainer>
+           
+            <ImageRow caption='white flies' divDim='col-sm-6' src={image3}></ImageRow>
+            <ImageRow caption='white flies' divDim='col-sm-6' src={image4}></ImageRow>
+            </MyContainer>
+
+            <MyContainer>
+           
+           <ImageRow caption='Tuber moth' divDim='col-sm-6' src={image5}></ImageRow>
+           <ImageRow caption='Tuber moth' divDim='col-sm-6' src={image6}></ImageRow>
+           </MyContainer>
+                        <p>
 
 <h5>Pests control strategies</h5>
 

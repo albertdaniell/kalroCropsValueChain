@@ -26,7 +26,7 @@ function PotatoeSoilFertilityFull() {
                             </li>
                                   </ul> </p>
                                   <MyContainer>
-            <ImageRow divDim='col-sm-6' src={image1}></ImageRow>
+            <ImageRow caption='Flowering Stage' divDim='col-sm-6' src={image1}></ImageRow>
             
             </MyContainer>
             <p>
