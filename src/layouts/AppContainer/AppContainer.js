@@ -2,12 +2,13 @@ import React, { useContext } from "react";
 import animated from "animate.css";
 import BackToTop from "react-back-to-top-button";
 import { AppContext } from "../../contexts/AppContext/AppContext";
+import Footer from "../Footer/Footer";
 
 
 function AppContainer(props) {
   const { appLanguage } = useContext(AppContext);
 
-  return (
+  return (<>
     <div id='appContainer'
       class="container-fluid"
       style={{ marginTop: 0, marginBottom: 50, padding: 20 }}
@@ -40,7 +41,11 @@ function AppContainer(props) {
 
         {props.children}
       </div>
+      
     </div>
+
+<Footer appName="Maize, Beans, Potato App"></Footer>
+</>
   );
 }
 

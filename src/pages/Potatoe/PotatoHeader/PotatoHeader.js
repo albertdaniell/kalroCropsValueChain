@@ -5,7 +5,7 @@ import Headerimage from '../../../layouts/HeaderImage/Headerimage'
 import Preheader from '../../../layouts/PreHeader/Preheader'
 import image1 from '../../../images/potato.jpg'
 function PotatoHeader() {
-    const [appName,setAppName]=useState('Potatoe App');
+    const [appName,setAppName]=useState('Potatoes App');
     
     return (
         <div>

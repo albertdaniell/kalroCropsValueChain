@@ -10,7 +10,7 @@ function BeansStorage() {
                 <AppCardHeader>
                     Storage
                 </AppCardHeader>
-                <AppCardBody>
+                <AppCardBody to='/beansStorage'>
                 Store in airtight bags or metallic silos to minimize use of pesticides
 
                 </AppCardBody>

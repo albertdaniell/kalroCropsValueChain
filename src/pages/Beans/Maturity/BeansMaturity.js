@@ -10,7 +10,7 @@ function BeansMaturity() {
                 <AppCardHeader>
                 Maturity
                 </AppCardHeader>
-                <AppCardBody>
+                <AppCardBody to='/beansMaturity'>
                 Beans harvesting should be done before pods begin to shatter or rot, usually after 45 to 75 days after planting
 
                 </AppCardBody>

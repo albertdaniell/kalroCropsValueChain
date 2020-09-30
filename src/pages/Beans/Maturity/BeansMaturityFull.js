@@ -41,7 +41,7 @@ function BeansMaturityFull() {
         <AppRightSideContainer>
           <BeansSideMenu></BeansSideMenu>
         </AppRightSideContainer>
-      </AppContainer>
+      </AppContainer> 
     </div>
   );
 }

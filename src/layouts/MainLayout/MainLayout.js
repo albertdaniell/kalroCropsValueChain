@@ -1,5 +1,6 @@
 import React, { useContext,Suspense,lazy } from "react";
 import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
+import BeansDiseaseManagementFull from "../../pages/Beans/DiseaseManagement/BeansDiseaseManagementFull";
 const MaizeLanding=React.lazy(()=>import('../../pages/Maize/MaizeLanding/MaizeLanding'));
 const BeansLanding =lazy(()=>import('../../pages/Beans/BeansLanding/BeansLanding'));
 const BeansCropsManagementFull=lazy(()=>import( "../../pages/Beans/CropsManagement/BeansCropsManagementFull"));
@@ -61,7 +62,7 @@ function MainLayout(props) {
   return (
     <>
       <Router>
-  <Suspense fallback={<div style={{textAlign:'center',marginTop:'50%'}}>Loading App...Plase Wait.</div>}>
+  <Suspense fallback={<div style={{textAlign:'center',marginTop:'40%'}}>Loading App...Plase Wait.</div>}>
         <ScrollToTop>
           <Switch>
             <Route exact path="/" component={MaizeLanding} />
@@ -152,7 +153,7 @@ function MainLayout(props) {
             <Route exact path="/beansSoilFertility" component={BeansSoilFertilityFull} />
             <Route exact path="/beansCropsManagement" component={BeansCropsManagementFull} />
             <Route exact path="/beansPestsManagement" component={BeansPestManagementFull} />
-            <Route exact path="/beansDiseaseManagement" component={DiseaseManagementFull} />
+            <Route exact path="/beansDiseaseManagement" component={BeansDiseaseManagementFull} />
             <Route exact path="/beansMaturity" component={BeansMaturityFull} />
             <Route exact path="/beansHarvesting" component={BeansHarvestingFull} />
             <Route exact path="/beansStorage" component={BeansStorageFull} />

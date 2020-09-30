@@ -57,7 +57,7 @@ function BeansLandPreparationFull() {
         <AppRightSideContainer>
           <BeansSideMenu></BeansSideMenu>
         </AppRightSideContainer>
-      </AppContainer>
+      </AppContainer> 
     </div>
   );
 }

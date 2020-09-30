@@ -17,7 +17,7 @@ function PotatoePreplantingFull() {
             <AppContainer>
                 <AppLeftSideContainer>
                     <p>
-                        <h5>Land preparation</h5>
+                        <h5>Pre-Planting</h5>
                         <hr></hr>
                         <h6>Planting materials</h6>
                     Ensure to plant certified seeds

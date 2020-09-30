@@ -3,6 +3,7 @@ import MaizeSideMenu from "../../../components/MaizeSideMenu/MaizeSideMenu";
 import AppContainer from "../../../layouts/AppContainer/AppContainer";
 import AppLeftSideContainer from "../../../layouts/AppLeftSideContainer/AppLeftSideContainer";
 import AppRightSideContainer from "../../../layouts/AppRightSideContainer/AppRightSideContainer";
+import Next from "../../../layouts/Next/Next";
 import DiseaseManagementPrev from "../DiseaseManagement/DiseaseManagementPrev";
 import LandPreparationPrev from "../LandPreparation/LandPreparationPrev";
 import MaizeHeader from "../MaizeHeader/MaizeHeader";
@@ -33,7 +34,7 @@ Sort to remove damaged, discolored and infected grains, store in airtight bags o
           </p>
 
           <p>
-        
+          <Next pageToGo='Beans' to='/beansLanding'></Next>
           </p>
         </AppLeftSideContainer>
         <AppRightSideContainer>
