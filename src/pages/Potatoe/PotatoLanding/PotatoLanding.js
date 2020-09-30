@@ -4,6 +4,8 @@ import PotatoSideMenu from "../../../components/PotatoSideMenu/PotatoSideMenu";
 import AppContainer from "../../../layouts/AppContainer/AppContainer";
 import AppLeftSideContainer from "../../../layouts/AppLeftSideContainer/AppLeftSideContainer";
 import AppRightSideContainer from "../../../layouts/AppRightSideContainer/AppRightSideContainer";
+import ImageRow from "../../../layouts/Container/ImageRow";
+import MyContainer from "../../../layouts/Container/MyContainer";
 import PotatoeCropsManagementPrev from "../CropsManagement/PotatoeCropsManagementPrev";
 import PotatoeDiseaseManagementPrev from "../DiseaseManagement/PotatoeDiseaseManagementPrev";
 import PotatoeHarvestingPrev from "../Harvesting/PotatoeHarvestingPrev";
@@ -21,6 +23,7 @@ import PotatoeStoragePrev from "../Storage/PotatoeStoragePrev";
 import PotatoeVarietiesPrev from "../Varieties/PotatoeVarietiesPrev";
 import PotatoeWaterManagementPrev from "../WaterManagement/PotatoeWaterManagementPrev";
 import PotatoeWeedManagementPrev from "../WeedManagement/PotatoeWeedManagementPrev";
+import image1 from '../../../images/potatoe.jpg'
 
 function PotatoLanding() {
   return (
@@ -43,7 +46,17 @@ Local names in Kenya (Viazi,, Rabuond, Waru)
             cultivation, total national production has remained steady or
             declined over recent years. Kenya has produced Potato Growing
             Regulations 2018 which can be referred in conjunction with
-            information provided.
+            information provided
+            </p>
+            <MyContainer>
+            <ImageRow caption='Potatoe' divDim='col-sm-6' src={image1}></ImageRow>
+            
+   
+       
+            </MyContainer>
+
+
+            <p>
             <PotatoeSiteSelectionPrev></PotatoeSiteSelectionPrev>
             <PotatoeLandPreparationPrev></PotatoeLandPreparationPrev>
             <PotatoePrePlantingPrev></PotatoePrePlantingPrev>
