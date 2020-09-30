@@ -3,6 +3,8 @@ import MaizeSideMenu from "../../../components/MaizeSideMenu/MaizeSideMenu";
 import AppContainer from "../../../layouts/AppContainer/AppContainer";
 import AppLeftSideContainer from "../../../layouts/AppLeftSideContainer/AppLeftSideContainer";
 import AppRightSideContainer from "../../../layouts/AppRightSideContainer/AppRightSideContainer";
+import ImageRow from "../../../layouts/Container/ImageRow";
+import MyContainer from "../../../layouts/Container/MyContainer";
 import CropsManagementPrev from "../CropsManagement/CropsManagementPrev";
 import DiseaseManagementPrev from "../DiseaseManagement/DiseaseManagementPrev";
 import HarvestingPrev from "../Harvesting/HarvestingPrev";
@@ -20,6 +22,9 @@ import StoragePrev from "../Storage/StoragePrev";
 import VarietiesPrev from "../Varieties/VarietiesPrev";
 import WaterManagementPrev from "../WaterManagement/WaterManagementPrev";
 import WeedManagementPrev from "../WeedManagement/WeedManagementPrev";
+import image1 from '../../../images/maize/1a.jpg'
+import image2 from '../../../images/maize/1b.jpg'
+
 
 function MaizeLanding() {
   return (
@@ -46,6 +51,11 @@ Local names in Kenya (Mahindi, Oduma, Bando, Madumwa)
             adequate organic matter and well supplied with requisite nutrients.
             Maize will produce 2 metric tons per hectare under good management
           </p>
+          <MyContainer>
+            <ImageRow divDim='col-sm-6' src={image1} ></ImageRow>
+            <ImageRow divDim='col-sm-6' src={image2} ></ImageRow>
+
+          </MyContainer>
           <p>
               <SiteSelectionPrev></SiteSelectionPrev>
               <LandPreparationPrev></LandPreparationPrev>
