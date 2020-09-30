@@ -61,7 +61,7 @@ function MainLayout(props) {
   return (
     <>
       <Router>
-  <Suspense fallback={<div style={{textAlign:'center',marginTop:'50%'}}>Loading...Plase Wait.</div>}>
+  <Suspense fallback={<div style={{textAlign:'center',marginTop:'50%'}}>Loading App...Plase Wait.</div>}>
         <ScrollToTop>
           <Switch>
             <Route exact path="/" component={MaizeLanding} />
