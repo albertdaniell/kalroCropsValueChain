@@ -23,6 +23,14 @@ import image7 from '../../../images/maize/4f.jpg'
 import image8 from '../../../images/maize/5a.jpg'
 import image9 from '../../../images/maize/5b.jpg'
 import image10 from '../../../images/maize/5c.jpg'
+import image11 from '../../../images/maize/5d.jpg'
+import image12 from '../../../images/maize/5f.png'
+import image13 from '../../../images/maize/5g.jpg'
+import image14 from '../../../images/maize/5h.jpg'
+import image15 from '../../../images/maize/5i.jpg'
+import image16 from '../../../images/maize/5j.jpg'
+
+
 
 
 
@@ -62,6 +70,23 @@ function PestManagementFull() {
             <ImageRow caption='Termites' divDim='col-sm-4' src={image8} ></ImageRow>
             <ImageRow caption='Termites' divDim='col-sm-4' src={image9} ></ImageRow>
             <ImageRow caption='Termites' divDim='col-sm-4' src={image10} ></ImageRow>
+            
+
+          </MyContainer>
+
+
+          <MyContainer>
+            <ImageRow caption='Leaf miner' divDim='col-sm-4' src={image11} ></ImageRow>
+            <ImageRow caption='Leaf miner' divDim='col-sm-4' src={image12} ></ImageRow>
+            <ImageRow caption='Leaf miner' divDim='col-sm-4' src={image13} ></ImageRow>
+            
+
+          </MyContainer>
+
+          <MyContainer>
+            <ImageRow caption='Weevils' divDim='col-sm-4' src={image14} ></ImageRow>
+            <ImageRow caption='Larger grain borer' divDim='col-sm-4' src={image15} ></ImageRow>
+            <ImageRow caption='Larger grain borer' divDim='col-sm-4' src={image16} ></ImageRow>
             
 
           </MyContainer>

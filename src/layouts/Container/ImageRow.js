@@ -7,7 +7,7 @@ function ImageRow(props) {
       <p>
         <img
           src={src}
-          style={{ height: "auto", width: "100%", marginBottom: 20,borderRadius:20 }}
+          style={{ height: "auto", width: "100%", marginBottom: 10,borderRadius:20 }}
         ></img>
         <center><span style={{fontStyle:'italic',marginTop:0,textAlign:"center"}}>{caption}</span></center>
       </p>
