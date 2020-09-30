@@ -5,7 +5,7 @@ function ImageRow(props) {
   return (
     <div className={divDim} style={{}}>
       <p>
-        <img
+        <img id='imageRowimg'
           src={src}
           style={{ height: "auto", width: "100%", marginBottom: 10,borderRadius:20 }}
         ></img>

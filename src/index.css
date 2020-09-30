@@ -299,6 +299,15 @@ p ,center{
   display: block;
 }
 
+#imageRowimg{
+  transition: transform .5s; 
+}
+
+
+#imageRowimg:hover{
+  transform: scale(1.5);
+  cursor: pointer;
+}
 
 #sideMenu {
   border-left: 1px solid #59be41;
@@ -362,6 +371,12 @@ font-size: 11px;
 }
 
 @media (max-width: 991.98px) {
+
+#imageRowimg:hover{
+  transform: scale(1);
+  cursor: pointer;
+}
+
   .card{
   
     border: 1px solid#59be41;
