@@ -36,7 +36,7 @@ function BeansStorageFull() {
           </p>
 
           <p>
-            <Next pageToGo='Potatoes' to='/potatoLanding'></Next>
+            
           </p>
         </AppLeftSideContainer>
         <AppRightSideContainer>

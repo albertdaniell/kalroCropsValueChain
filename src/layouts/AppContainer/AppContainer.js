@@ -3,6 +3,8 @@ import animated from "animate.css";
 import BackToTop from "react-back-to-top-button";
 import { AppContext } from "../../contexts/AppContext/AppContext";
 import Footer from "../Footer/Footer";
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import { faChevronUp } from '@fortawesome/free-solid-svg-icons'
 
 
 function AppContainer(props) {
@@ -35,7 +37,7 @@ function AppContainer(props) {
           }}
         >
           <span>
-            <i class="fas fa-chevron-up"></i>{" "}
+          <FontAwesomeIcon icon={faChevronUp} />
           </span>
         </BackToTop>
 
