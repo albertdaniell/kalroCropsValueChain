@@ -13,7 +13,7 @@ function SiteSelectionFull() {
       <AppContainer>
         <AppLeftSideContainer>
           <p>
-            <h5>Site Selection</h5>
+            <h5>Guthura ha kuhanda</h5>
             <hr></hr>
             thurahanduhatarikirurunahenariuariiganunagithimikiamakinyaikumi (10metres) kuumaharibarabaraniunduwakugiririarukungurwagaarinandogo
             <h6>Altitude range</h6>
@@ -22,8 +22,8 @@ function SiteSelectionFull() {
             Mbembeyendagagithimakiarieramuiganawa 0-2200 maslIrimaini; muigananiro; mikurukuringananamuthemba.  
             <br></br>
             pH/ururuwatiri 5.5-7.5. mbembeyendaga fertilizer ici; N, P, K, Mg, Ca, S, Fe, Zn, Mn, B, Cu, Mo, Cl.  
-            <h6>Temperature range</h6>
-            urugariwagiriirwogukorwo 25-30 oC            <h6>Rainfall</h6>
+            <h6>urugari</h6>
+            urugariwagiriirwogukorwo 25-30 oC            <h6>Mbura</h6>
             Muiganawamburani 400 – 1200 mm p.a
           </p>
 

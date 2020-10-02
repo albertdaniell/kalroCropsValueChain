@@ -16,7 +16,6 @@ import PlantingPrev from "../Planting/PlantingPrev";
 import PostHarvestingPrev from "../PostHarvesting/PostHarvestingPrev";
 import PrePlantingPrev from "../PrePlanting/PrePlantingPrev";
 import ProcessingPrev from "../Processing/ProcessingPrev";
-import SiteSelectionPrev from "../SiteSelection/SiteSelectionPrev";
 import SoilFertilityPrev from "../SoilFertility/SoilFertilityPrev";
 import StoragePrev from "../Storage/StoragePrev";
 import VarietiesPrev from "../Varieties/VarietiesPrev";
