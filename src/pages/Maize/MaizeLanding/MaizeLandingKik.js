@@ -33,18 +33,16 @@ function MaizeLanding() {
       <AppContainer>
         <AppLeftSideContainer>
             <p>
-                <h5>Overview</h5>
+                <h5>Kiambiriria</h5>
                 <hr></hr>
                
-Maritwamariamahuthagiruo Kenya(Mahindi, Oduma, Bando, Madumwa)  
-
+                Maritwa maria mahuthagiruo Kenya (Mahindi, Oduma, Bando, Madumwa)
             </p>
           <p>
               <h5>Kwa ukuhi</h5>
               <hr></hr>
               
-MbembenimumerawabatabururiiniwaKenya. Ni muthembawairiokurinduririnyingiutumikaga ta iriociaandu, iriociamahiu, guthondeka indo ciakunyuanamicakwe ta nguuciaguota. Mbembenimuthembamiingiitganitekuriganakuriairakurio and mithimbayatiirinaugakoruonamahindamatiganitemagukura. Nariri, mbembeikurgawegatiiriiniutarimaimaingi, winarierariinganu, tiirimurikuwinathumuwakimereranaukongererwothumu. mbembeingikuriowega no igethwotaniigiri o hari acre yamugundaurimitwowega.
-
+              Mbembe ni mumera wa bata bururi ini wa Kenya. Ni muthemba wa irio kuri nduriri nyingiutumikaga ta irio cia andu, irio cia mahiu, guthondeka indo cia kunyua na micakwe ta nguu cia guota. Mbembe ni muthemba miingi itganite kurigana kuria irakurio and mithimba ya tiiri na ugakoruo na mahinda matiganite magukura. Nariri, mbembe ikurga wega tiiri ini utari mai maingi, wina riera riinganu, tiiri muriku wina thumu wa kimerera  na ukongererwo thumu . mbembe ingikurio wega no igethwo tani igiri o hari acre ya mugunda urimitwo wega.
           </p>
           <MyContainer>
             <ImageRow divDim='col-sm-6' src={image1} ></ImageRow>
