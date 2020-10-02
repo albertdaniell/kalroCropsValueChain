@@ -1,5 +1,8 @@
 import React, { useContext,Suspense,lazy } from "react";
 import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
+import { AppContext } from "../../contexts/AppContext/AppContext";
+import EnglishRoute from "../../components/EnglishRoutes/EnglishRoutes";
+import KikuyuRoute from "../../components/KikuyuRoutes/KikuyuRoutes";
 import BeansDiseaseManagementFull from "../../pages/Beans/DiseaseManagement/BeansDiseaseManagementFull";
 const MaizeLanding=React.lazy(()=>import('../../pages/Maize/MaizeLanding/MaizeLanding'));
 const BeansLanding =lazy(()=>import('../../pages/Beans/BeansLanding/BeansLanding'));
@@ -59,167 +62,16 @@ const ScrollToTop =lazy(()=>import("../ScrollToTop/ScrollToTop")) ;
 const Loading =lazy(()=>import("../../components/Loading/Loading")) ;
 
 function MainLayout(props) {
-  return (
-    <>
-      <Router>
-  <Suspense fallback={<div style={{textAlign:'center',marginTop:'40%'}}>Loading App...Plase Wait.</div>}>
-        <ScrollToTop>
-          <Switch>
-            <Route exact path="/" component={MaizeLanding} />
-            <Route
-              exact
-              path="/maizeSiteSelection"
-              component={SiteSelectionFull}
-            />
-            <Route
-              exact
-              path="/maizeLandPreparation"
-              component={LandPreparationFull}
-            />
-            <Route
-              exact
-              path="/maizePreplanting"
-              component={PrePlantingFullFull}
-            />
-            <Route exact path="/maizeVarieties" component={VarietiesFull} />
-            <Route exact path="/maizePlanting" component={PlantingFull} />
-            <Route
-              exact
-              path="/maizeWaterManagement"
-              component={WaterManagementFull}
-            />
-            <Route
-              exact
-              path="/maizeWeedManagement"
-              component={WeedManagementFull}
-            />
-            <Route
-              exact
-              path="/maizeCropManagement"
-              component={CropManagementFull}
-            />
-            <Route
-              exact
-              path="/maizeSoilFertility"
-              component={SoilFertiltyFull}
-            />
-            <Route
-              exact
-              path="/maizePestManagement"
-              component={PestManagementFull}
-            />
-            <Route
-              exact
-              path="/maizeDiseaseManagement"
-              component={DiseaseManagementFull}
-            />
-            <Route exact path="/maizeMaturity" component={MaturityFull} />
-            <Route exact path="/maizeHarvesting" component={HarvestingFull} />
-            <Route exact path="/maizeStorage" component={StorageFull} />
-            <Route
-              exact
-              path="/maizePostHarvest"
-              component={PostHarvestingFull}
-            />
-            <Route exact path="/maizeProcessing" component={ProcessingFull} />
-            
+  const { appLanguage,isloading } = useContext(AppContext);
+  if (appLanguage === "1") {
+    return (
+     <EnglishRoute></EnglishRoute>
+    );
+  } else {
+    return (
+      <KikuyuRoute></KikuyuRoute>
+    );
+  }
 
-            <Route
-              path="/poultryApp"
-              component={() => {
-                window.location.href =
-                  "http://cryptic-plateau-32981.herokuapp.com/";
-                return null;
-              }}
-            />
-
-            <Route
-              path="/dairyGoatApp"
-              component={() => {
-                window.location.href = "https://dairy-goat.herokuapp.com/";
-                return null;
-              }}
-            />
-
-            {/* Beans */}
-            <Route exact path="/beansLanding" component={BeansLanding} />
-            <Route exact path="/beansSiteSelection" component={BeansSiteSelectionFull} />
-            <Route exact path="/beansLandPreparation" component={BeansLandPreparationFull} />
-            <Route exact path="/beansPrePlanting" component={BeansPreplantingFull} />
-            <Route exact path="/beansVarieties" component={BeansVarietiesFull} />
-            <Route exact path="/beansPlanting" component={BeansPlantingFull} />
-            <Route exact path="/beanswaterManagement" component={BeansWaterManagementFull} />
-            <Route exact path="/beansweedManagement" component={BeansWeedManagementFull} />
-            <Route exact path="/beansSoilFertility" component={BeansSoilFertilityFull} />
-            <Route exact path="/beansCropsManagement" component={BeansCropsManagementFull} />
-            <Route exact path="/beansPestsManagement" component={BeansPestManagementFull} />
-            <Route exact path="/beansDiseaseManagement" component={BeansDiseaseManagementFull} />
-            <Route exact path="/beansMaturity" component={BeansMaturityFull} />
-            <Route exact path="/beansHarvesting" component={BeansHarvestingFull} />
-            <Route exact path="/beansStorage" component={BeansStorageFull} />
-
-            {/* Potato routes */}
-            <Route exact path="/potatoLanding" component={PotatoLanding} />
-            <Route exact path="/potatoSiteSelection" component={PotatoeSiteSelectionFull} />
-            <Route exact path="/potatolandPreparation" component={PotatoeLandPreparationFull} />
-            <Route exact path="/potatoPreplanting" component={PotatoePreplantingFull} />
-            <Route exact path="/potatoVariety" component={PotatoVarietyFull} />
-            <Route exact path="/potatoPlanting" component={PotatoePlantingFull} />
-            <Route exact path="/potatowaterManagement" component={PotatoeWaterManagementFull} />
-            <Route exact path="/potatoweedManagement" component={PotatoWeedManagementFul} />
-            <Route exact path="/potatosoilFertility" component={PotatoeSoilFertilityFull} />
-            <Route exact path="/potatoCropManagement" component={PotatoeCropsManagementFull} />
-            <Route exact path="/potatoPestManagement" component={PotatoePestManagementFull} />
-            <Route exact path="/potatoDiseaseManagement" component={PotatoeDiseaseManagementFull} />
-            <Route exact path="/potatoMaturity" component={PotatoeMaturityFull} />
-            <Route exact path="/potatoHarvesting" component={PotatoeHarvestingFull} />
-            <Route exact path="/potatoStorage" component={PotatoeStorageFull} />
-            <Route exact path="/potatopostHarvest" component={PotatoePostHarvestingFull} />
-            <Route exact path="/potatoProcessing" component={PotatoeProcessingFull} />
-
-
-
-
-
-
-
-
-
-            
-
-            
-
-
-
-
-
-
-
-
-
-
-
-
-
-            
-
-
-
-
-
-
-
-
-
-
-
-            <Route path="*" component={ErrorPage} />
-          </Switch>
-        </ScrollToTop>
-        </Suspense>
-      </Router>
-    </>
-  );
 }
-
 export default MainLayout;

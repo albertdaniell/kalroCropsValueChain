@@ -1,12 +1,16 @@
-import React, { useState } from 'react'
+import React, { useContext, useState } from 'react'
 import AppLogo from '../../../layouts/AppLogo/AppLogo'
 import AppNav from '../../../layouts/AppNav/AppNav'
 import Headerimage from '../../../layouts/HeaderImage/Headerimage'
 import Preheader from '../../../layouts/PreHeader/Preheader'
 import image1 from '../../../images/maize2.jpg'
 import OrgLogos from '../../../layouts/OrgLogos/OrgLogos'
+import { AppContext } from '../../../contexts/AppContext/AppContext'
 function MaizeHeader() {
-    const [appName,setAppName]=useState('Maize App');
+    const { appLanguage,isloading } = useContext(AppContext);
+
+    const [appName,setAppName]=useState(appLanguage==='1'?'Maize App': 'Mbembe App')
+    const [appHeader,setappHeader]=useState(appLanguage==='1'?'Maize': 'Mbembe')
     
     return (
         <div>
@@ -14,7 +18,7 @@ function MaizeHeader() {
             <OrgLogos></OrgLogos>
             <AppLogo appName={appName} to='/'></AppLogo>
             <AppNav to='/' appName={appName}></AppNav>
-            <Headerimage pageHeader="Maize" img={image1}></Headerimage>
+            <Headerimage pageHeader={appHeader} img={image1}></Headerimage>
             
         </div>
     )

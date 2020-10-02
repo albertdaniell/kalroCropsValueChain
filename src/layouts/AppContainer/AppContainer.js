@@ -5,6 +5,8 @@ import { AppContext } from "../../contexts/AppContext/AppContext";
 import Footer from "../Footer/Footer";
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faChevronUp } from '@fortawesome/free-solid-svg-icons'
+import LanguageChange from "../LanguageChange/LanguageChange";
+import LanguageSnackMsg from "../LanguageSnackMsg/LanguageSnackMsg";
 
 
 function AppContainer(props) {
@@ -15,8 +17,8 @@ function AppContainer(props) {
       class="container-fluid"
       style={{ marginTop: 0, marginBottom: 50, padding: 20 }}
     >
-      {/* <LanguageChange></LanguageChange>
-      <LanguageSnackMsg></LanguageSnackMsg> */}
+    <LanguageChange></LanguageChange>
+      <LanguageSnackMsg></LanguageSnackMsg>
       <div class="row">
         <BackToTop
           showOnScrollUp
