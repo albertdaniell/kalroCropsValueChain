@@ -32,7 +32,7 @@ const ProcessingFull =lazy(()=>import("../../pages/Maize/Processing/ProcessingFu
 const SiteSelectionFull =lazy(()=>import("../../pages/Maize/SiteSelection/SiteSelectionFullKik")) ;
 const SoilFertiltyFull =lazy(()=>import("../../pages/Maize/SoilFertility/SoilFertilityFull")) ;
 const StorageFull =lazy(()=>import("../../pages/Maize/Storage/StorageFull")) ;
-const VarietiesFull =lazy(()=>import("../../pages/Maize/Varieties/VarietiesFull")) ;
+const VarietiesFull =lazy(()=>import("../../pages/Maize/Varieties/VarietiesFullKik")) ;
 const WaterManagementFull =lazy(()=>import("../../pages/Maize/WaterManagement/WaterManagementFull")) ;
 const WeedManagementFull =lazy(()=>import("../../pages/Maize/WeedManagement/WeedManagementFull")) ;
 const PotatoeCropsManagementFull =lazy(()=>import("../../pages/Potatoe/CropsManagement/PotatoeCropsManagementFull")) ;
