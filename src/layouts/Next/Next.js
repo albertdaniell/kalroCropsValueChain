@@ -9,7 +9,7 @@ function Next(props) {
       
         <Link to={props.to} style={{ color: "white" }}>
           <Button size="medium" variant="outlined" color="primary">
-            Next {props.pageToGo}<i class="fas fa-chevron-right"></i> 
+            Next {props.pageToGo} 
           </Button>
         </Link>
        
