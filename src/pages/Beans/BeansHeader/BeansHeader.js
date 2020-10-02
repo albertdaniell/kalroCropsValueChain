@@ -4,12 +4,14 @@ import AppNav from '../../../layouts/AppNav/AppNav'
 import Headerimage from '../../../layouts/HeaderImage/Headerimage'
 import Preheader from '../../../layouts/PreHeader/Preheader'
 import image1 from '../../../images/beans.jpg'
+import OrgLogos from '../../../layouts/OrgLogos/OrgLogos'
 function BeansHeader() {
     const [appName,setAppName]=useState('Beans App');
     
     return (
         <div>
             <Preheader></Preheader>
+            <OrgLogos></OrgLogos>
             <AppLogo appName={appName} to='/beansLanding'></AppLogo>
             <AppNav to='/beansLanding' appName={appName}></AppNav>
             <Headerimage pageHeader="Beans" img={image1}></Headerimage>
