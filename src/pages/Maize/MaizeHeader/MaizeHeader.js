@@ -4,12 +4,14 @@ import AppNav from '../../../layouts/AppNav/AppNav'
 import Headerimage from '../../../layouts/HeaderImage/Headerimage'
 import Preheader from '../../../layouts/PreHeader/Preheader'
 import image1 from '../../../images/maize2.jpg'
+import OrgLogos from '../../../layouts/OrgLogos/OrgLogos'
 function MaizeHeader() {
     const [appName,setAppName]=useState('Maize App');
     
     return (
         <div>
             <Preheader></Preheader>
+            <OrgLogos></OrgLogos>
             <AppLogo appName={appName} to='/'></AppLogo>
             <AppNav to='/' appName={appName}></AppNav>
             <Headerimage pageHeader="Maize" img={image1}></Headerimage>

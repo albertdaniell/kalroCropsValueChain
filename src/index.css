@@ -10,6 +10,19 @@ body {
   -moz-osx-font-smoothing: grayscale; */
   background-color: #f7f7f7;
 }
+
+#appLogos{
+text-align: center;
+}
+
+#appLogos img{
+height: 80px;
+padding: 10px;
+}
+
+#appLogoimg2{
+  height: 80px;
+}
 strong{
   text-transform: capitalize;
   text-decoration: underline;
@@ -147,7 +160,7 @@ html {
 }
 
 #appLogoDiv {
-  padding: 35px;
+  padding: 15px;
   text-align: center;
 }
 
