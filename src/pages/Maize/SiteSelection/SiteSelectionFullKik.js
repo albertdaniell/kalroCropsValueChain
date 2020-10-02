@@ -15,12 +15,11 @@ function SiteSelectionFull() {
           <p>
             <h5>Guthura ha kuhanda</h5>
             <hr></hr>
-            thurahanduhatarikirurunahenariuariiganunagithimikiamakinyaikumi (10metres) kuumaharibarabaraniunduwakugiririarukungurwagaarinandogo
+            Thura handu hatari kiruru na hena riua riiganu na githimi kia makinya ikumi (10metres) kuumaharibarabaraniunduwakugiririarukungurwagaarinandogo
             <h6>Altitude range</h6>
             Mbembeyendagagithimakiarieramuiganawa 0-2200 maslIrimaini; muigananiro; mikurukuringananamuthemba.  
-            <h6>Soil type and conditions</h6>
-            Mbembeyendagagithimakiarieramuiganawa 0-2200 maslIrimaini; muigananiro; mikurukuringananamuthemba.  
-            <br></br>
+            <h6>Muthembawatiiri</h6>
+            Tiirimuriku, utarimaimaingi, tiiriwa red munoru, uhotakuigamainawinaunoruwakimerera kana nutrients            <br></br>
             pH/ururuwatiri 5.5-7.5. mbembeyendaga fertilizer ici; N, P, K, Mg, Ca, S, Fe, Zn, Mn, B, Cu, Mo, Cl.  
             <h6>urugari</h6>
             urugariwagiriirwogukorwo 25-30 oC            <h6>Mbura</h6>

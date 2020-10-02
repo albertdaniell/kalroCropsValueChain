@@ -7,10 +7,9 @@ function LandPreparationKikPrev() {
     return (
         <div>
             <AppCard>
-                <AppCardHeader>Land Preparation</AppCardHeader>
+                <AppCardHeader>Kuhaririamugunda</AppCardHeader>
                 <AppCardBody to='/maizeLandPreparation'>
-                Add manure and fertilizer with recommendations from soil testing and analysis
-                </AppCardBody>
+                Add ikirathumuna fertilizerkuringananamutaramuwatiiri                </AppCardBody>
             </AppCard>
         </div>
     )
