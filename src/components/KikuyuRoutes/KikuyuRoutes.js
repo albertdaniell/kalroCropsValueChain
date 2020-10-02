@@ -21,13 +21,13 @@ const BeansWeedManagementFull =lazy(()=>import("../../pages/Beans/WeedManagement
 const CropManagementFull =lazy(()=>import("../../pages/Maize/CropsManagement/CropManagementFull")) ;
 const DiseaseManagementFull =lazy(()=>import( "../../pages/Maize/DiseaseManagement/DiseaseManagementFull"));
 const HarvestingFull =lazy(()=>import("../../pages/Maize/Harvesting/HarvestingFull")) ;
-const LandPreparationFull =lazy(()=>import("../../pages/Maize/LandPreparation/LandPreparationFull")) ;
+const LandPreparationFull =lazy(()=>import("../../pages/Maize/LandPreparation/LandPreparationFullKik")) ;
 
 const MaturityFull =lazy(()=>import("../../pages/Maize/Maturity/MaturityFull")) ;
 const PestManagementFull =lazy(()=>import("../../pages/Maize/PestManagement/PestManagementFull")) ;
 const PlantingFull =lazy(()=>import( "../../pages/Maize/Planting/PlantingFull"));
 const PostHarvestingFull =lazy(()=>import("../../pages/Maize/PostHarvesting/PostHarvestingFull")) ;
-const PrePlantingFullFull =lazy(()=>import("../../pages/Maize/PrePlanting/PrePlantingFull")) ;
+const PrePlantingFullFull =lazy(()=>import("../../pages/Maize/PrePlanting/PrePlantingFullKik")) ;
 const ProcessingFull =lazy(()=>import("../../pages/Maize/Processing/ProcessingFull")) ;
 const SiteSelectionFull =lazy(()=>import("../../pages/Maize/SiteSelection/SiteSelectionFullKik")) ;
 const SoilFertiltyFull =lazy(()=>import("../../pages/Maize/SoilFertility/SoilFertilityFull")) ;

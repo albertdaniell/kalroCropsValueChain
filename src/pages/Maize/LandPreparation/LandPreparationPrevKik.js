@@ -9,7 +9,7 @@ function LandPreparationKikPrev() {
             <AppCard>
                 <AppCardHeader>Kuhaririamugunda</AppCardHeader>
                 <AppCardBody to='/maizeLandPreparation'>
-                Add ikirathumuna fertilizerkuringananamutaramuwatiiri                </AppCardBody>
+                Add ikira thumu na fertilizer kuringana na mutaramu wa tiiri               </AppCardBody>
             </AppCard>
         </div>
     )
