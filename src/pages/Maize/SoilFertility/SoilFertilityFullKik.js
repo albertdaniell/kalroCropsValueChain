@@ -3,39 +3,41 @@ import MaizeSideMenu from "../../../components/MaizeSideMenu/MaizeSideMenu";
 import AppContainer from "../../../layouts/AppContainer/AppContainer";
 import AppLeftSideContainer from "../../../layouts/AppLeftSideContainer/AppLeftSideContainer";
 import AppRightSideContainer from "../../../layouts/AppRightSideContainer/AppRightSideContainer";
+import CropsManagementPrev from "../CropsManagement/CropsManagementPrev";
+import CropsManagementPrevKik from "../CropsManagement/CropsManagementPrevKik";
 import LandPreparationPrev from "../LandPreparation/LandPreparationPrev";
 import MaizeHeader from "../MaizeHeader/MaizeHeader";
 import PlantingPrev from "../Planting/PlantingPrev";
 import PrePlantingPrev from "../PrePlanting/PrePlantingPrev";
+import SoilFertilityPrev from "../SoilFertility/SoilFertilityPrev";
 import VarietiesPrev from "../Varieties/VarietiesPrev";
 import WeedManagementPrev from "../WeedManagement/WeedManagementPrev";
 
-function WaterManagementFull() {
+function SoilFertiltyFullKik() {
   return (
     <div>
       <MaizeHeader></MaizeHeader>
       <AppContainer>
         <AppLeftSideContainer>
           <p>
-            <h5>Water Management</h5>
+            <h5>Unoru wa tiiri </h5>
             <hr></hr>
-            1st weeding is done 3-4 weeks after germination and 2nd weeding done just before topdressing
-
+            Ongerera nutrients iria irag tiiri ini na ugerie urimi wina umenyeri wa tiiri
+ 
             <ul>
+             <li> Menyerera ugima mwega wa tiiri niundu wa magetha maingi</li>
               <li>
-                Maize is rain fed and irrigated if necessary, by adopting more
-                efficient micro-irrigation methods such as drip
+              Ika uthuthuria wa tiiri mbere ya guikira thumu
               </li>
               <li>
-                Irrigating the fields early in the morning, late in the evening
-                or at night but never during full sunshine
+              Rima rimi wina umenyeri wa tiiri , utekugiurania tiiri muno, kuhubira tiiri, gucenjania mimea na umenyerere tiiri muno
               </li>
             </ul>
           </p>
 
           <p>
             <h6>Next</h6>
-            <WeedManagementPrev></WeedManagementPrev>
+            <CropsManagementPrevKik></CropsManagementPrevKik>
           </p>
         </AppLeftSideContainer>
         <AppRightSideContainer>
@@ -46,4 +48,4 @@ function WaterManagementFull() {
   );
 }
 
-export default WaterManagementFull;
+export default SoilFertiltyFullKik;

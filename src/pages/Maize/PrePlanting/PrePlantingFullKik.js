@@ -11,6 +11,7 @@ import PrePlantingPrev from "../PrePlanting/PrePlantingPrev";
 import VarietiesPrev from "../Varieties/VarietiesPrev";
 import image1 from '../../../images/maize/2a.jpg'
 import image2 from '../../../images/maize/2b.jpg'
+import VarietiesPrevKik from "../Varieties/VarietiesPrevKik";
 
 
 function PrePlantingFullFull() {
@@ -42,7 +43,7 @@ function PrePlantingFullFull() {
 
           <p>
             <h6>Next</h6>
-            <VarietiesPrev></VarietiesPrev>
+            <VarietiesPrevKik></VarietiesPrevKik>
           </p>
         </AppLeftSideContainer>
         <AppRightSideContainer>

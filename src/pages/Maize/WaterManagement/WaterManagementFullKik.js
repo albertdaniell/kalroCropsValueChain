@@ -9,6 +9,7 @@ import PlantingPrev from "../Planting/PlantingPrev";
 import PrePlantingPrev from "../PrePlanting/PrePlantingPrev";
 import VarietiesPrev from "../Varieties/VarietiesPrev";
 import WeedManagementPrev from "../WeedManagement/WeedManagementPrev";
+import WeedManagementPrevKik from "../WeedManagement/WeedManagementPrevKik";
 
 function WaterManagementFullKik() {
   return (
@@ -32,7 +33,7 @@ function WaterManagementFullKik() {
 
           <p>
             <h6>Next</h6>
-            <WeedManagementPrev></WeedManagementPrev>
+            <WeedManagementPrevKik></WeedManagementPrevKik>
           </p>
         </AppLeftSideContainer>
         <AppRightSideContainer>

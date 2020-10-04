@@ -3,7 +3,7 @@ import MaizeSideMenu from "../../../components/MaizeSideMenu/MaizeSideMenu";
 import AppContainer from "../../../layouts/AppContainer/AppContainer";
 import AppLeftSideContainer from "../../../layouts/AppLeftSideContainer/AppLeftSideContainer";
 import AppRightSideContainer from "../../../layouts/AppRightSideContainer/AppRightSideContainer";
-import LandPreparationPrev from "../LandPreparation/LandPreparationPrev";
+
 import MaizeHeader from "../MaizeHeader/MaizeHeader";
 import PrePlantingPrev from "../PrePlanting/PrePlantingPrev";
 

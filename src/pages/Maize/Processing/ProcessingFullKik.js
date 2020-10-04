@@ -3,37 +3,29 @@ import MaizeSideMenu from "../../../components/MaizeSideMenu/MaizeSideMenu";
 import AppContainer from "../../../layouts/AppContainer/AppContainer";
 import AppLeftSideContainer from "../../../layouts/AppLeftSideContainer/AppLeftSideContainer";
 import AppRightSideContainer from "../../../layouts/AppRightSideContainer/AppRightSideContainer";
+import Next from "../../../layouts/Next/Next";
 
 import MaizeHeader from "../MaizeHeader/MaizeHeader";
 
-import StoragePrev from "../Storage/StoragePrev";
 
-
-function HarvestingFull() {
+function ProcessingFullKik() {
   return (
     <div>
       <MaizeHeader></MaizeHeader>
       <AppContainer>
         <AppLeftSideContainer>
           <p>
-            <h5>Harvesting</h5>
+            <h5>Mutatara wa muigire  </h5>
             <hr></hr>
          
-            Harvesting by cutting and stalking to enhance drying and prevent pathogen infestation
-
-
-            <ul>
-                <li>Harvesting is done when the crop reaches harvest maturity 10 to 15 days after physiological maturity</li>
-                <li>Harvesting is done by cutting and stalking to enhance drying, make it easy to harvest and to prevent pathogen infestation</li>
-                <li>Harvest by de-husking.</li>
-            
-      
-            </ul>
+            Gitira mbuca, kuguma (aflatoxin) na igunyo ukiumithia na urugari wina mai ma (13-14% moisture)
+ <br>
+</br>
+Thuura mbebe iria njoru, iria cina rangi na iria ndure, Inga bembe ciaku na ikunia ritairingiria riera(airtight bags) kana ikumbu ria mabati(metallic silos) na uhinyihie kuhithira dawa cia tutambi
           </p>
 
           <p>
-            <h6>Next</h6>
-     <StoragePrev></StoragePrev>
+          <Next pageToGo='Beans' to='/beansLanding'></Next>
           </p>
         </AppLeftSideContainer>
         <AppRightSideContainer>
@@ -44,4 +36,4 @@ function HarvestingFull() {
   );
 }
 
-export default HarvestingFull;
+export default ProcessingFullKik;

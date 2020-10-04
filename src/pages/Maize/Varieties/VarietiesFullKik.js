@@ -7,6 +7,7 @@ import LandPreparationPrev from "../LandPreparation/LandPreparationPrev";
 import MaizeHeader from "../MaizeHeader/MaizeHeader";
 import PlantingPrev from "../Planting/PlantingPrev";
 import PrePlantingPrev from "../PrePlanting/PrePlantingPrev";
+import PrePlantingPrevKik from "../PrePlanting/PrePlantingPrevKik";
 import VarietiesPrev from "../Varieties/VarietiesPrev";
 
 function VarietiesFull() {
@@ -26,7 +27,7 @@ function VarietiesFull() {
 
           <p>
             <h6>Next</h6>
-            <PlantingPrev></PlantingPrev>
+            <PrePlantingPrevKik></PrePlantingPrevKik>
           </p>
         </AppLeftSideContainer>
         <AppRightSideContainer>

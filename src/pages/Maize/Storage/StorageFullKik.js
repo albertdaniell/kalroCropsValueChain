@@ -7,25 +7,28 @@ import AppRightSideContainer from "../../../layouts/AppRightSideContainer/AppRig
 import MaizeHeader from "../MaizeHeader/MaizeHeader";
 
 import StoragePrev from "../Storage/StoragePrev";
+import StoragePrevKik from "./StoragePrevKik";
 
 
-function HarvestingFull() {
+function StorageFullKik() {
   return (
     <div>
       <MaizeHeader></MaizeHeader>
       <AppContainer>
         <AppLeftSideContainer>
           <p>
-            <h5>Harvesting</h5>
+            <h5>Kiuga/ muigire </h5>
             <hr></hr>
          
-            Harvesting by cutting and stalking to enhance drying and prevent pathogen infestation
-
+            Inga bembe ciaku na ikunia ritairingiria riera(airtight bags) kana ikumbu ria mabati(metallic silos) na uhinyihie kuhithira dawa cia tutambi
 
             <ul>
-                <li>Harvesting is done when the crop reaches harvest maturity 10 to 15 days after physiological maturity</li>
-                <li>Harvesting is done by cutting and stalking to enhance drying, make it easy to harvest and to prevent pathogen infestation</li>
-                <li>Harvest by de-husking.</li>
+                <li>Kua mbembe kuma mugunda kinya ha guthaduririra ugitumire indo theru.</li>
+                <li>Anika mbebe ciume mbere ya guthandura</li>
+                <li>Huha niguo urute rukungu na mahuti.</li>
+                <li>
+                Ni undu wa kumenyerera tutambi umithia mbemba na uigu wa kuuma (13 -14% moisture content) niundu wa kugiriria gwatuka gwa mbembe na kubutha itigakorwo na thumu wa aflotoxin
+                </li>
             
       
             </ul>
@@ -33,7 +36,7 @@ function HarvestingFull() {
 
           <p>
             <h6>Next</h6>
-     <StoragePrev></StoragePrev>
+     <StoragePrevKik></StoragePrevKik>
           </p>
         </AppLeftSideContainer>
         <AppRightSideContainer>
@@ -44,4 +47,4 @@ function HarvestingFull() {
   );
 }
 
-export default HarvestingFull;
+export default StorageFullKik;

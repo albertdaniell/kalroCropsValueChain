@@ -29,6 +29,7 @@ import image13 from '../../../images/maize/5g.jpg'
 import image14 from '../../../images/maize/5h.jpg'
 import image15 from '../../../images/maize/5i.jpg'
 import image16 from '../../../images/maize/5j.jpg'
+import DiseaseManagementPrevKik from "../DiseaseManagement/DiseaseManagementPrevKik";
 
 
 
@@ -41,34 +42,33 @@ function PestManagementFull() {
       <AppContainer>
         <AppLeftSideContainer>
           <p>
-            <h5>Pests Management</h5>
+            <h5>Kuhurana na tutambi </h5>
             <hr></hr>
          
-            Pests include, Fall Armyworm, Armyworm, Maize stalk borer, Termites, Cutworms, Leaf miner, Moths, Beetles, Thrips, Grasshopper, Rodents, Weevils and Larger grain borer
-
-            <h6>Pests include</h6>
-            Fall Armyworm (Spodoptera frugiperda), Armyworm (Spodoptera exempta), Maize stalk borer (Busseola fusca), Termites, Cutworms, Leaf miner, Moths, Beetles, Thrips, Grasshopper, Rodents (rats and mice), Weevils (Sytophylus zeameis) and Larger grain borer (Prostephanus truncatus).
-</p>
+            Tutambi na inguyo mithemba miingi ta: mbucha, muthua, ndaahi na ingi nyingi
+ 
+            <h6>Tutambi ni ta;</h6>
+            Fall Armyworm (Spodoptera frugiperda), Armyworm (Spodoptera exempta), Maize stalk borer (Busseola fusca), Termites, Cutworms, Leaf miner, Moths, Beetles, Thrips, Grasshopper, Rodents (rats and mice), Weevils (Sytophylus zeameis) and Larger grain borer (Prostephanus truncatus).  </p>
 
 <MyContainer>
             <ImageRow caption='Fall Armyworm' divDim='col-sm-3' src={image1} ></ImageRow>
-            <ImageRow caption='Armyworm' divDim='col-sm-3' src={image2} ></ImageRow>
+            <ImageRow caption='Fall Armyworm' divDim='col-sm-3' src={image2} ></ImageRow>
             <ImageRow caption='Maize stalk borer' divDim='col-sm-3' src={image4} ></ImageRow>
 
           </MyContainer>
 
           <MyContainer>
             <ImageRow caption='Fall Armyworm' divDim='col-sm-4' src={image5} ></ImageRow>
-            <ImageRow caption='Armyworm' divDim='col-sm-4' src={image6} ></ImageRow>
+            <ImageRow caption='Nguua' divDim='col-sm-4' src={image6} ></ImageRow>
             <ImageRow caption='Maize stalk borer' divDim='col-sm-4' src={image7} ></ImageRow>
             
 
           </MyContainer>
 
           <MyContainer>
-            <ImageRow caption='Termites' divDim='col-sm-4' src={image8} ></ImageRow>
-            <ImageRow caption='Termites' divDim='col-sm-4' src={image9} ></ImageRow>
-            <ImageRow caption='Termites' divDim='col-sm-4' src={image10} ></ImageRow>
+            <ImageRow caption='Muthua' divDim='col-sm-4' src={image8} ></ImageRow>
+            <ImageRow caption='Muthua' divDim='col-sm-4' src={image9} ></ImageRow>
+            <ImageRow caption='Muthua' divDim='col-sm-4' src={image10} ></ImageRow>
             
 
           </MyContainer>
@@ -83,7 +83,7 @@ function PestManagementFull() {
           </MyContainer>
 
           <MyContainer>
-            <ImageRow caption='Weevils' divDim='col-sm-4' src={image14} ></ImageRow>
+            <ImageRow caption='mbuca' divDim='col-sm-4' src={image14} ></ImageRow>
             <ImageRow caption='Larger grain borer' divDim='col-sm-4' src={image15} ></ImageRow>
             <ImageRow caption='Larger grain borer' divDim='col-sm-4' src={image16} ></ImageRow>
             
@@ -92,23 +92,23 @@ function PestManagementFull() {
 
 <p>
 
-            <h6>Pest Control strategy</h6>
+            <h6>Mutaratara wa kugiriria tutambi</h6>
 
             <ul>
-                <li>Field sanitation and store hygiene</li>
-                <li>Plant and harvest early</li>
-                <li>Rogueing</li>
+                <li>Kuhiha ci mugunda na muigere wa mbembe mutheru</li>
+                <li>Kuhanda na kugetha tene</li>
+                <li>Kurinda mbembe</li>
                 <li>Crop rotation</li>
-                <li>Push-pull technology and use of natural enemies</li>
-                <li>Rat traps</li>
-                <li>Use of appropriate insecticides as recommended by experts </li>
+                <li>Gucenjania mimea na imera</li>
+                <li>Gutega mbia</li>
+                <li>Huthira dawa hitukie ni mutaramu kuiga mbebe </li>
 
             </ul>
           </p>
 
           <p>
             <h6>Next</h6>
-      <DiseaseManagementPrev></DiseaseManagementPrev>
+      <DiseaseManagementPrevKik></DiseaseManagementPrevKik>
           </p>
         </AppLeftSideContainer>
         <AppRightSideContainer>

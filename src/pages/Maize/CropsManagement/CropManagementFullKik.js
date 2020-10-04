@@ -3,39 +3,44 @@ import MaizeSideMenu from "../../../components/MaizeSideMenu/MaizeSideMenu";
 import AppContainer from "../../../layouts/AppContainer/AppContainer";
 import AppLeftSideContainer from "../../../layouts/AppLeftSideContainer/AppLeftSideContainer";
 import AppRightSideContainer from "../../../layouts/AppRightSideContainer/AppRightSideContainer";
+import CropsManagementPrev from "../CropsManagement/CropsManagementPrev";
 import LandPreparationPrev from "../LandPreparation/LandPreparationPrev";
 import MaizeHeader from "../MaizeHeader/MaizeHeader";
+import PestManagementPrev from "../PestManagement/PestManagementPrev";
+import PestManagementPrevKik from "../PestManagement/PestManagementPrevKik";
 import PlantingPrev from "../Planting/PlantingPrev";
 import PrePlantingPrev from "../PrePlanting/PrePlantingPrev";
+import SoilFertilityPrev from "../SoilFertility/SoilFertilityPrev";
 import VarietiesPrev from "../Varieties/VarietiesPrev";
 import WeedManagementPrev from "../WeedManagement/WeedManagementPrev";
 
-function WaterManagementFull() {
+function CropManagementFullKik() {
   return (
     <div>
       <MaizeHeader></MaizeHeader>
       <AppContainer>
         <AppLeftSideContainer>
           <p>
-            <h5>Water Management</h5>
+            <h5>                Umenyereri wa mumea </h5>
             <hr></hr>
-            1st weeding is done 3-4 weeks after germination and 2nd weeding done just before topdressing
+            Ongerera fertilizer ciakinya maruini (knee level), itiriria mai kungihoteka, Giriria tutambi na gutukania na mimera ta Desmodium uncinatum
 
             <ul>
               <li>
-                Maize is rain fed and irrigated if necessary, by adopting more
-                efficient micro-irrigation methods such as drip
+              (Thinning), munya mumea uria utari na hinya thutha  thiku 14 thuta wa kuongerera fertilizer
               </li>
               <li>
-                Irrigating the fields early in the morning, late in the evening
-                or at night but never during full sunshine
+              Huthira mitaratara ya unduire handu-ini ha dawa cia mimera
+              </li>
+              <li>
+              Tukania mbebe na  muthemba wa mahuti niundu wa kumenyerera mbegu ndikaroote irege kumera.
               </li>
             </ul>
           </p>
 
           <p>
             <h6>Next</h6>
-            <WeedManagementPrev></WeedManagementPrev>
+            <PestManagementPrevKik></PestManagementPrevKik>
           </p>
         </AppLeftSideContainer>
         <AppRightSideContainer>
@@ -46,4 +51,4 @@ function WaterManagementFull() {
   );
 }
 
-export default WaterManagementFull;
+export default CropManagementFullKik;

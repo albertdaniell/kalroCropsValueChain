@@ -4,28 +4,29 @@ import AppContainer from "../../../layouts/AppContainer/AppContainer";
 import AppLeftSideContainer from "../../../layouts/AppLeftSideContainer/AppLeftSideContainer";
 import AppRightSideContainer from "../../../layouts/AppRightSideContainer/AppRightSideContainer";
 
+
 import MaizeHeader from "../MaizeHeader/MaizeHeader";
 
 import StoragePrev from "../Storage/StoragePrev";
+import StoragePrevKik from "../Storage/StoragePrevKik";
 
 
-function HarvestingFull() {
+function HarvestingFullKik() {
   return (
     <div>
       <MaizeHeader></MaizeHeader>
       <AppContainer>
         <AppLeftSideContainer>
           <p>
-            <h5>Harvesting</h5>
+            <h5>Kugetha</h5>
             <hr></hr>
          
-            Harvesting by cutting and stalking to enhance drying and prevent pathogen infestation
-
+            Getha mbebe na gutema wohe maja nigetha mbembe ciume niundu kugiriria kuguma 
 
             <ul>
-                <li>Harvesting is done when the crop reaches harvest maturity 10 to 15 days after physiological maturity</li>
-                <li>Harvesting is done by cutting and stalking to enhance drying, make it easy to harvest and to prevent pathogen infestation</li>
-                <li>Harvest by de-husking.</li>
+                <li>Getha mumera wakura thutha thiku 10 ngiya 15 thutha wa kuona mbembe ni guru</li>
+                <li>Getha mbebe na gutema wohe maja nigetha mbembe ciume niundu kugiriria kuguma</li>
+                <li>Getha na gukonyora.</li>
             
       
             </ul>
@@ -33,7 +34,7 @@ function HarvestingFull() {
 
           <p>
             <h6>Next</h6>
-     <StoragePrev></StoragePrev>
+     <StoragePrevKik></StoragePrevKik>
           </p>
         </AppLeftSideContainer>
         <AppRightSideContainer>
@@ -44,4 +45,4 @@ function HarvestingFull() {
   );
 }
 
-export default HarvestingFull;
+export default HarvestingFullKik;

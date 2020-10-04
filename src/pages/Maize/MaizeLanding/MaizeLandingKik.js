@@ -5,28 +5,24 @@ import AppLeftSideContainer from "../../../layouts/AppLeftSideContainer/AppLeftS
 import AppRightSideContainer from "../../../layouts/AppRightSideContainer/AppRightSideContainer";
 import ImageRow from "../../../layouts/Container/ImageRow";
 import MyContainer from "../../../layouts/Container/MyContainer";
-import CropsManagementPrev from "../CropsManagement/CropsManagementPrev";
-import DiseaseManagementPrev from "../DiseaseManagement/DiseaseManagementPrev";
-import HarvestingPrev from "../Harvesting/HarvestingPrev";
 import LandPreparationPrevKik from "../LandPreparation/LandPreparationPrevKik";
 import MaizeHeader from "../MaizeHeader/MaizeHeader";
-import MaturityPrev from "../Maturity/MaturityPrev";
-import PestManagementPrev from "../PestManagement/PestManagementPrev";
-import PlantingPrev from "../Planting/PlantingPrev";
-import PostHarvestingPrev from "../PostHarvesting/PostHarvestingPrev";
-import PrePlantingPrev from "../PrePlanting/PrePlantingPrevKik";
-import ProcessingPrev from "../Processing/ProcessingPrev";
-import SoilFertilityPrev from "../SoilFertility/SoilFertilityPrev";
-import StoragePrev from "../Storage/StoragePrev";
-import VarietiesPrev from "../Varieties/VarietiesPrev";
-import WaterManagementPrev from "../WaterManagement/WaterManagementPrev";
-import WeedManagementPrev from "../WeedManagement/WeedManagementPrev";
+import PestManagementPrevKik from "../PestManagement/PestManagementPrevKik";
 import image1 from '../../../images/maize/1a.jpg'
 import image2 from '../../../images/maize/1b.jpg'
-import SiteSelectionKikPrev from "../SiteSelection/SiteSelectionPrevKik";
 import VarietiesPrevKik from "../Varieties/VarietiesPrevKik";
 import PrePlantingPrevKik from "../PrePlanting/PrePlantingPrevKik";
 import SiteSelectionKikPrevKik from "../SiteSelection/SiteSelectionPrevKik";
+import WaterManagementPrevKik from "../WaterManagement/WaterManagementPrevKik";
+import WeedManagementPrevKik from "../WeedManagement/WeedManagementPrevKik";
+import SoilFertilityPrevKik from "../SoilFertility/SoilFertilityPrevKik";
+import CropsManagementPrevKik from "../CropsManagement/CropsManagementPrevKik";
+import DiseaseManagementPrevKik from "../DiseaseManagement/DiseaseManagementPrevKik";
+import MaturityPrevKik from "../Maturity/MaturityPrevKik";
+import HarvestingPrevKik from "../Harvesting/HarvestingPrevKik";
+import StoragePrevKik from "../Storage/StoragePrevKik";
+import PostHarvestingPrevKik from "../PostHarvesting/PostHarvestingPrevKik";
+import ProcessingPrevKik from "../Processing/ProcessingPrevKik";
 
 
 function MaizeLanding() {
@@ -57,18 +53,18 @@ function MaizeLanding() {
               <LandPreparationPrevKik></LandPreparationPrevKik>
               <PrePlantingPrevKik></PrePlantingPrevKik>
               <VarietiesPrevKik></VarietiesPrevKik>
-              <PlantingPrev></PlantingPrev>
-              <WaterManagementPrev></WaterManagementPrev>
-              <WeedManagementPrev></WeedManagementPrev>
-              <SoilFertilityPrev></SoilFertilityPrev>
-              <CropsManagementPrev></CropsManagementPrev>
-              <PestManagementPrev></PestManagementPrev>
-              <DiseaseManagementPrev></DiseaseManagementPrev>
-              <MaturityPrev></MaturityPrev>
-              <HarvestingPrev></HarvestingPrev>
-              <StoragePrev></StoragePrev>
-              <PostHarvestingPrev></PostHarvestingPrev>
-              <ProcessingPrev></ProcessingPrev>
+              <PrePlantingPrevKik></PrePlantingPrevKik>
+              <WaterManagementPrevKik></WaterManagementPrevKik>
+              <WeedManagementPrevKik></WeedManagementPrevKik>
+              <SoilFertilityPrevKik></SoilFertilityPrevKik>
+              <CropsManagementPrevKik></CropsManagementPrevKik>
+              <PestManagementPrevKik></PestManagementPrevKik>
+              <DiseaseManagementPrevKik></DiseaseManagementPrevKik>
+              <MaturityPrevKik></MaturityPrevKik>
+              <HarvestingPrevKik></HarvestingPrevKik>
+              <StoragePrevKik></StoragePrevKik>
+              <PostHarvestingPrevKik></PostHarvestingPrevKik>
+              <ProcessingPrevKik></ProcessingPrevKik>
           </p>
         </AppLeftSideContainer>
         <AppRightSideContainer>

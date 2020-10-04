@@ -3,39 +3,41 @@ import MaizeSideMenu from "../../../components/MaizeSideMenu/MaizeSideMenu";
 import AppContainer from "../../../layouts/AppContainer/AppContainer";
 import AppLeftSideContainer from "../../../layouts/AppLeftSideContainer/AppLeftSideContainer";
 import AppRightSideContainer from "../../../layouts/AppRightSideContainer/AppRightSideContainer";
+import DiseaseManagementPrev from "../DiseaseManagement/DiseaseManagementPrev";
+import HarvestingPrev from "../Harvesting/HarvestingPrev";
+import HarvestingPrevKik from "../Harvesting/HarvestingPrevKik";
 import LandPreparationPrev from "../LandPreparation/LandPreparationPrev";
 import MaizeHeader from "../MaizeHeader/MaizeHeader";
+import MaturityPrev from "../Maturity/MaturityPrev";
 import PlantingPrev from "../Planting/PlantingPrev";
 import PrePlantingPrev from "../PrePlanting/PrePlantingPrev";
+import SoilFertilityPrev from "../SoilFertility/SoilFertilityPrev";
 import VarietiesPrev from "../Varieties/VarietiesPrev";
 import WeedManagementPrev from "../WeedManagement/WeedManagementPrev";
 
-function WaterManagementFull() {
+function MaturityFullKik() {
   return (
     <div>
       <MaizeHeader></MaizeHeader>
       <AppContainer>
         <AppLeftSideContainer>
           <p>
-            <h5>Water Management</h5>
+            <h5>Gukura</h5>
             <hr></hr>
-            1st weeding is done 3-4 weeks after germination and 2nd weeding done just before topdressing
+         
+            Mbembe ikura na ihinda rai 4 ngiya 9 thutha wa kunda kuringana na muthemba na kuria irakura  
+ 
+ 
+<br></br>
+Mbembe ikura na ihinda rai 4 ngiya 9 thutha wa kunda kuringana na muthemba na kuria irakura  
+ 
+ 
 
-            <ul>
-              <li>
-                Maize is rain fed and irrigated if necessary, by adopting more
-                efficient micro-irrigation methods such as drip
-              </li>
-              <li>
-                Irrigating the fields early in the morning, late in the evening
-                or at night but never during full sunshine
-              </li>
-            </ul>
           </p>
 
           <p>
             <h6>Next</h6>
-            <WeedManagementPrev></WeedManagementPrev>
+    <HarvestingPrevKik></HarvestingPrevKik>
           </p>
         </AppLeftSideContainer>
         <AppRightSideContainer>
@@ -46,4 +48,4 @@ function WaterManagementFull() {
   );
 }
 
-export default WaterManagementFull;
+export default MaturityFullKik;

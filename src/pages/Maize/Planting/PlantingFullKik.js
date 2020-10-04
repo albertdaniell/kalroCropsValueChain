@@ -9,6 +9,7 @@ import PlantingPrev from "../Planting/PlantingPrev";
 import PrePlantingPrev from "../PrePlanting/PrePlantingPrev";
 import VarietiesPrev from "../Varieties/VarietiesPrev";
 import WaterManagementPrev from "../WaterManagement/WaterManagementPrev";
+import WaterManagementPrevKik from "../WaterManagement/WaterManagementPrevKik";
 
 function PlantingFullKik() {
   return (
@@ -40,7 +41,7 @@ Kayongo
 
           <p>
             <h6>Next</h6>
-            <WaterManagementPrev></WaterManagementPrev>
+            <WaterManagementPrevKik></WaterManagementPrevKik>
           </p>
         </AppLeftSideContainer>
         <AppRightSideContainer>
