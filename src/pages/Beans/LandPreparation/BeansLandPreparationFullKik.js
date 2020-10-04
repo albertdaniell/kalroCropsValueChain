@@ -7,6 +7,7 @@ import AppRightSideContainer from "../../../layouts/AppRightSideContainer/AppRig
 import BeansHeader from "../BeansHeader/BeansHeader";
 import BeansLandPreparation from "../LandPreparation/BeansLandPreparation";
 import BeansPrePlanting from "../PrePlanting/BeansPrePlanting";
+import BeansPrePlantingKik from "../PrePlanting/BeansPrePlantingKik";
 
 function BeansLandPreparationFullKik() {
   return (
@@ -19,7 +20,7 @@ function BeansLandPreparationFullKik() {
             <hr></hr>
             Ndukarime muno niundu wa kunyihia thogora na kumenyerera tiiri, mai na  unoru na unyihie wira. 
 
-            <h6>Steps during land preparation</h6>
+            <h6>Makinya ma kuhariria</h6>
             <ul>
               <li>
               Tuguta na uhande ugitumira indo cia urimi iria ciagiriire
@@ -42,7 +43,7 @@ function BeansLandPreparationFullKik() {
 
           <p>
             <h6>Next</h6>
-            <BeansPrePlanting></BeansPrePlanting>
+            <BeansPrePlantingKik></BeansPrePlantingKik>
           </p>
         </AppLeftSideContainer>
         <AppRightSideContainer>

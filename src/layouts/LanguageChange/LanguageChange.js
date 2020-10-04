@@ -3,7 +3,7 @@ import Button from "@material-ui/core/Button";
 import Menu from "@material-ui/core/Menu";
 import MenuItem from "@material-ui/core/MenuItem";
 import { AppContext } from "../../contexts/AppContext/AppContext";
-
+import TranslateIcon from '@material-ui/icons/Translate';
 function LanguageChange() {
   const {
     saveOfflineLanguage,
@@ -31,7 +31,7 @@ function LanguageChange() {
           aria-haspopup="true"
           onClick={handleClick}
         >
-          <i className="fa fa-language fa-1x" style={{ margin: 10 }}></i> ENG
+       <TranslateIcon style={{marginRight:10}}/> ENG
         </Button>
         <Menu
           id="simple-menu"
@@ -71,7 +71,7 @@ function LanguageChange() {
           aria-haspopup="true"
           onClick={handleClick}
         >
-          <i className="fa fa-language fa-1x" style={{ margin: 10 }}></i> KIK
+     <TranslateIcon style={{marginRight:10}}/> KIK
         </Button>
         <Menu
           id="simple-menu"

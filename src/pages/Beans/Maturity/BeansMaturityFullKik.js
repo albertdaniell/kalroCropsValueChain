@@ -6,6 +6,7 @@ import AppLeftSideContainer from "../../../layouts/AppLeftSideContainer/AppLeftS
 import AppRightSideContainer from "../../../layouts/AppRightSideContainer/AppRightSideContainer";
 import BeansHeader from "../BeansHeader/BeansHeader";
 import BeansHarvestingPrev from "../Harvesting/BeansHarvestingPrev";
+import BeansHarvestingPrevKik from "../Harvesting/BeansHarvestingPrevKik";
 
 
 function BeansMaturityFullKik() {
@@ -38,7 +39,7 @@ function BeansMaturityFullKik() {
 
           <p>
             <h6>Next</h6>
-            <BeansHarvestingPrev></BeansHarvestingPrev>
+            <BeansHarvestingPrevKik></BeansHarvestingPrevKik>
           </p>
         </AppLeftSideContainer>
         <AppRightSideContainer>

@@ -7,11 +7,12 @@ import AppRightSideContainer from "../../../layouts/AppRightSideContainer/AppRig
 import BeansHeader from "../BeansHeader/BeansHeader";
 import BeansLandPreparation from "../LandPreparation/BeansLandPreparation";
 import BeansPlanting from "../Planting/BeansPlanting";
+import BeansPlantingKik from "../Planting/BeansPlantingKik";
 import BeansWaterManagement from "../WaterManagement/BeansWaterManagement";
 
 
 
-function BeansVarietiesFull() {
+function BeansVarietiesFullKik() {
   return (
     <div>
       <BeansHeader></BeansHeader>
@@ -34,7 +35,7 @@ function BeansVarietiesFull() {
 
           <p>
             <h6>Next</h6>
-            <BeansWaterManagement></BeansWaterManagement>
+            <BeansPlantingKik></BeansPlantingKik>
           </p>
         </AppLeftSideContainer>
         <AppRightSideContainer>
@@ -45,4 +46,4 @@ function BeansVarietiesFull() {
   );
 }
 
-export default BeansVarietiesFull
+export default BeansVarietiesFullKik

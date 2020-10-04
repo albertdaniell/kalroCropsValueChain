@@ -6,6 +6,7 @@ import AppLeftSideContainer from "../../../layouts/AppLeftSideContainer/AppLeftS
 import AppRightSideContainer from "../../../layouts/AppRightSideContainer/AppRightSideContainer";
 import BeansHeader from "../BeansHeader/BeansHeader";
 import BeansDiseaseManagementPrev from "../DiseaseManagement/BeansDiseaseManagementPrev";
+import BeansDiseaseManagementPrevKik from "../DiseaseManagement/BeansDiseaseManagementPrevKik";
 import BeansLandPreparation from "../LandPreparation/BeansLandPreparation";
 import BeansPlanting from "../Planting/BeansPlanting";
 import BeansWaterManagement from "../WaterManagement/BeansWaterManagement";
@@ -62,7 +63,7 @@ Huthira dawa hitukie ni ataramu kuhurana na tutambi
 
           <p>
             <h6>Next</h6>
-            <BeansDiseaseManagementPrev></BeansDiseaseManagementPrev>
+            <BeansDiseaseManagementPrevKik></BeansDiseaseManagementPrevKik>
           </p>
         </AppLeftSideContainer>
         <AppRightSideContainer>

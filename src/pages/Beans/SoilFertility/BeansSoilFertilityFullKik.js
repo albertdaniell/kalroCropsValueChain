@@ -6,6 +6,7 @@ import AppLeftSideContainer from "../../../layouts/AppLeftSideContainer/AppLeftS
 import AppRightSideContainer from "../../../layouts/AppRightSideContainer/AppRightSideContainer";
 import BeansHeader from "../BeansHeader/BeansHeader";
 import BeansCropsManagementPrev from "../CropsManagement/BeansCropsManagementPrev";
+import BeansCropsManagementPrevKik from "../CropsManagement/BeansCropsManagementPrevKik";
 import BeansLandPreparation from "../LandPreparation/BeansLandPreparation";
 import BeansPlanting from "../Planting/BeansPlanting";
 import BeansWaterManagement from "../WaterManagement/BeansWaterManagement";
@@ -41,7 +42,7 @@ function BeansSoilFertilityFullKik() {
 
           <p>
             <h6>Next</h6>
-            <BeansCropsManagementPrev></BeansCropsManagementPrev>
+            <BeansCropsManagementPrevKik></BeansCropsManagementPrevKik>
           </p>
         </AppLeftSideContainer>
         <AppRightSideContainer>

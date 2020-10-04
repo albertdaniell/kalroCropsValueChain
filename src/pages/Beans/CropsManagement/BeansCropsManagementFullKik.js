@@ -5,38 +5,42 @@ import AppContainer from "../../../layouts/AppContainer/AppContainer";
 import AppLeftSideContainer from "../../../layouts/AppLeftSideContainer/AppLeftSideContainer";
 import AppRightSideContainer from "../../../layouts/AppRightSideContainer/AppRightSideContainer";
 import BeansHeader from "../BeansHeader/BeansHeader";
-import BeansHarvestingPrev from "../Harvesting/BeansHarvestingPrev";
 import BeansLandPreparation from "../LandPreparation/BeansLandPreparation";
-import BeansMaturity from "../Maturity/BeansMaturity";
 import BeansPestManagement from "../PestManagement/BeansPestManagement";
+import BeansPestManagementKik from "../PestManagement/BeansPestManagementKik";
 import BeansPlanting from "../Planting/BeansPlanting";
-import BeansStorage from "../Storage/BeansStorage";
-import BeansStorageKik from "../Storage/BeansStorageKik";
 import BeansWaterManagement from "../WaterManagement/BeansWaterManagement";
 
-function BeansHarvestingFullKik() {
+
+
+function BeansCropsManagementFullKik() {
   return (
     <div>
       <BeansHeader></BeansHeader>
       <AppContainer>
         <AppLeftSideContainer>
           <p>
-            <h5>Kugetha  </h5>
+            <h5>Kurora mumera  </h5>
             <hr></hr>
-            Mboco ciagiriirwo ni kugethwo kuuma 
-1.0–2.8 hari acre 
+            Kuruta ruta mumea ni thutha wa thiku 14 
+Kuuma kumera
  
-        
-            <ul>
-   <li>
-   Umithia miciri, thandura na uhuhe niguo urute rukungu na mahuti, umithia ringi niguo ciigike wega
-   </li>
-            </ul>
+ 
+
+         
+          <ul>
+ <li>
+ Apply IPM principles for increased use of biophysical methods and reduced use of agrochemical methods to control weeds
+ </li>
+ <li>
+ Ongerera thumu niguo kunoria tiiri
+ </li>
+      </ul>
           </p>
 
           <p>
             <h6>Next</h6>
-            <BeansStorageKik></BeansStorageKik>
+            <BeansPestManagementKik></BeansPestManagementKik>
           </p>
         </AppLeftSideContainer>
         <AppRightSideContainer>
@@ -47,4 +51,4 @@ function BeansHarvestingFullKik() {
   );
 }
 
-export default BeansHarvestingFullKik
+export default BeansCropsManagementFullKik

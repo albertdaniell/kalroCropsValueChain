@@ -10,6 +10,7 @@ import BeansPlanting from "../Planting/BeansPlanting";
 import BeansSoilFertility from "../SoilFertility/BeansSoilFertility";
 import BeansWaterManagement from "../WaterManagement/BeansWaterManagement";
 import BeansWeedManagement from "../WeedManagement/BeansWeedManagement";
+import BeansWeedManagementKik from "../WeedManagement/BeansWeedManagementKik";
 
 
 
@@ -34,7 +35,7 @@ function BeansWaterManagementFullKik() {
 
           <p>
             <h6>Next</h6>
-            <BeansWeedManagement></BeansWeedManagement>
+            <BeansWeedManagementKik></BeansWeedManagementKik>
           </p>
         </AppLeftSideContainer>
         <AppRightSideContainer>

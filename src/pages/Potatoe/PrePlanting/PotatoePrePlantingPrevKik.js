@@ -3,19 +3,19 @@ import AppCard from '../../../layouts/AppCard/AppCard'
 import AppCardBody from '../../../layouts/AppCardBody/AppCardBody'
 import AppCardHeader from '../../../layouts/AppCardHeader/AppCardHeader'
 
-function BeansWaterManagementKik() {
+function PotatoePrePlantingPrevKik() {
     return (
         <div>
             <AppCard>
                 <AppCardHeader>
-                Umenyereri wa mai                 </AppCardHeader>
-                <AppCardBody to='/beanswaterManagement'>
-                Itiriria mai riri marendekana na urimire kahinda gwa kahinda
-  
-                </AppCardBody>
+                kwihaririria
+                </AppCardHeader>
+                <AppCardBody to='/potatoPreplanting'>
+                    <h6>Mbegu cia kuhanda</h6>
+                    Cikorwo cihetukie                </AppCardBody>
             </AppCard>
         </div>
     )
 }
 
-export default BeansWaterManagementKik
+export default PotatoePrePlantingPrevKik

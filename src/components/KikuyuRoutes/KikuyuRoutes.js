@@ -2,23 +2,30 @@ import React, { useContext,Suspense,lazy } from "react";
 import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 import { AppContext } from "../../contexts/AppContext/AppContext";
 import BeansLandingKik from "../../pages/Beans/BeansLanding/BeansLandingKik";
-import BeansDiseaseManagementFull from "../../pages/Beans/DiseaseManagement/BeansDiseaseManagementFull";
+import BeansCropsManagementFullKik from "../../pages/Beans/CropsManagement/BeansCropsManagementFullKik";
+import BeansDiseaseManagementFullKik from "../../pages/Beans/DiseaseManagement/BeansDiseaseManagementFullKik";
+import BeansHarvestingFullKik from "../../pages/Beans/Harvesting/BeansHarvestingFullKik";
+import BeansLandPreparationFullKik from "../../pages/Beans/LandPreparation/BeansLandPreparationFullKik";
+import BeansMaturityFullKik from "../../pages/Beans/Maturity/BeansMaturityFullKik";
+import BeansPestManagementFullKik from "../../pages/Beans/PestManagement/BeansPestManagementFullKik";
+import BeansPlantingFullKik from "../../pages/Beans/Planting/BeansPlantingFullKik";
+import BeansPreplantingFullKik from "../../pages/Beans/PrePlanting/BeansPreplantingFullKik";
+import BeansSiteSelectionFullKik from "../../pages/Beans/SiteSelection/BeansSiteSelectionFullKik";
+import BeansSoilFertilityFullKik from "../../pages/Beans/SoilFertility/BeansSoilFertilityFullKik";
+import BeansStorageFullKik from "../../pages/Beans/Storage/BeansStorageFullKik";
+import BeansVarietiesFullKik from "../../pages/Beans/Varieties/BeansVarietiesFullKik";
+import BeansWaterManagementFullKik from "../../pages/Beans/WaterManagement/BeansWaterManagementFullKik";
+import BeansWeedManagementFullKik from "../../pages/Beans/WeedManagement/BeansWeedManagementFullKik";
+import PotatoeLandPreparationFullKik from "../../pages/Potatoe/LandPreparation/PotatoeLandPreparationFullKik";
+import PotatoePlantingFullKik from "../../pages/Potatoe/Planting/PotatoePlantingFullKik";
+import PotatoLandingKik from "../../pages/Potatoe/PotatoLanding/PotatoLandingKik";
+import PotatoePreplantingFullKik from "../../pages/Potatoe/PrePlanting/PotatoePreplantingFullKik";
+import PotatoeSiteSelectionFullKik from "../../pages/Potatoe/SiteSelection/PotatoeSiteSelectionFullKik";
+import PotatoeSoilFertilityFullKik from "../../pages/Potatoe/SoilFertility/PotatoeSoilFertilityFullKik";
+import PotatoVarietyFullKik from "../../pages/Potatoe/Varieties/PotatoVarietyFullKik";
+import PotatoeWaterManagementFullKik from "../../pages/Potatoe/WaterManagement/PotatoeWaterManagementFullKik";
 const MaizeLanding=React.lazy(()=>import('../../pages/Maize/MaizeLanding/MaizeLandingKik'));
-const BeansLanding =lazy(()=>import('../../pages/Beans/BeansLanding/BeansLanding'));
-const BeansCropsManagementFull=lazy(()=>import( "../../pages/Beans/CropsManagement/BeansCropsManagementFull"));
-const BeansHarvestingFull =lazy(()=>import("../../pages/Beans/Harvesting/BeansHarvestingFull"));
-const BeansLandPreparationFull =lazy(()=>import("../../pages/Beans/LandPreparation/BeansLandPreparationFull"));
-const BeansMaturityFull =lazy(()=>import("../../pages/Beans/Maturity/BeansMaturityFull"));
-const BeansPestManagementFull =lazy(()=>import("../../pages/Beans/PestManagement/BeansPestManagementFull"));
-const BeansPlantingFull =lazy(()=>import( "../../pages/Beans/Planting/BeansPlantingFull"));
-const BeansPreplantingFull =lazy(()=>import("../../pages/Beans/PrePlanting/BeansPreplantingFull")) ;
-const BeansSiteSelection =lazy(()=>import("../../pages/Beans/SiteSelection/BeansSiteSelection")) ;
-const BeansSiteSelectionFull =lazy(()=>import( "../../pages/Beans/SiteSelection/BeansSiteSelectionFull"));
-const BeansSoilFertilityFull =lazy(()=>import("../../pages/Beans/SoilFertility/BeansSoilFertilityFull")) ;
-const BeansStorageFull =lazy(()=>import( "../../pages/Beans/Storage/BeansStorageFull"));
-const BeansVarietiesFull =lazy(()=>import("../../pages/Beans/Varieties/BeansVarietiesFull")) ;
-const BeansWaterManagementFull =lazy(()=>import("../../pages/Beans/WaterManagement/BeansWaterManagementFull")) ;
-const BeansWeedManagementFull =lazy(()=>import("../../pages/Beans/WeedManagement/BeansWeedManagementFull")) ;
+
 const CropManagementFull =lazy(()=>import("../../pages/Maize/CropsManagement/CropManagementFullKik")) ;
 const DiseaseManagementFull =lazy(()=>import( "../../pages/Maize/DiseaseManagement/DiseaseManagementFullKik"));
 const HarvestingFull =lazy(()=>import("../../pages/Maize/Harvesting/HarvestingFullKik")) ;
@@ -47,7 +54,6 @@ const PotatoePostHarvestingFull =lazy(()=>import("../../pages/Potatoe/PostHarves
 
 const PotatoLanding =lazy(()=>import("../../pages/Potatoe/PotatoLanding/PotatoLanding")) ;
 const PotatoePreplantingFull =lazy(()=>import("../../pages/Potatoe/PrePlanting/PotatoePreplantingFull")) ;
-const PotatoePrePlantingPrev =lazy(()=>import("../../pages/Potatoe/PrePlanting/PotatoePrePlantingPrev")) ;
 const PotatoeProcessingFull =lazy(()=>import("../../pages/Potatoe/Processing/PotatoeProcessingFull")) ;
 const PotatoeSiteSelectionFull =lazy(()=>import("../../pages/Potatoe/SiteSelection/PotatoeSiteSelectionFull")) ;
 const PotatoeSoilFertilityFull =lazy(()=>import("../../pages/Potatoe/SoilFertility/PotatoeSoilFertilityFull")) ;
@@ -58,7 +64,6 @@ const PotatoWeedManagementFul =lazy(()=>import("../../pages/Potatoe/WeedManageme
 
 const ErrorPage =lazy(()=>import("../../layouts/ErrorPage/ErrorPage")) ;
 const ScrollToTop =lazy(()=>import("../../layouts/ScrollToTop/ScrollToTop")) ;
-const Loading =lazy(()=>import("../../components/Loading/Loading")) ;
 
 function KikuyuRoutes() {
     return (
@@ -145,31 +150,31 @@ function KikuyuRoutes() {
 
             {/* Beans */}
             <Route exact path="/beansLanding" component={BeansLandingKik} />
-            <Route exact path="/beansSiteSelection" component={BeansSiteSelectionFull} />
-            <Route exact path="/beansLandPreparation" component={BeansLandPreparationFull} />
-            <Route exact path="/beansPrePlanting" component={BeansPreplantingFull} />
-            <Route exact path="/beansVarieties" component={BeansVarietiesFull} />
-            <Route exact path="/beansPlanting" component={BeansPlantingFull} />
-            <Route exact path="/beanswaterManagement" component={BeansWaterManagementFull} />
-            <Route exact path="/beansweedManagement" component={BeansWeedManagementFull} />
-            <Route exact path="/beansSoilFertility" component={BeansSoilFertilityFull} />
-            <Route exact path="/beansCropsManagement" component={BeansCropsManagementFull} />
-            <Route exact path="/beansPestsManagement" component={BeansPestManagementFull} />
-            <Route exact path="/beansDiseaseManagement" component={BeansDiseaseManagementFull} />
-            <Route exact path="/beansMaturity" component={BeansMaturityFull} />
-            <Route exact path="/beansHarvesting" component={BeansHarvestingFull} />
-            <Route exact path="/beansStorage" component={BeansStorageFull} />
+            <Route exact path="/beansSiteSelection" component={BeansSiteSelectionFullKik} />
+            <Route exact path="/beansLandPreparation" component={BeansLandPreparationFullKik} />
+            <Route exact path="/beansPrePlanting" component={BeansPreplantingFullKik} />
+            <Route exact path="/beansVarieties" component={BeansVarietiesFullKik} />
+            <Route exact path="/beansPlanting" component={BeansPlantingFullKik} />
+            <Route exact path="/beanswaterManagement" component={BeansWaterManagementFullKik} />
+            <Route exact path="/beansweedManagement" component={BeansWeedManagementFullKik} />
+            <Route exact path="/beansSoilFertility" component={BeansSoilFertilityFullKik} />
+            <Route exact path="/beansCropsManagement" component={BeansCropsManagementFullKik} />
+            <Route exact path="/beansPestsManagement" component={BeansPestManagementFullKik} />
+            <Route exact path="/beansDiseaseManagement" component={BeansDiseaseManagementFullKik} />
+            <Route exact path="/beansMaturity" component={BeansMaturityFullKik} />
+            <Route exact path="/beansHarvesting" component={BeansHarvestingFullKik} />
+            <Route exact path="/beansStorage" component={BeansStorageFullKik} />
 
             {/* Potato routes */}
-            <Route exact path="/potatoLanding" component={PotatoLanding} />
-            <Route exact path="/potatoSiteSelection" component={PotatoeSiteSelectionFull} />
-            <Route exact path="/potatolandPreparation" component={PotatoeLandPreparationFull} />
-            <Route exact path="/potatoPreplanting" component={PotatoePreplantingFull} />
-            <Route exact path="/potatoVariety" component={PotatoVarietyFull} />
-            <Route exact path="/potatoPlanting" component={PotatoePlantingFull} />
-            <Route exact path="/potatowaterManagement" component={PotatoeWaterManagementFull} />
+            <Route exact path="/potatoLanding" component={PotatoLandingKik} />
+            <Route exact path="/potatoSiteSelection" component={PotatoeSiteSelectionFullKik} />
+            <Route exact path="/potatolandPreparation" component={PotatoeLandPreparationFullKik} />
+            <Route exact path="/potatoPreplanting" component={PotatoePreplantingFullKik} />
+            <Route exact path="/potatoVariety" component={PotatoVarietyFullKik} />
+            <Route exact path="/potatoPlanting" component={PotatoePlantingFullKik} />
+            <Route exact path="/potatowaterManagement" component={PotatoeWaterManagementFullKik} />
             <Route exact path="/potatoweedManagement" component={PotatoWeedManagementFul} />
-            <Route exact path="/potatosoilFertility" component={PotatoeSoilFertilityFull} />
+            <Route exact path="/potatosoilFertility" component={PotatoeSoilFertilityFullKik} />
             <Route exact path="/potatoCropManagement" component={PotatoeCropsManagementFull} />
             <Route exact path="/potatoPestManagement" component={PotatoePestManagementFull} />
             <Route exact path="/potatoDiseaseManagement" component={PotatoeDiseaseManagementFull} />

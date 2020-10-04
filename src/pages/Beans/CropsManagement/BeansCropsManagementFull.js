@@ -12,28 +12,24 @@ import BeansWaterManagement from "../WaterManagement/BeansWaterManagement";
 
 
 
-function BeansCropsManagementFullKik() {
+function BeansCropsManagementFull() {
   return (
     <div>
       <BeansHeader></BeansHeader>
       <AppContainer>
         <AppLeftSideContainer>
           <p>
-            <h5>Kurora mumera  </h5>
+            <h5>Crop management </h5>
             <hr></hr>
-            Kuruta ruta mumea ni thutha wa thiku 14 
-Kuuma kumera
- 
- 
+            Gapping and thinning should be done after 14 days of seed emergence
+
 
          
           <ul>
  <li>
- Apply IPM principles for increased use of biophysical methods and reduced use of agrochemical methods to control weeds
- </li>
+ Apply IPM principles for increased use of biophysical methods and reduced use of agrochemical methods to control weeds </li>
  <li>
- Ongerera thumu niguo kunoria tiiri
- </li>
+ Apply manure/boost soil fertility and also crop rotation </li>
       </ul>
           </p>
 
@@ -50,4 +46,4 @@ Kuuma kumera
   );
 }
 
-export default BeansCropsManagementFullKik
+export default BeansCropsManagementFull

@@ -8,6 +8,7 @@ import BeansHeader from "../BeansHeader/BeansHeader";
 import BeansLandPreparation from "../LandPreparation/BeansLandPreparation";
 import BeansPlanting from "../Planting/BeansPlanting";
 import BeansSoilFertility from "../SoilFertility/BeansSoilFertility";
+import BeansSoilFertilityKik from "../SoilFertility/BeansSoilFertilityKik";
 import BeansWaterManagement from "../WaterManagement/BeansWaterManagement";
 
 
@@ -32,7 +33,7 @@ function BeansWeedManagementFullKik() {
 
           <p>
             <h6>Next</h6>
-            <BeansSoilFertility></BeansSoilFertility>
+            <BeansSoilFertilityKik></BeansSoilFertilityKik>
           </p>
         </AppLeftSideContainer>
         <AppRightSideContainer>

@@ -18,7 +18,7 @@ function BeansSiteSelectionFull() {
           <p>
             <h5>Site selection</h5>
             <hr></hr>
-            Select a site away from shade to allow for sufficient sunshine and
+            Select  a site away from shade to allow for sufficient sunshine and
             should be at least 10 meters away from the road to prevent dust and
             vehicle fumes
             <h6>Altitude range</h6>

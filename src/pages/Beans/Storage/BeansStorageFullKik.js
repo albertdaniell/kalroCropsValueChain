@@ -3,6 +3,7 @@ import BeansSideMenu from "../../../components/BeansSideMenu/BeansSideMenu";
 import AppContainer from "../../../layouts/AppContainer/AppContainer";
 import AppLeftSideContainer from "../../../layouts/AppLeftSideContainer/AppLeftSideContainer";
 import AppRightSideContainer from "../../../layouts/AppRightSideContainer/AppRightSideContainer";
+import Next from "../../../layouts/Next/Next";
 import BeansHeader from "../BeansHeader/BeansHeader";
 
 
@@ -28,7 +29,7 @@ function BeansStorageFullKik() {
           </p>
 
           <p>
-            
+            <Next pageToGo="Potatoes" to='/potatoLanding'></Next>
           </p>
         </AppLeftSideContainer>
         <AppRightSideContainer>

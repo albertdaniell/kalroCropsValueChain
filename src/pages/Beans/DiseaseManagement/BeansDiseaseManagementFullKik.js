@@ -7,6 +7,7 @@ import AppRightSideContainer from "../../../layouts/AppRightSideContainer/AppRig
 import BeansHeader from "../BeansHeader/BeansHeader";
 import BeansLandPreparation from "../LandPreparation/BeansLandPreparation";
 import BeansMaturity from "../Maturity/BeansMaturity";
+import BeansMaturityKik from "../Maturity/BeansMaturityKik";
 import BeansPestManagement from "../PestManagement/BeansPestManagement";
 import BeansPlanting from "../Planting/BeansPlanting";
 import BeansWaterManagement from "../WaterManagement/BeansWaterManagement";
@@ -53,7 +54,7 @@ Ume(White mould )
 
           <p>
             <h6>Next</h6>
-            <BeansMaturity></BeansMaturity>
+            <BeansMaturityKik></BeansMaturityKik>
           </p>
         </AppLeftSideContainer>
         <AppRightSideContainer>

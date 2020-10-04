@@ -6,6 +6,7 @@ import AppLeftSideContainer from "../../../layouts/AppLeftSideContainer/AppLeftS
 import AppRightSideContainer from "../../../layouts/AppRightSideContainer/AppRightSideContainer";
 import BeansHeader from "../BeansHeader/BeansHeader";
 import BeansLandPreparation from "../LandPreparation/BeansLandPreparation";
+import BeansLandPreparationKik from "../LandPreparation/BeansLandPreparationKik";
 
 
 
@@ -30,7 +31,7 @@ function BeansSiteSelectionFullKik() {
 
           <p>
             <h6>Next</h6>
-            <BeansLandPreparation></BeansLandPreparation>
+            <BeansLandPreparationKik></BeansLandPreparationKik>
           </p>
         </AppLeftSideContainer>
         <AppRightSideContainer>
