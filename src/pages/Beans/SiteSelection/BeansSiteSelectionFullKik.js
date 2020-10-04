@@ -6,33 +6,31 @@ import AppLeftSideContainer from "../../../layouts/AppLeftSideContainer/AppLeftS
 import AppRightSideContainer from "../../../layouts/AppRightSideContainer/AppRightSideContainer";
 import BeansHeader from "../BeansHeader/BeansHeader";
 import BeansLandPreparation from "../LandPreparation/BeansLandPreparation";
-import BeansPlanting from "../Planting/BeansPlanting";
-import BeansWaterManagement from "../WaterManagement/BeansWaterManagement";
 
 
 
-function BeansVarietiesFull() {
+function BeansSiteSelectionFullKik() {
   return (
     <div>
       <BeansHeader></BeansHeader>
       <AppContainer>
         <AppLeftSideContainer>
           <p>
-            <h5>Varieties</h5>
+            <h5>                Guthura ha kuhanda</h5>
             <hr></hr>
-            Beans grow fast and can mature within two months, on average the time can vary from 45 to 75 days, depending on the variety and the climatic conditions
+            Thura handu hatari kiruru na hena riua riiganu na githimi kia mita (10metres) kuuma barabara ni undu wa kugiririria rukungu rwa ngaari na ndoogo 
 
-         <h6>Recommended varieties</h6>
-          <ul>
-            <li>Select seeds that are adapted to local agroecological zones and from a recommended source</li>
-            <li>Ensure the required variety</li>
-  
-          </ul>
-          </p>
+            <h6>Altitude range</h6>
+            Mboco yendaga gukurio matura maria mari na  githimikia riera kia 1000 – 2000 masl,
+            <h6>Muthemba wa tiiri</h6>
+            Tiiri utari mai maingi na wina ururu wa  l pH: 6.0 – 7.0.
+                        <h6>Urugari</h6>
+                        Urugari ni kuuma  20 – 30 oC            <h6>Mbura</h6>
+                        Mbura ya muigana wa 750 – 4000 mm p.a.          </p>
 
           <p>
             <h6>Next</h6>
-            <BeansPlanting></BeansPlanting>
+            <BeansLandPreparation></BeansLandPreparation>
           </p>
         </AppLeftSideContainer>
         <AppRightSideContainer>
@@ -43,4 +41,4 @@ function BeansVarietiesFull() {
   );
 }
 
-export default BeansVarietiesFull
+export default BeansSiteSelectionFullKik;

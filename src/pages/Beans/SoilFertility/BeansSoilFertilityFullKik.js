@@ -5,34 +5,43 @@ import AppContainer from "../../../layouts/AppContainer/AppContainer";
 import AppLeftSideContainer from "../../../layouts/AppLeftSideContainer/AppLeftSideContainer";
 import AppRightSideContainer from "../../../layouts/AppRightSideContainer/AppRightSideContainer";
 import BeansHeader from "../BeansHeader/BeansHeader";
+import BeansCropsManagementPrev from "../CropsManagement/BeansCropsManagementPrev";
 import BeansLandPreparation from "../LandPreparation/BeansLandPreparation";
 import BeansPlanting from "../Planting/BeansPlanting";
 import BeansWaterManagement from "../WaterManagement/BeansWaterManagement";
 
 
 
-function BeansVarietiesFull() {
+function BeansSoilFertilityFullKik() {
   return (
     <div>
       <BeansHeader></BeansHeader>
       <AppContainer>
         <AppLeftSideContainer>
           <p>
-            <h5>Varieties</h5>
+            <h5>Unoru wa tiiri  </h5>
             <hr></hr>
-            Beans grow fast and can mature within two months, on average the time can vary from 45 to 75 days, depending on the variety and the climatic conditions
-
-         <h6>Recommended varieties</h6>
+            Ongerera thumu kuringana na githimi gia tiiri waku 
+         
           <ul>
-            <li>Select seeds that are adapted to local agroecological zones and from a recommended source</li>
-            <li>Ensure the required variety</li>
-  
+ <li>
+ Ikira thumu na githimi kiria uhetwo nigetha mumera ugie na irio cia kuigana na ukure na hinya
+ </li>
+ <li>
+ Ikira thumu kurigana na githimi gia tiiri waku na kuogerera thumu kuringana na githimi kia ururu wa tiiri waku  (Use only non-acidifying fertilizers )
+ </li>
+ <li>
+ Mbocho ndiagiriirwo ni kurimirwo ni undu niiri uhoti wa kwiyethera irio cia mimera.
+ </li>
+ <li>
+ Ongererathumu riria he bata kana kwina unyihu na ni githimi kiria kiagiriire.
+ </li>
           </ul>
           </p>
 
           <p>
             <h6>Next</h6>
-            <BeansPlanting></BeansPlanting>
+            <BeansCropsManagementPrev></BeansCropsManagementPrev>
           </p>
         </AppLeftSideContainer>
         <AppRightSideContainer>
@@ -43,4 +52,4 @@ function BeansVarietiesFull() {
   );
 }
 
-export default BeansVarietiesFull
+export default BeansSoilFertilityFullKik

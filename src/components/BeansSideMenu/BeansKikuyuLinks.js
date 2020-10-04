@@ -8,8 +8,8 @@ function BeansKikuyuLinks() {
         <div id='sideMenu'>
         <NavLink exact activeClassName="selected" to="/beansLanding">Kiambiriria</NavLink>
 
-<NavLink exact activeClassName="selected" to="/beansSiteSelection">Site Selection</NavLink>
-<NavLink exact activeClassName="selected" to="/beansLandPreparation">Land preparation</NavLink>
+<NavLink exact activeClassName="selected" to="/beansSiteSelection">Guthura ha kuhanda</NavLink>
+<NavLink exact activeClassName="selected" to="/beansLandPreparation">Kuhariria mugunda  </NavLink>
 <NavLink exact activeClassName="selected" to="/beansPrePlanting">Pre-planting</NavLink>
 <NavLink exact activeClassName="selected" to="/beansVarieties">Varieties</NavLink>
 <NavLink exact activeClassName="selected" to="/beansPlanting">Planting</NavLink>

@@ -7,32 +7,34 @@ import AppRightSideContainer from "../../../layouts/AppRightSideContainer/AppRig
 import BeansHeader from "../BeansHeader/BeansHeader";
 import BeansLandPreparation from "../LandPreparation/BeansLandPreparation";
 import BeansPlanting from "../Planting/BeansPlanting";
+import BeansSoilFertility from "../SoilFertility/BeansSoilFertility";
 import BeansWaterManagement from "../WaterManagement/BeansWaterManagement";
+import BeansWeedManagement from "../WeedManagement/BeansWeedManagement";
 
 
 
-function BeansVarietiesFull() {
+function BeansWaterManagementFullKik() {
   return (
     <div>
       <BeansHeader></BeansHeader>
       <AppContainer>
         <AppLeftSideContainer>
           <p>
-            <h5>Varieties</h5>
+            <h5>Umenyereri wa mai </h5>
             <hr></hr>
-            Beans grow fast and can mature within two months, on average the time can vary from 45 to 75 days, depending on the variety and the climatic conditions
+            Itiriria mai riri marendekana na urimire kahinda gwa kahinda
+ 
 
-         <h6>Recommended varieties</h6>
+         
           <ul>
-            <li>Select seeds that are adapted to local agroecological zones and from a recommended source</li>
-            <li>Ensure the required variety</li>
-  
+    <li>Itiriria mai haria mabatie mboco ihuthire</li>
+    <li>Maai ma miberethi ya migunda kana cuba migunda minyinyi. </li>
           </ul>
           </p>
 
           <p>
             <h6>Next</h6>
-            <BeansPlanting></BeansPlanting>
+            <BeansWeedManagement></BeansWeedManagement>
           </p>
         </AppLeftSideContainer>
         <AppRightSideContainer>
@@ -43,4 +45,4 @@ function BeansVarietiesFull() {
   );
 }
 
-export default BeansVarietiesFull
+export default BeansWaterManagementFullKik

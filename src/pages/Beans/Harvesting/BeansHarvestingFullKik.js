@@ -5,34 +5,37 @@ import AppContainer from "../../../layouts/AppContainer/AppContainer";
 import AppLeftSideContainer from "../../../layouts/AppLeftSideContainer/AppLeftSideContainer";
 import AppRightSideContainer from "../../../layouts/AppRightSideContainer/AppRightSideContainer";
 import BeansHeader from "../BeansHeader/BeansHeader";
+import BeansHarvestingPrev from "../Harvesting/BeansHarvestingPrev";
 import BeansLandPreparation from "../LandPreparation/BeansLandPreparation";
+import BeansMaturity from "../Maturity/BeansMaturity";
+import BeansPestManagement from "../PestManagement/BeansPestManagement";
 import BeansPlanting from "../Planting/BeansPlanting";
+import BeansStorage from "../Storage/BeansStorage";
 import BeansWaterManagement from "../WaterManagement/BeansWaterManagement";
 
-
-
-function BeansVarietiesFull() {
+function BeansHarvestingFullKik() {
   return (
     <div>
       <BeansHeader></BeansHeader>
       <AppContainer>
         <AppLeftSideContainer>
           <p>
-            <h5>Varieties</h5>
+            <h5>Kugetha  </h5>
             <hr></hr>
-            Beans grow fast and can mature within two months, on average the time can vary from 45 to 75 days, depending on the variety and the climatic conditions
-
-         <h6>Recommended varieties</h6>
-          <ul>
-            <li>Select seeds that are adapted to local agroecological zones and from a recommended source</li>
-            <li>Ensure the required variety</li>
-  
-          </ul>
+            Mboco ciagiriirwo ni kugethwo kuuma 
+1.0–2.8 hari acre 
+ 
+        
+            <ul>
+   <li>
+   Umithia miciri, thandura na uhuhe niguo urute rukungu na mahuti, umithia ringi niguo ciigike wega
+   </li>
+            </ul>
           </p>
 
           <p>
             <h6>Next</h6>
-            <BeansPlanting></BeansPlanting>
+            <BeansStorage></BeansStorage>
           </p>
         </AppLeftSideContainer>
         <AppRightSideContainer>
@@ -43,4 +46,4 @@ function BeansVarietiesFull() {
   );
 }
 
-export default BeansVarietiesFull
+export default BeansHarvestingFullKik

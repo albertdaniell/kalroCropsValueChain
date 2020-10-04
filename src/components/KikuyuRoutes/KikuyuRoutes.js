@@ -1,6 +1,7 @@
 import React, { useContext,Suspense,lazy } from "react";
 import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 import { AppContext } from "../../contexts/AppContext/AppContext";
+import BeansLandingKik from "../../pages/Beans/BeansLanding/BeansLandingKik";
 import BeansDiseaseManagementFull from "../../pages/Beans/DiseaseManagement/BeansDiseaseManagementFull";
 const MaizeLanding=React.lazy(()=>import('../../pages/Maize/MaizeLanding/MaizeLandingKik'));
 const BeansLanding =lazy(()=>import('../../pages/Beans/BeansLanding/BeansLanding'));
@@ -143,7 +144,7 @@ function KikuyuRoutes() {
             />
 
             {/* Beans */}
-            <Route exact path="/beansLanding" component={BeansLanding} />
+            <Route exact path="/beansLanding" component={BeansLandingKik} />
             <Route exact path="/beansSiteSelection" component={BeansSiteSelectionFull} />
             <Route exact path="/beansLandPreparation" component={BeansLandPreparationFull} />
             <Route exact path="/beansPrePlanting" component={BeansPreplantingFull} />

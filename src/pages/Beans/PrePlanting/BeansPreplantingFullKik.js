@@ -4,35 +4,37 @@ import BeansSideMenu from "../../../components/BeansSideMenu/BeansSideMenu";
 import AppContainer from "../../../layouts/AppContainer/AppContainer";
 import AppLeftSideContainer from "../../../layouts/AppLeftSideContainer/AppLeftSideContainer";
 import AppRightSideContainer from "../../../layouts/AppRightSideContainer/AppRightSideContainer";
+import ImageRow from "../../../layouts/Container/ImageRow";
 import BeansHeader from "../BeansHeader/BeansHeader";
 import BeansLandPreparation from "../LandPreparation/BeansLandPreparation";
-import BeansPlanting from "../Planting/BeansPlanting";
-import BeansWaterManagement from "../WaterManagement/BeansWaterManagement";
+import BeansPrePlanting from "../PrePlanting/BeansPrePlanting";
+import BeansVarieties from "../Varieties/BeansVarieties";
 
 
-
-function BeansVarietiesFull() {
+import MyContainer from "../../../layouts/Container/MyContainer";
+import BeansVarietiesKik from "../Varieties/BeansVarietiesKik";
+function BeansPreplantingFullKik() {
   return (
     <div>
       <BeansHeader></BeansHeader>
       <AppContainer>
         <AppLeftSideContainer>
           <p>
-            <h5>Varieties</h5>
+            <h5>Mbere ya kuhanda</h5>
             <hr></hr>
-            Beans grow fast and can mature within two months, on average the time can vary from 45 to 75 days, depending on the variety and the climatic conditions
+            <h6>Indo cia kuhanda </h6>
+            Mbegu hitukie
+Mbegu cia imera hituku
 
-         <h6>Recommended varieties</h6>
-          <ul>
-            <li>Select seeds that are adapted to local agroecological zones and from a recommended source</li>
-            <li>Ensure the required variety</li>
-  
-          </ul>
+<h6>Iria ihandagwo muno</h6>
+
+Mbegu kuuma handu hehokeku/hitukie, Mbegu cia imera hituku no cihuthirwo angikirwo gutiri mbegu hitukie  kana ugure thoko ini/dukaini.
+         
           </p>
 
           <p>
             <h6>Next</h6>
-            <BeansPlanting></BeansPlanting>
+            <BeansVarietiesKik></BeansVarietiesKik>
           </p>
         </AppLeftSideContainer>
         <AppRightSideContainer>
@@ -43,4 +45,4 @@ function BeansVarietiesFull() {
   );
 }
 
-export default BeansVarietiesFull
+export default BeansPreplantingFullKik
