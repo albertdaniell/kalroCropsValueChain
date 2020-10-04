@@ -6,8 +6,11 @@ import image2 from '../../images/laikipia_emblem.png'
 function OrgLogos() {
     return (
         <div id='appLogos'>
-             <img src={image2} id='appLogoimg2'></img>
-            <img src={image1}></img>
+       <a href='https://kalro-cropslivestock.web.app/'>
+          <img src={image2} id='appLogoimg2'></img>
+          <img src={image1}></img>
+            
+          </a>
            
         </div>
     )

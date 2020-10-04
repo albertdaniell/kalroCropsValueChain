@@ -21,7 +21,7 @@ function MaizeSideMenu() {
      return (
          <>
          <div style={{paddingLeft:5}}>
-         <h5>Side Menu</h5> <hr ></hr>
+       
          </div>
    <KikuyuLinks></KikuyuLinks>
          </>

@@ -8,7 +8,7 @@ import MyContainer from "../../../layouts/Container/MyContainer";
 import CropsManagementPrev from "../CropsManagement/CropsManagementPrev";
 import DiseaseManagementPrev from "../DiseaseManagement/DiseaseManagementPrev";
 import HarvestingPrev from "../Harvesting/HarvestingPrev";
-import LandPreparationPrev from "../LandPreparation/LandPreparationPrevKik";
+import LandPreparationPrevKik from "../LandPreparation/LandPreparationPrevKik";
 import MaizeHeader from "../MaizeHeader/MaizeHeader";
 import MaturityPrev from "../Maturity/MaturityPrev";
 import PestManagementPrev from "../PestManagement/PestManagementPrev";
@@ -24,6 +24,9 @@ import WeedManagementPrev from "../WeedManagement/WeedManagementPrev";
 import image1 from '../../../images/maize/1a.jpg'
 import image2 from '../../../images/maize/1b.jpg'
 import SiteSelectionKikPrev from "../SiteSelection/SiteSelectionPrevKik";
+import VarietiesPrevKik from "../Varieties/VarietiesPrevKik";
+import PrePlantingPrevKik from "../PrePlanting/PrePlantingPrevKik";
+import SiteSelectionKikPrevKik from "../SiteSelection/SiteSelectionPrevKik";
 
 
 function MaizeLanding() {
@@ -50,10 +53,10 @@ function MaizeLanding() {
 
           </MyContainer>
           <p>
-             <SiteSelectionKikPrev></SiteSelectionKikPrev>
-              <LandPreparationPrev></LandPreparationPrev>
-              <PrePlantingPrev></PrePlantingPrev>
-              <VarietiesPrev></VarietiesPrev>
+             <SiteSelectionKikPrevKik></SiteSelectionKikPrevKik>
+              <LandPreparationPrevKik></LandPreparationPrevKik>
+              <PrePlantingPrevKik></PrePlantingPrevKik>
+              <VarietiesPrevKik></VarietiesPrevKik>
               <PlantingPrev></PlantingPrev>
               <WaterManagementPrev></WaterManagementPrev>
               <WeedManagementPrev></WeedManagementPrev>

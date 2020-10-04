@@ -16,7 +16,7 @@ text-align: center;
 }
 
 #appLogos img{
-height: 100px;
+height: 90px;
 padding: 10px;
 }
 
@@ -34,6 +34,7 @@ code {
 .panel-heading{
   background-color: red;
   font-size: 20px;
+  text-transform: capitalize;
 }
 
 .card p{
@@ -64,6 +65,7 @@ code {
 .card-header{
   background-color: #59be41;
   font-size: 20px;
+  text-transform: capitalize;
 }
 
 p>img,ul>img{

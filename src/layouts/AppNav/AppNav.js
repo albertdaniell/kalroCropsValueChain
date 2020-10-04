@@ -42,10 +42,10 @@ function AppNav(props) {
                LiveStock
               </a>
               <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                <a class="dropdown-item" href="http://cryptic-plateau-32981.herokuapp.com">
+                <a class="dropdown-item" href="https://kalro-poultry.web.app/">
                   Poultry
                 </a>
-                <a class="dropdown-item" href="https://dairy-goat.herokuapp.com/">
+                <a class="dropdown-item" href='https://kalro-goats.web.app/'>
                   Dairy Goat
                 </a>
                 
