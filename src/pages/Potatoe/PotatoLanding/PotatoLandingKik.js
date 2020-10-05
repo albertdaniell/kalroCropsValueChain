@@ -39,6 +39,9 @@ import PotatoeDiseaseManagementPrevKik from "../DiseaseManagement/PotatoeDisease
 import PotatoeHarvestingPrevKik from "../Harvesting/PotatoeHarvestingPrevKik";
 import PotatoeStoragePrevKik from "../Storage/PotatoeStoragePrevKik";
 import PotatoeMaturityFullKik from "../Maturity/PotatoeMaturityFullKik";
+import PotatoeMaturityPrevKik from "../Maturity/PotatoeMaturityPrevKik";
+import PotatoePostHarvestingPrevKik from "../PostHarvesting/PotatoePostHarvestingPrevKik";
+import PotatoeProcessingPrepKik from "../Processing/PotatoeProcessingPrepKik";
 
 function PotatoLandingKik() {
   return (
@@ -79,11 +82,11 @@ Maritwa ma waru guku Kenya ni ta (Viazi,, Rabuond, Waru)
             <PotatoeCropsManagementPrevKik></PotatoeCropsManagementPrevKik>
             <PotatoePestManagementPrevKik></PotatoePestManagementPrevKik>
             <PotatoeDiseaseManagementPrevKik></PotatoeDiseaseManagementPrevKik>
-            <PotatoeMaturityFullKik></PotatoeMaturityFullKik>
+            <PotatoeMaturityPrevKik></PotatoeMaturityPrevKik>
             <PotatoeHarvestingPrevKik></PotatoeHarvestingPrevKik>
             <PotatoeStoragePrevKik></PotatoeStoragePrevKik>
-            <PotatoePostHarvestingPrev></PotatoePostHarvestingPrev>
-            <PotatoeProcessingPrep></PotatoeProcessingPrep>
+            <PotatoePostHarvestingPrevKik></PotatoePostHarvestingPrevKik>
+            <PotatoeProcessingPrepKik></PotatoeProcessingPrepKik>
           </p>
           <p></p>
         </AppLeftSideContainer>

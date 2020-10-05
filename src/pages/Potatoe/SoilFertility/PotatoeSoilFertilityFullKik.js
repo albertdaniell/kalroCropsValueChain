@@ -9,6 +9,7 @@ import MyContainer from "../../../layouts/Container/MyContainer";
 import PotatoeCropsManagementPrev from "../CropsManagement/PotatoeCropsManagementPrev";
 import PotatoHeader from "../PotatoHeader/PotatoHeader";
 import image1 from "../../../images/potatoes/4a.png";
+import PotatoeCropsManagementPrevKik from "../CropsManagement/PotatoeCropsManagementPrevKik";
 
 function PotatoeSoilFertilityFullKik() {
   return (
@@ -33,7 +34,7 @@ function PotatoeSoilFertilityFullKik() {
             ></ImageRow>
           </MyContainer>
           <p>
-            <PotatoeCropsManagementPrev></PotatoeCropsManagementPrev>
+            <PotatoeCropsManagementPrevKik/>
           </p>
         </AppLeftSideContainer>
         <AppRightSideContainer>

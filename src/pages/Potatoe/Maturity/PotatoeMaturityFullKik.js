@@ -5,6 +5,7 @@ import AppContainer from "../../../layouts/AppContainer/AppContainer";
 import AppLeftSideContainer from "../../../layouts/AppLeftSideContainer/AppLeftSideContainer";
 import AppRightSideContainer from "../../../layouts/AppRightSideContainer/AppRightSideContainer";
 import PotatoeHarvestingPrev from "../Harvesting/PotatoeHarvestingPrev";
+import PotatoeHarvestingPrevKik from "../Harvesting/PotatoeHarvestingPrevKik";
 import PotatoHeader from "../PotatoHeader/PotatoHeader";
 
 function PotatoeMaturityFullKik() {
@@ -20,7 +21,7 @@ function PotatoeMaturityFullKik() {
             <ul>
               <li>Kuuma kwa mathangu kuonanagia ni mukuru wa kugethwo .</li>
             </ul>
-            <PotatoeHarvestingPrev></PotatoeHarvestingPrev>
+            <PotatoeHarvestingPrevKik/>
           </p>
         </AppLeftSideContainer>
         <AppRightSideContainer>

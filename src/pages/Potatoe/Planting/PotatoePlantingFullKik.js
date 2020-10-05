@@ -6,6 +6,7 @@ import AppLeftSideContainer from "../../../layouts/AppLeftSideContainer/AppLeftS
 import AppRightSideContainer from "../../../layouts/AppRightSideContainer/AppRightSideContainer";
 import PotatoHeader from "../PotatoHeader/PotatoHeader";
 import PotatoeWaterManagementPrev from "../WaterManagement/PotatoeWaterManagementPrev";
+import PotatoeWaterManagementPrevKik from "../WaterManagement/PotatoeWaterManagementPrevKik";
 
 function PotatoePlantingFullKik() {
   return (
@@ -41,7 +42,7 @@ function PotatoePlantingFullKik() {
                 kilo 50 kwa acre
               </li>
             </ul>
-            <PotatoeWaterManagementPrev></PotatoeWaterManagementPrev>
+            <PotatoeWaterManagementPrevKik/>
           </p>
         </AppLeftSideContainer>
         <AppRightSideContainer>

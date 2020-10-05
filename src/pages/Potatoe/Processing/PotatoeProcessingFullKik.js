@@ -5,38 +5,27 @@ import AppContainer from "../../../layouts/AppContainer/AppContainer";
 import AppLeftSideContainer from "../../../layouts/AppLeftSideContainer/AppLeftSideContainer";
 import AppRightSideContainer from "../../../layouts/AppRightSideContainer/AppRightSideContainer";
 import PotatoHeader from "../PotatoHeader/PotatoHeader";
-import PotatoeStoragePrev from "../Storage/PotatoeStoragePrev";
-import PotatoeStoragePrevKik from "../Storage/PotatoeStoragePrevKik";
 
-function PotatoeHarvestingFullKik() {
+function PotatoeProcessingFullKik() {
   return (
     <div>
       <PotatoHeader></PotatoHeader>
       <AppContainer>
         <AppLeftSideContainer>
           <p>
-            <h5>kugetha</h5>
+            <h5>uthondeki </h5>
             <hr></hr>
-            Tiniria kiwaru hakuhi na tiri okorwo gitiromite.
-            <ul>
-              <li>Getha waru na njira ya gucirima na theci. Niguo </li>
-              <li>
-                ndugacitihie muno Ureke ciume kwa ihinda inini thutha wa
-                gucigetha
-              </li>
-              <li>
-                No ugethe uritu 40tons per ha or 16tons per acre urimitwo wega
-              </li>
-            </ul>
-            <PotatoeStoragePrevKik/>
-          </p>
+            Waru ni ithondekaga
+chips na crips
+            <br></br>
+            Wathondekwo ni umaga Crips and French fries          </p>
         </AppLeftSideContainer>
         <AppRightSideContainer>
-          <PotatoSideMenu></PotatoSideMenu>
+        <PotatoSideMenu></PotatoSideMenu>
         </AppRightSideContainer>
       </AppContainer>
     </div>
   );
 }
 
-export default PotatoeHarvestingFullKik;
+export default PotatoeProcessingFullKik;

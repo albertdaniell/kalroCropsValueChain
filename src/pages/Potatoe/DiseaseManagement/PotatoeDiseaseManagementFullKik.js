@@ -10,6 +10,7 @@ import PotatoeMaturityPrev from "../Maturity/PotatoeMaturityPrev";
 import PotatoHeader from "../PotatoHeader/PotatoHeader";
 import image1 from "../../../images/potatoes/5e.jpg";
 import image2 from "../../../images/potatoes/5f.jpg";
+import PotatoeMaturityPrevKik from "../Maturity/PotatoeMaturityPrevKik";
 
 function PotatoeDiseaseManagementFullKik() {
   return (
@@ -60,7 +61,7 @@ function PotatoeDiseaseManagementFullKik() {
                 Thimirwo murimu wa gukua kwa waru ni honge ta KALRO or KEPHIS
               </li>
             </ul>
-            <PotatoeMaturityPrev></PotatoeMaturityPrev>
+            <PotatoeMaturityPrevKik/>
           </p>
         </AppLeftSideContainer>
         <AppRightSideContainer>

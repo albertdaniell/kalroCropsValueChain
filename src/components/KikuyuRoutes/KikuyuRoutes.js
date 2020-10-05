@@ -17,15 +17,22 @@ import BeansVarietiesFullKik from "../../pages/Beans/Varieties/BeansVarietiesFul
 import BeansWaterManagementFullKik from "../../pages/Beans/WaterManagement/BeansWaterManagementFullKik";
 import BeansWeedManagementFullKik from "../../pages/Beans/WeedManagement/BeansWeedManagementFullKik";
 import PotatoeCropsManagementFullKik from "../../pages/Potatoe/CropsManagement/PotatoeCropsManagementFullKik";
+import PotatoeDiseaseManagementFullKik from "../../pages/Potatoe/DiseaseManagement/PotatoeDiseaseManagementFullKik";
+import PotatoeHarvestingFullKik from "../../pages/Potatoe/Harvesting/PotatoeHarvestingFullKik";
 import PotatoeLandPreparationFullKik from "../../pages/Potatoe/LandPreparation/PotatoeLandPreparationFullKik";
+import PotatoeMaturityFullKik from "../../pages/Potatoe/Maturity/PotatoeMaturityFullKik";
 import PotatoePestManagementFullKik from "../../pages/Potatoe/PestManagement/PotatoePestManagementFullKik";
 import PotatoePlantingFullKik from "../../pages/Potatoe/Planting/PotatoePlantingFullKik";
+import PotatoePostHarvestingFullKik from "../../pages/Potatoe/PostHarvesting/PotatoePostHarvestingFullKik";
 import PotatoLandingKik from "../../pages/Potatoe/PotatoLanding/PotatoLandingKik";
 import PotatoePreplantingFullKik from "../../pages/Potatoe/PrePlanting/PotatoePreplantingFullKik";
+import PotatoeProcessingFullKik from "../../pages/Potatoe/Processing/PotatoeProcessingFullKik";
 import PotatoeSiteSelectionFullKik from "../../pages/Potatoe/SiteSelection/PotatoeSiteSelectionFullKik";
 import PotatoeSoilFertilityFullKik from "../../pages/Potatoe/SoilFertility/PotatoeSoilFertilityFullKik";
+import PotatoeStorageFullKik from "../../pages/Potatoe/Storage/PotatoeStorageFullKik";
 import PotatoVarietyFullKik from "../../pages/Potatoe/Varieties/PotatoVarietyFullKik";
 import PotatoeWaterManagementFullKik from "../../pages/Potatoe/WaterManagement/PotatoeWaterManagementFullKik";
+import PotatoWeedManagementFullKik from "../../pages/Potatoe/WeedManagement/PotatoWeedManagementFulKik";
 const MaizeLanding=React.lazy(()=>import('../../pages/Maize/MaizeLanding/MaizeLandingKik'));
 
 const CropManagementFull =lazy(()=>import("../../pages/Maize/CropsManagement/CropManagementFullKik")) ;
@@ -175,16 +182,16 @@ function KikuyuRoutes() {
             <Route exact path="/potatoVariety" component={PotatoVarietyFullKik} />
             <Route exact path="/potatoPlanting" component={PotatoePlantingFullKik} />
             <Route exact path="/potatowaterManagement" component={PotatoeWaterManagementFullKik} />
-            <Route exact path="/potatoweedManagement" component={PotatoWeedManagementFul} />
+            <Route exact path="/potatoweedManagement" component={PotatoWeedManagementFullKik} />
             <Route exact path="/potatosoilFertility" component={PotatoeSoilFertilityFullKik} />
             <Route exact path="/potatoCropManagement" component={PotatoeCropsManagementFullKik} />
             <Route exact path="/potatoPestManagement" component={PotatoePestManagementFullKik} />
-            <Route exact path="/potatoDiseaseManagement" component={PotatoeDiseaseManagementFull} />
-            <Route exact path="/potatoMaturity" component={PotatoeMaturityFull} />
-            <Route exact path="/potatoHarvesting" component={PotatoeHarvestingFull} />
-            <Route exact path="/potatoStorage" component={PotatoeStorageFull} />
-            <Route exact path="/potatopostHarvest" component={PotatoePostHarvestingFull} />
-            <Route exact path="/potatoProcessing" component={PotatoeProcessingFull} />
+            <Route exact path="/potatoDiseaseManagement" component={PotatoeDiseaseManagementFullKik} />
+            <Route exact path="/potatoMaturity" component={PotatoeMaturityFullKik} />
+            <Route exact path="/potatoHarvesting" component={PotatoeHarvestingFullKik} />
+            <Route exact path="/potatoStorage" component={PotatoeStorageFullKik} />
+            <Route exact path="/potatopostHarvest" component={PotatoePostHarvestingFullKik} />
+            <Route exact path="/potatoProcessing" component={PotatoeProcessingFullKik} />
 
 
 

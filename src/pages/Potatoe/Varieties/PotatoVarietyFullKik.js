@@ -5,6 +5,7 @@ import AppContainer from "../../../layouts/AppContainer/AppContainer";
 import AppLeftSideContainer from "../../../layouts/AppLeftSideContainer/AppLeftSideContainer";
 import AppRightSideContainer from "../../../layouts/AppRightSideContainer/AppRightSideContainer";
 import PotatoePlantingPrev from "../Planting/PotatoePlantingPrev";
+import PotatoePlantingPrevKik from "../Planting/PotatoePlantingPrevKik";
 import PotatoHeader from "../PotatoHeader/PotatoHeader";
 
 function PotatoVarietyFullKik() {
@@ -32,7 +33,7 @@ function PotatoVarietyFullKik() {
               <li>cia mabururi ma nja: Jelly, Karuso, Connect</li>
               <li>ucio ugi: Unica, Primera, Rudolf</li>
             </ul>
-            <PotatoePlantingPrev></PotatoePlantingPrev>
+            <PotatoePlantingPrevKik/>
           </p>
         </AppLeftSideContainer>
         <AppRightSideContainer>

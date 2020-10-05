@@ -5,6 +5,7 @@ import AppContainer from "../../../layouts/AppContainer/AppContainer";
 import AppLeftSideContainer from "../../../layouts/AppLeftSideContainer/AppLeftSideContainer";
 import AppRightSideContainer from "../../../layouts/AppRightSideContainer/AppRightSideContainer";
 import PostHarvestingPrev from "../../Maize/PostHarvesting/PostHarvestingPrev";
+import PostHarvestingPrevKik from "../../Maize/PostHarvesting/PostHarvestingPrevKik";
 import PotatoHeader from "../PotatoHeader/PotatoHeader";
 
 function PotatoeStorageFullKik() {
@@ -23,8 +24,7 @@ function PotatoeStorageFullKik() {
               <li>na pick-up kuringana nakuria uratwaruo</li>
               <li>Ukuo riria gutari riua muno</li>
             </ul>
-            <PostHarvestingPrev></PostHarvestingPrev>
-          </p>
+            <PostHarvestingPrevKik/>          </p>
         </AppLeftSideContainer>
         <AppRightSideContainer>
           <PotatoSideMenu></PotatoSideMenu>

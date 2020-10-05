@@ -5,6 +5,7 @@ import AppContainer from "../../../layouts/AppContainer/AppContainer";
 import AppLeftSideContainer from "../../../layouts/AppLeftSideContainer/AppLeftSideContainer";
 import AppRightSideContainer from "../../../layouts/AppRightSideContainer/AppRightSideContainer";
 import PotatoePestManagementPrev from "../PestManagement/PotatoePestManagementPrev";
+import PotatoePestManagementPrevKik from "../PestManagement/PotatoePestManagementPrevKik";
 import PotatoHeader from "../PotatoHeader/PotatoHeader";
 
 function PotatoeCropsManagementFullKik() {
@@ -30,7 +31,7 @@ mirimu ya waru na guthondeka unoru wa waru.
 
                          </li>
                                   </ul>
-                            <PotatoePestManagementPrev></PotatoePestManagementPrev>
+                            <PotatoePestManagementPrevKik></PotatoePestManagementPrevKik>
           </p>
                 </AppLeftSideContainer>
                 <AppRightSideContainer>

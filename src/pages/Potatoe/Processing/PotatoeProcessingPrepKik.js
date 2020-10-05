@@ -3,17 +3,16 @@ import AppCard from '../../../layouts/AppCard/AppCard'
 import AppCardBody from '../../../layouts/AppCardBody/AppCardBody'
 import AppCardHeader from '../../../layouts/AppCardHeader/AppCardHeader'
 
-function PotatoeDiseaseManagementPrev() {
+function PotatoeProcessingPrepKik() {
     return (
         <div>
             <AppCard>
                 <AppCardHeader>
-                Kuhurana Na Mirimu
-
+                uthondeki
                 </AppCardHeader>
-                <AppCardBody to='/potatoDiseaseManagement'>
-                Bacterial diseases; late and early  blight, bacterial wilt, verticillium wilt, soft rot and black scurf 
-Viral diseases; potato leaf roll and yellow virus, common scab, powdery scab and wart
+                <AppCardBody to='/potatoProcessing'>
+                Waru ni ithondekaga
+chips na crips
 
                 </AppCardBody>
             </AppCard>
@@ -21,4 +20,4 @@ Viral diseases; potato leaf roll and yellow virus, common scab, powdery scab and
     )
 }
 
-export default PotatoeDiseaseManagementPrev
+export default PotatoeProcessingPrepKik

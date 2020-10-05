@@ -5,6 +5,7 @@ import AppContainer from "../../../layouts/AppContainer/AppContainer";
 import AppLeftSideContainer from "../../../layouts/AppLeftSideContainer/AppLeftSideContainer";
 import AppRightSideContainer from "../../../layouts/AppRightSideContainer/AppRightSideContainer";
 import PotatoeLandPreparationPrev from "../LandPreparation/PotatoeLandPreparationPrev";
+import PotatoeLandPreparationPrevKik from "../LandPreparation/PotatoeLandPreparationPrevKik";
 import PotatoHeader from "../PotatoHeader/PotatoHeader";
 
 function PotatoeSiteSelectionFullKik() {
@@ -14,7 +15,7 @@ function PotatoeSiteSelectionFullKik() {
       <AppContainer>
         <AppLeftSideContainer>
           <p>
-            <h5>Site selection</h5>
+            <h5>Gucagura handu ha</h5>
             Thura handu hatari hahadwo waru kahinda-ini ta ka miaka ina
             <hr></hr>
             <h6>Uraihu uria ubaranitie</h6>
@@ -38,7 +39,7 @@ function PotatoeSiteSelectionFullKik() {
             Urugari ubataranagia 20-25oC
             <h6>mbura</h6>
             mbura ndigakire githimo kia 750 mm o mwaka{" "}
-            <PotatoeLandPreparationPrev></PotatoeLandPreparationPrev>
+            <PotatoeLandPreparationPrevKik></PotatoeLandPreparationPrevKik>
           </p>
         </AppLeftSideContainer>
         <AppRightSideContainer>

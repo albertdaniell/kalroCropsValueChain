@@ -6,6 +6,7 @@ import AppLeftSideContainer from "../../../layouts/AppLeftSideContainer/AppLeftS
 import AppRightSideContainer from "../../../layouts/AppRightSideContainer/AppRightSideContainer";
 import PotatoHeader from "../PotatoHeader/PotatoHeader";
 import PotatoeProcessingPrep from "../Processing/PotatoeProcessingPrep";
+import PotatoeProcessingPrepKik from "../Processing/PotatoeProcessingPrepKik";
 
 function PotatoePostHarvestingFullKik() {
   return (
@@ -14,7 +15,7 @@ function PotatoePostHarvestingFullKik() {
       <AppContainer>
         <AppLeftSideContainer>
           <p>
-            <h5>Post-harvest handling </h5>
+            <h5>Thutha wa ugethi</h5>
             <hr></hr>
             Gitira waru kuma na riua rihiu niguo kugiririria waru kuhoha na
             gucejia rangi. theria,
@@ -32,7 +33,7 @@ function PotatoePostHarvestingFullKik() {
                 ma uritu wa kilo 50 kana thi wa kilo 50
               </li>
             </ul>
-            <PotatoeProcessingPrep></PotatoeProcessingPrep>
+            <PotatoeProcessingPrepKik/>
           </p>
         </AppLeftSideContainer>
         <AppRightSideContainer>

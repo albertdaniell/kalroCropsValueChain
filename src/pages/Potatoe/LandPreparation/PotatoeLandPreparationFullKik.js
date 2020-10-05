@@ -6,6 +6,7 @@ import AppLeftSideContainer from "../../../layouts/AppLeftSideContainer/AppLeftS
 import AppRightSideContainer from "../../../layouts/AppRightSideContainer/AppRightSideContainer";
 import PotatoHeader from "../PotatoHeader/PotatoHeader";
 import PotatoePrePlantingPrev from "../PrePlanting/PotatoePrePlantingPrev";
+import PotatoePrePlantingPrevKik from "../PrePlanting/PotatoePrePlantingPrevKik";
 
 function PotatoeLandPreparationFullKik() {
     return (
@@ -28,7 +29,7 @@ irahandwo,
 kiega. Niguo kuongerera mumera irio
                             </li>
                              </ul>
-                             <PotatoePrePlantingPrev></PotatoePrePlantingPrev>
+                             <PotatoePrePlantingPrevKik/>
 
           </p>
                 </AppLeftSideContainer>
