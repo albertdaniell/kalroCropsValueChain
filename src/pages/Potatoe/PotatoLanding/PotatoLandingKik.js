@@ -32,6 +32,13 @@ import PotatoePlantingPrevKik from "../Planting/PotatoePlantingPrevKik";
 import PotatoeWaterManagementPrevKik from "../WaterManagement/PotatoeWaterManagementPrevKik";
 import PotatoeWeedManagementPrevKik from "../WeedManagement/PotatoeWeedManagementPrevKik";
 import PotatoeSoilFertilityPrevKik from "../SoilFertility/PotatoeSoilFertilityPrevKik";
+import PotatoeCropsManagementPrevKik from "../CropsManagement/PotatoeCropsManagementPrevKik";
+import PotatoePestManagementPrevKik from "../PestManagement/PotatoePestManagementPrevKik";
+import PotatoeDiseaseManagementPrevKik from "../DiseaseManagement/PotatoeDiseaseManagementPrevKik";
+
+import PotatoeHarvestingPrevKik from "../Harvesting/PotatoeHarvestingPrevKik";
+import PotatoeStoragePrevKik from "../Storage/PotatoeStoragePrevKik";
+import PotatoeMaturityFullKik from "../Maturity/PotatoeMaturityFullKik";
 
 function PotatoLandingKik() {
   return (
@@ -69,12 +76,12 @@ Maritwa ma waru guku Kenya ni ta (Viazi,, Rabuond, Waru)
             <PotatoeWaterManagementPrevKik></PotatoeWaterManagementPrevKik>
             <PotatoeWeedManagementPrevKik></PotatoeWeedManagementPrevKik>
             <PotatoeSoilFertilityPrevKik></PotatoeSoilFertilityPrevKik>
-            <PotatoeCropsManagementPrev></PotatoeCropsManagementPrev>
-            <PotatoePestManagementPrev></PotatoePestManagementPrev>
-            <PotatoeDiseaseManagementPrev></PotatoeDiseaseManagementPrev>
-            <PotatoeMaturityPrev></PotatoeMaturityPrev>
-            <PotatoeHarvestingPrev></PotatoeHarvestingPrev>
-            <PotatoeStoragePrev></PotatoeStoragePrev>
+            <PotatoeCropsManagementPrevKik></PotatoeCropsManagementPrevKik>
+            <PotatoePestManagementPrevKik></PotatoePestManagementPrevKik>
+            <PotatoeDiseaseManagementPrevKik></PotatoeDiseaseManagementPrevKik>
+            <PotatoeMaturityFullKik></PotatoeMaturityFullKik>
+            <PotatoeHarvestingPrevKik></PotatoeHarvestingPrevKik>
+            <PotatoeStoragePrevKik></PotatoeStoragePrevKik>
             <PotatoePostHarvestingPrev></PotatoePostHarvestingPrev>
             <PotatoeProcessingPrep></PotatoeProcessingPrep>
           </p>

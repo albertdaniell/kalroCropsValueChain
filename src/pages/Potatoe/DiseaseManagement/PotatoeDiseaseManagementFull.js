@@ -26,8 +26,8 @@ Viral diseases; potato leaf roll and yellow virus, common scab, powdery scab and
 
 </p>
 <MyContainer>
-            <ImageRow caption='Bacterial diseases' divDim='col-sm-6' src={image1}></ImageRow>
-            <ImageRow caption='Late blight' divDim='col-sm-6' src={image2}></ImageRow>
+            <ImageRow caption='Late blight' divDim='col-sm-6' src={image1}></ImageRow>
+            <ImageRow caption='Verticillium wilt' divDim='col-sm-6' src={image2}></ImageRow>
    
        
             </MyContainer>

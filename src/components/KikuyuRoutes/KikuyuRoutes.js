@@ -16,7 +16,9 @@ import BeansStorageFullKik from "../../pages/Beans/Storage/BeansStorageFullKik";
 import BeansVarietiesFullKik from "../../pages/Beans/Varieties/BeansVarietiesFullKik";
 import BeansWaterManagementFullKik from "../../pages/Beans/WaterManagement/BeansWaterManagementFullKik";
 import BeansWeedManagementFullKik from "../../pages/Beans/WeedManagement/BeansWeedManagementFullKik";
+import PotatoeCropsManagementFullKik from "../../pages/Potatoe/CropsManagement/PotatoeCropsManagementFullKik";
 import PotatoeLandPreparationFullKik from "../../pages/Potatoe/LandPreparation/PotatoeLandPreparationFullKik";
+import PotatoePestManagementFullKik from "../../pages/Potatoe/PestManagement/PotatoePestManagementFullKik";
 import PotatoePlantingFullKik from "../../pages/Potatoe/Planting/PotatoePlantingFullKik";
 import PotatoLandingKik from "../../pages/Potatoe/PotatoLanding/PotatoLandingKik";
 import PotatoePreplantingFullKik from "../../pages/Potatoe/PrePlanting/PotatoePreplantingFullKik";
@@ -175,8 +177,8 @@ function KikuyuRoutes() {
             <Route exact path="/potatowaterManagement" component={PotatoeWaterManagementFullKik} />
             <Route exact path="/potatoweedManagement" component={PotatoWeedManagementFul} />
             <Route exact path="/potatosoilFertility" component={PotatoeSoilFertilityFullKik} />
-            <Route exact path="/potatoCropManagement" component={PotatoeCropsManagementFull} />
-            <Route exact path="/potatoPestManagement" component={PotatoePestManagementFull} />
+            <Route exact path="/potatoCropManagement" component={PotatoeCropsManagementFullKik} />
+            <Route exact path="/potatoPestManagement" component={PotatoePestManagementFullKik} />
             <Route exact path="/potatoDiseaseManagement" component={PotatoeDiseaseManagementFull} />
             <Route exact path="/potatoMaturity" component={PotatoeMaturityFull} />
             <Route exact path="/potatoHarvesting" component={PotatoeHarvestingFull} />
