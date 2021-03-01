@@ -10,7 +10,7 @@ function OrgLogos() {
        <a href='https://kalro-cropslivestock.web.app/'>
           <img src={image2} id='appLogoimg2'></img>
           <img src={image1}></img>
-          <img src={image3}></img>
+          {/* <img src={image3}></img> */}
 
             
           </a>
